@@ -1,0 +1,61 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="800" height="800"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+        font-family: "Fira Sans Condensed";
+        src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
+    }
+  </style>
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="white" stroke="#dddddd"/>
+    {{#setData "routes"}}{
+        "M8":{
+          "colour":"red", "contrastColour":"white",
+          "name":"M8", "route":"Edinburgh - Greenock",
+          "dx":10, "dy":10},
+        "M9":{
+          "colour":"purple", "contrastColour": "white",
+          "name":"M9", "route":"Newbridge - Dunblane",
+          "dx":10, "dy":30},
+        "M73":{
+          "colour":"yellow", "contrastColour": "black",
+          "name":"M73", "route":"Maryville - Mollinsburn",
+          "dx":10, "dy":50},
+        "M74":{
+          "colour":"blue", "contrastColour": "white",
+          "name":"M74", "route":"Tradeston - Gretna",
+          "dx":10, "dy":70},
+        "M77":{
+          "colour":"dark-green", "contrastColour": "white",
+          "name":"M77", "route":"Tradeston - Fenwick",
+          "dx":10, "dy":90},
+        "M80":{
+          "colour":"green", "contrastColour": "white",
+          "name":"M80", "route":"Provan - Stirling",
+          "dx":10, "dy":110},
+        "M90":{
+          "colour":"cyan", "contrastColour": "black",
+          "name":"M90", "route":"Kirliston - Perth",
+          "dx":10, "dy":130},
+        "M876":{
+          "colour":"pink", "contrastColour": "black",
+          "name":"M876", "route":"Denny - Kincardine",
+          "dx":10, "dy":150},
+        "M898":{
+          "colour":"silver", "contrastColour": "black",
+          "name":"M898", "route":"Erskine - Erskine Bridge",
+          "dx":10, "dy":170}
+      }
+    {{/setData}}
+
+  {{#each routes}}
+      <rect x="{{offset dx 0}}" y="{{offset dy 0}}" fill="{{colour}}" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="{{contrastColour}}" font-family="Fira Sans Condensed">
+          <text x="{{offset dx 5}}" y="{{offset dy 10}}" font-weight="bold">{{name}}</text>
+          <text x="{{offset dx 50}}" y="{{offset dy 10}}">{{route}}</text>
+      </g>
+  {{/each}}
+
+</svg>

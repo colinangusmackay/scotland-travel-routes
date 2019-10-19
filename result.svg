@@ -1,0 +1,60 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="800" height="800"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+        font-family: "Fira Sans Condensed";
+        src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
+    }
+  </style>
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="white" stroke="#dddddd"/>
+    
+      <rect x="10" y="10" fill="red" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+          <text x="15" y="20" font-weight="bold">M8</text>
+          <text x="60" y="20">Edinburgh - Greenock</text>
+      </g>
+      <rect x="10" y="30" fill="purple" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+          <text x="15" y="40" font-weight="bold">M9</text>
+          <text x="60" y="40">Newbridge - Dunblane</text>
+      </g>
+      <rect x="10" y="50" fill="yellow" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+          <text x="15" y="60" font-weight="bold">M73</text>
+          <text x="60" y="60">Maryville - Mollinsburn</text>
+      </g>
+      <rect x="10" y="70" fill="blue" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+          <text x="15" y="80" font-weight="bold">M74</text>
+          <text x="60" y="80">Tradeston - Gretna</text>
+      </g>
+      <rect x="10" y="90" fill="dark-green" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+          <text x="15" y="100" font-weight="bold">M77</text>
+          <text x="60" y="100">Tradeston - Fenwick</text>
+      </g>
+      <rect x="10" y="110" fill="green" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+          <text x="15" y="120" font-weight="bold">M80</text>
+          <text x="60" y="120">Provan - Stirling</text>
+      </g>
+      <rect x="10" y="130" fill="cyan" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+          <text x="15" y="140" font-weight="bold">M90</text>
+          <text x="60" y="140">Kirliston - Perth</text>
+      </g>
+      <rect x="10" y="150" fill="pink" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+          <text x="15" y="160" font-weight="bold">M876</text>
+          <text x="60" y="160">Denny - Kincardine</text>
+      </g>
+      <rect x="10" y="170" fill="silver" height="20" width="260" stroke="white" stroke-width="1"/>
+      <g text-anchor="left" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+          <text x="15" y="180" font-weight="bold">M898</text>
+          <text x="60" y="180">Erskine - Erskine Bridge</text>
+      </g>
+
+</svg>
