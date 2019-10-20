@@ -19,7 +19,7 @@
     "junctions": {
       "J1": {
         "number": "J1", "name": "Edinburgh City Bypass",
-        "type": "terminator", "angle": "ew",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e",
         "x":7900, "y": 4000
       },
       "J2": {
@@ -99,6 +99,10 @@
 
     {{#each junctions}}
       <!-- {{../name}} {{number}} : {{name}} -->
+    {{/each}}
+
+    {{#each junctions}}
+      {{renderTerminator this}}
     {{/each}}
   {{/each}}
 

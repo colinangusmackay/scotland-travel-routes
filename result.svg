@@ -11,6 +11,7 @@
     <!-- Background -->
     <rect width="100%" height="100%" fill="white" stroke="#dddddd"/>
 
+      <!-- Legend for M8 : Edinburgh City Bypass - Greenock -->
       <rect x="10" y="100" fill="red" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="200" font-weight="bold">M8</text>
@@ -23,54 +24,78 @@
       <!-- M8 J3A : Bathgate -->
       <!-- M8 J4 : Whitburn -->
       <!-- M8 J4A : Heartlands -->
-      <!-- M8 JServices : Heart of Scotland Services -->
+      <!-- M8 Services : Heart of Scotland Services -->
+
+      <rect x="7890" y="3975" width="20" height="50" fill="red" /><text x="7920" y="4000" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">M8</text>
+      
+      
+      
+      
+      
+      
+      <!-- Legend for M9 : Newbridge - Dunblane -->
       <rect x="10" y="300" fill="purple" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="400" font-weight="bold">M9</text>
           <text x="610" y="400">Newbridge - Dunblane</text>
       </g>
 
+
+      <!-- Legend for M73 : Maryville - Mollinsburn -->
       <rect x="10" y="500" fill="yellow" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="600" font-weight="bold">M73</text>
           <text x="610" y="600">Maryville - Mollinsburn</text>
       </g>
 
+
+      <!-- Legend for M74 : Tradeston - Gretna -->
       <rect x="10" y="700" fill="blue" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="800" font-weight="bold">M74</text>
           <text x="610" y="800">Tradeston - Gretna</text>
       </g>
 
+
+      <!-- Legend for M77 : Tradeston - Fenwick -->
       <rect x="10" y="900" fill="dark-green" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="1000" font-weight="bold">M77</text>
           <text x="610" y="1000">Tradeston - Fenwick</text>
       </g>
 
+
+      <!-- Legend for M80 : Provan - Stirling -->
       <rect x="10" y="1100" fill="green" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="1200" font-weight="bold">M80</text>
           <text x="610" y="1200">Provan - Stirling</text>
       </g>
 
+
+      <!-- Legend for M90 : Kirliston - Perth -->
       <rect x="10" y="1300" fill="cyan" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="1400" font-weight="bold">M90</text>
           <text x="610" y="1400">Kirliston - Perth</text>
       </g>
 
+
+      <!-- Legend for M876 : Denny - Kincardine -->
       <rect x="10" y="1500" fill="pink" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="1600" font-weight="bold">M876</text>
           <text x="610" y="1600">Denny - Kincardine</text>
       </g>
 
+
+      <!-- Legend for M898 : Erskine - Erskine Bridge -->
       <rect x="10" y="1700" fill="silver" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="1800" font-weight="bold">M898</text>
           <text x="610" y="1800">Erskine - Erskine Bridge</text>
       </g>
+
 
 
 </svg>
