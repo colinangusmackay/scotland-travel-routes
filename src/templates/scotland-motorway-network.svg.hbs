@@ -51,6 +51,16 @@
         "number": "Services", "name": "Heart of Scotland Services",
         "type": "services", "angle": "ew",
         "x":6700, "y": 4000
+      },
+      "J30": {
+        "number": "J30", "name": "Erskine",
+        "type": "interchange", "angle": "ew",
+        "x":300, "y": 4000
+      },
+      "J31": {
+        "number": "J31", "name": "Greenock",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w",
+        "x":100, "y": 4000
       }
     }
   },
@@ -92,13 +102,16 @@
   {{#each routes}}
       <!-- Legend for {{name}} : {{route}} -->
       <rect x="{{offset dx 0}}" y="{{offset dy 0}}" fill="{{colour}}" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="{{contrastColour}}" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="{{contrastColour}}" font-family="Fira Sans Condensed">
           <text x="{{offset dx 50}}" y="{{offset dy 100}}" font-weight="bold">{{name}}</text>
           <text x="{{offset dx 600}}" y="{{offset dy 100}}">{{route}}</text>
       </g>
 
     {{#each junctions}}
       <!-- {{../name}} {{number}} : {{name}} -->
+      {{renderCell this}}
+      {{renderConnector this}}
+
     {{/each}}
 
     {{#each junctions}}

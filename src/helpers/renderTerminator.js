@@ -5,24 +5,8 @@ module.exports = function (plop) {
     if (junction.type === "terminator") {
       const width = 20;
       const height = 50;
-      console.log("renderTerminator CALL:");
-      console.log("junction:");
-      console.log(junction);
-      console.log("");
-      console.log("context:");
-      console.log(context);
-      console.log("");
-      console.log("context.data._parent:");
-      console.log(context.data._parent);
-      console.log("");
       const routeKey = context.data._parent.key;
-      console.log("context.data._parent.key:");
-      console.log(routeKey);
-      console.log("");
       const route = context.data.root.routes[routeKey];
-      console.log(`context.data.root.routes[${routeKey}]:`);
-      console.log(route);
-      console.log("");
 
       let rendered = "";
       switch (junction.angle) {
@@ -55,8 +39,16 @@ module.exports = function (plop) {
           rendered += `<text x="${labelX}" y="${labelY}" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">${text}</text>`;
           break;
         }
+        case "w":
+        {
+          const labelX = junction.x - width;
+          const labelY = junction.y;
+          const text = route.name;
+          rendered += `<text x="${labelX}" y="${labelY}" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">${text}</text>`;
+          break;
+        }
         default: {
-          const msg = `Unexpected terminator label offset, "${junction.terminatorLabelOffset}", on "${context.data._parent.key}.${context.data.key}". Valid offsets are "e".`;
+          const msg = `Unexpected terminator label offset, "${junction.terminatorLabelOffset}", on "${context.data._parent.key}.${context.data.key}". Valid offsets are "e", and "w".`;
           console.log(msg);
         }
       }

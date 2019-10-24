@@ -13,18 +13,47 @@
 
       <!-- Legend for M8 : Edinburgh City Bypass - Greenock -->
       <rect x="10" y="100" fill="red" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="200" font-weight="bold">M8</text>
           <text x="610" y="200">Edinburgh City Bypass - Greenock</text>
       </g>
 
       <!-- M8 J1 : Edinburgh City Bypass -->
+      <polyline points="7875,3975 7925,3975 7925,4025 7875,4025 7875,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7875,3975 7925,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7925,3975 7875,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7875,3980 7875,3975 7880,3975" stroke="black" fill="none"/><polyline points="7925,3980 7925,3975 7920,3975" stroke="black" fill="none"/><polyline points="7925,4020 7925,4025 7920,4025" stroke="black" fill="none"/><polyline points="7875,4020 7875,4025 7880,4025" stroke="black" fill="none"/><polyline points="7895,3975 7905,3975" stroke="black" fill="none"/><polyline points="7895,4025 7905,4025" stroke="black" fill="none"/><polyline points="7875,3995 7875,4005" stroke="black" fill="none"/><polyline points="7925,3995 7925,4005" stroke="black" fill="none"/><polyline points="7895,4000 7905,4000" stroke="black" fill="none"/><polyline points="7900,3995 7900,4005" stroke="black" fill="none"/>
+      
+
       <!-- M8 J2 : Ratho -->
+      <polyline points="7675,3975 7725,3975 7725,4025 7675,4025 7675,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7675,3975 7725,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7725,3975 7675,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7675,3980 7675,3975 7680,3975" stroke="black" fill="none"/><polyline points="7725,3980 7725,3975 7720,3975" stroke="black" fill="none"/><polyline points="7725,4020 7725,4025 7720,4025" stroke="black" fill="none"/><polyline points="7675,4020 7675,4025 7680,4025" stroke="black" fill="none"/><polyline points="7695,3975 7705,3975" stroke="black" fill="none"/><polyline points="7695,4025 7705,4025" stroke="black" fill="none"/><polyline points="7675,3995 7675,4005" stroke="black" fill="none"/><polyline points="7725,3995 7725,4005" stroke="black" fill="none"/><polyline points="7695,4000 7705,4000" stroke="black" fill="none"/><polyline points="7700,3995 7700,4005" stroke="black" fill="none"/>
+      <rect x="7700" y="3990" width="25" height="20" rx="10" fill="red" />
+
       <!-- M8 J3 : Livingston -->
+      <polyline points="7475,3975 7525,3975 7525,4025 7475,4025 7475,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7475,3975 7525,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7525,3975 7475,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7475,3980 7475,3975 7480,3975" stroke="black" fill="none"/><polyline points="7525,3980 7525,3975 7520,3975" stroke="black" fill="none"/><polyline points="7525,4020 7525,4025 7520,4025" stroke="black" fill="none"/><polyline points="7475,4020 7475,4025 7480,4025" stroke="black" fill="none"/><polyline points="7495,3975 7505,3975" stroke="black" fill="none"/><polyline points="7495,4025 7505,4025" stroke="black" fill="none"/><polyline points="7475,3995 7475,4005" stroke="black" fill="none"/><polyline points="7525,3995 7525,4005" stroke="black" fill="none"/><polyline points="7495,4000 7505,4000" stroke="black" fill="none"/><polyline points="7500,3995 7500,4005" stroke="black" fill="none"/>
+      <rect x="7500" y="3990" width="25" height="20" rx="10" fill="red" />
+
       <!-- M8 J3A : Bathgate -->
+      <polyline points="7275,3975 7325,3975 7325,4025 7275,4025 7275,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7275,3975 7325,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7325,3975 7275,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7275,3980 7275,3975 7280,3975" stroke="black" fill="none"/><polyline points="7325,3980 7325,3975 7320,3975" stroke="black" fill="none"/><polyline points="7325,4020 7325,4025 7320,4025" stroke="black" fill="none"/><polyline points="7275,4020 7275,4025 7280,4025" stroke="black" fill="none"/><polyline points="7295,3975 7305,3975" stroke="black" fill="none"/><polyline points="7295,4025 7305,4025" stroke="black" fill="none"/><polyline points="7275,3995 7275,4005" stroke="black" fill="none"/><polyline points="7325,3995 7325,4005" stroke="black" fill="none"/><polyline points="7295,4000 7305,4000" stroke="black" fill="none"/><polyline points="7300,3995 7300,4005" stroke="black" fill="none"/>
+      <rect x="7300" y="3990" width="25" height="20" rx="10" fill="red" />
+
       <!-- M8 J4 : Whitburn -->
+      <polyline points="7075,3975 7125,3975 7125,4025 7075,4025 7075,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7075,3975 7125,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7125,3975 7075,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="7075,3980 7075,3975 7080,3975" stroke="black" fill="none"/><polyline points="7125,3980 7125,3975 7120,3975" stroke="black" fill="none"/><polyline points="7125,4020 7125,4025 7120,4025" stroke="black" fill="none"/><polyline points="7075,4020 7075,4025 7080,4025" stroke="black" fill="none"/><polyline points="7095,3975 7105,3975" stroke="black" fill="none"/><polyline points="7095,4025 7105,4025" stroke="black" fill="none"/><polyline points="7075,3995 7075,4005" stroke="black" fill="none"/><polyline points="7125,3995 7125,4005" stroke="black" fill="none"/><polyline points="7095,4000 7105,4000" stroke="black" fill="none"/><polyline points="7100,3995 7100,4005" stroke="black" fill="none"/>
+      <rect x="7100" y="3990" width="25" height="20" rx="10" fill="red" />
+
       <!-- M8 J4A : Heartlands -->
+      <polyline points="6875,3975 6925,3975 6925,4025 6875,4025 6875,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="6875,3975 6925,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="6925,3975 6875,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="6875,3980 6875,3975 6880,3975" stroke="black" fill="none"/><polyline points="6925,3980 6925,3975 6920,3975" stroke="black" fill="none"/><polyline points="6925,4020 6925,4025 6920,4025" stroke="black" fill="none"/><polyline points="6875,4020 6875,4025 6880,4025" stroke="black" fill="none"/><polyline points="6895,3975 6905,3975" stroke="black" fill="none"/><polyline points="6895,4025 6905,4025" stroke="black" fill="none"/><polyline points="6875,3995 6875,4005" stroke="black" fill="none"/><polyline points="6925,3995 6925,4005" stroke="black" fill="none"/><polyline points="6895,4000 6905,4000" stroke="black" fill="none"/><polyline points="6900,3995 6900,4005" stroke="black" fill="none"/>
+      <rect x="6900" y="3990" width="25" height="20" rx="10" fill="red" />
+
       <!-- M8 Services : Heart of Scotland Services -->
+      <polyline points="6675,3975 6725,3975 6725,4025 6675,4025 6675,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="6675,3975 6725,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="6725,3975 6675,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="6675,3980 6675,3975 6680,3975" stroke="black" fill="none"/><polyline points="6725,3980 6725,3975 6720,3975" stroke="black" fill="none"/><polyline points="6725,4020 6725,4025 6720,4025" stroke="black" fill="none"/><polyline points="6675,4020 6675,4025 6680,4025" stroke="black" fill="none"/><polyline points="6695,3975 6705,3975" stroke="black" fill="none"/><polyline points="6695,4025 6705,4025" stroke="black" fill="none"/><polyline points="6675,3995 6675,4005" stroke="black" fill="none"/><polyline points="6725,3995 6725,4005" stroke="black" fill="none"/><polyline points="6695,4000 6705,4000" stroke="black" fill="none"/><polyline points="6700,3995 6700,4005" stroke="black" fill="none"/>
+      <rect x="6700" y="3990" width="25" height="20" rx="10" fill="red" />
+
+      <!-- M8 J30 : Erskine -->
+      <polyline points="275,3975 325,3975 325,4025 275,4025 275,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="275,3975 325,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="325,3975 275,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="275,3980 275,3975 280,3975" stroke="black" fill="none"/><polyline points="325,3980 325,3975 320,3975" stroke="black" fill="none"/><polyline points="325,4020 325,4025 320,4025" stroke="black" fill="none"/><polyline points="275,4020 275,4025 280,4025" stroke="black" fill="none"/><polyline points="295,3975 305,3975" stroke="black" fill="none"/><polyline points="295,4025 305,4025" stroke="black" fill="none"/><polyline points="275,3995 275,4005" stroke="black" fill="none"/><polyline points="325,3995 325,4005" stroke="black" fill="none"/><polyline points="295,4000 305,4000" stroke="black" fill="none"/><polyline points="300,3995 300,4005" stroke="black" fill="none"/>
+      <rect x="300" y="3990" width="25" height="20" rx="10" fill="red" />
+
+      <!-- M8 J31 : Greenock -->
+      <polyline points="75,3975 125,3975 125,4025 75,4025 75,3975" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="75,3975 125,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="125,3975 75,4025" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="75,3980 75,3975 80,3975" stroke="black" fill="none"/><polyline points="125,3980 125,3975 120,3975" stroke="black" fill="none"/><polyline points="125,4020 125,4025 120,4025" stroke="black" fill="none"/><polyline points="75,4020 75,4025 80,4025" stroke="black" fill="none"/><polyline points="95,3975 105,3975" stroke="black" fill="none"/><polyline points="95,4025 105,4025" stroke="black" fill="none"/><polyline points="75,3995 75,4005" stroke="black" fill="none"/><polyline points="125,3995 125,4005" stroke="black" fill="none"/><polyline points="95,4000 105,4000" stroke="black" fill="none"/><polyline points="100,3995 100,4005" stroke="black" fill="none"/>
+      <rect x="100" y="3990" width="25" height="20" rx="10" fill="red" />
+
 
       <rect x="7890" y="3975" width="20" height="50" fill="red" /><text x="7920" y="4000" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">M8</text>
       
@@ -33,9 +62,11 @@
       
       
       
+      
+      <rect x="90" y="3975" width="20" height="50" fill="red" /><text x="80" y="4000" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">M8</text>
       <!-- Legend for M9 : Newbridge - Dunblane -->
       <rect x="10" y="300" fill="purple" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="400" font-weight="bold">M9</text>
           <text x="610" y="400">Newbridge - Dunblane</text>
       </g>
@@ -43,7 +74,7 @@
 
       <!-- Legend for M73 : Maryville - Mollinsburn -->
       <rect x="10" y="500" fill="yellow" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="600" font-weight="bold">M73</text>
           <text x="610" y="600">Maryville - Mollinsburn</text>
       </g>
@@ -51,7 +82,7 @@
 
       <!-- Legend for M74 : Tradeston - Gretna -->
       <rect x="10" y="700" fill="blue" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="800" font-weight="bold">M74</text>
           <text x="610" y="800">Tradeston - Gretna</text>
       </g>
@@ -59,7 +90,7 @@
 
       <!-- Legend for M77 : Tradeston - Fenwick -->
       <rect x="10" y="900" fill="dark-green" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="1000" font-weight="bold">M77</text>
           <text x="610" y="1000">Tradeston - Fenwick</text>
       </g>
@@ -67,7 +98,7 @@
 
       <!-- Legend for M80 : Provan - Stirling -->
       <rect x="10" y="1100" fill="green" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="1200" font-weight="bold">M80</text>
           <text x="610" y="1200">Provan - Stirling</text>
       </g>
@@ -75,7 +106,7 @@
 
       <!-- Legend for M90 : Kirliston - Perth -->
       <rect x="10" y="1300" fill="cyan" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="1400" font-weight="bold">M90</text>
           <text x="610" y="1400">Kirliston - Perth</text>
       </g>
@@ -83,7 +114,7 @@
 
       <!-- Legend for M876 : Denny - Kincardine -->
       <rect x="10" y="1500" fill="pink" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="1600" font-weight="bold">M876</text>
           <text x="610" y="1600">Denny - Kincardine</text>
       </g>
@@ -91,7 +122,7 @@
 
       <!-- Legend for M898 : Erskine - Erskine Bridge -->
       <rect x="10" y="1700" fill="silver" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="left" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
+      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="1800" font-weight="bold">M898</text>
           <text x="610" y="1800">Erskine - Erskine Bridge</text>
       </g>
