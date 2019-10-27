@@ -2,6 +2,25 @@ const Handlebars = require("handlebars");
 const standard = require("./common/standardConsts");
 const generatePolyline = require("./common/generatePolyline");
 
+function generateDashedOutline (top, left, bottom, right) {
+  let rendered = generatePolyline([
+    { x: left, y: top },
+    { x: right, y: top },
+    { x: right, y: bottom },
+    { x: left, y: bottom },
+    { x: left, y: top }],
+  { stroke: "silver", fill: "none", "stroke-dasharray": "3" });
+  rendered += generatePolyline([
+    { x: left, y: top },
+    { x: right, y: bottom }],
+  { stroke: "silver", fill: "none", "stroke-dasharray": "3" });
+  rendered += generatePolyline([
+    { x: right, y: top },
+    { x: left, y: bottom }],
+  { stroke: "silver", fill: "none", "stroke-dasharray": "3" });
+  return rendered;
+}
+
 module.exports = function (plop) {
   plop.addHelper("renderCell", function (junction, context) {
     let rendered = "";
@@ -17,21 +36,7 @@ module.exports = function (plop) {
         const bottom = junction.y + halfHeight;
 
         // Generate dashed lines
-        rendered += generatePolyline([
-          { x: left, y: top },
-          { x: right, y: top },
-          { x: right, y: bottom },
-          { x: left, y: bottom },
-          { x: left, y: top }],
-        { stroke: "silver", fill: "none", "stroke-dasharray": "3" });
-        rendered += generatePolyline([
-          { x: left, y: top },
-          { x: right, y: bottom }],
-        { stroke: "silver", fill: "none", "stroke-dasharray": "3" });
-        rendered += generatePolyline([
-          { x: right, y: top },
-          { x: left, y: bottom }],
-        { stroke: "silver", fill: "none", "stroke-dasharray": "3" });
+        rendered += generateDashedOutline(top, left, bottom, right);
 
         // Generate corner elements
         rendered += generatePolyline([
@@ -82,7 +87,71 @@ module.exports = function (plop) {
           { x: junction.x, y: junction.y - deciHeight },
           { x: junction.x, y: junction.y + deciHeight }],
         { stroke: "black", fill: "none" });
+        break;
       }
+      case "ns": {
+        const deciWidth = standard.cellWidth / 10;
+        const deciHeight = standard.cellHeight / 10;
+        const left = junction.x - standard.cellHalfHeight;
+        const right = junction.x + standard.cellHalfHeight;
+        const top = junction.y - standard.cellHalfWidth;
+        const bottom = junction.y + standard.cellHalfWidth;
+
+        // Generate dashed lines
+        generateDashedOutline(top, left, bottom, right);
+
+        // Generate corner elements
+        rendered += generatePolyline([
+          { x: left, y: top + standard.cellDemiWidth },
+          { x: left, y: top },
+          { x: left + deciWidth, y: top }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: right, y: top + standard.cellDemiWidth },
+          { x: right, y: top },
+          { x: right - standard.cellDemiHeight, y: top }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: right, y: bottom - standard.cellDemiWidth },
+          { x: right, y: bottom },
+          { x: right - standard.cellDemiHeight, y: bottom }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: left, y: bottom - standard.cellDemiWidth },
+          { x: left, y: bottom },
+          { x: left + standard.cellDemiHeight, y: bottom }],
+        { stroke: "black", fill: "none" });
+
+        // Generate edge elements
+        rendered += generatePolyline([
+          { x: junction.x - standard.cellDemiHeight, y: top },
+          { x: junction.x + standard.cellDemiHeight, y: top }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: junction.x - standard.cellDemiHeight, y: bottom },
+          { x: junction.x + standard.cellDemiHeight, y: bottom }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: left, y: junction.y - standard.cellDemiWidth },
+          { x: left, y: junction.y + standard.cellDemiWidth }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: right, y: junction.y - standard.cellDemiWidth },
+          { x: right, y: junction.y + standard.cellDemiWidth }],
+        { stroke: "black", fill: "none" });
+
+        // Centre cross-hair
+        rendered += generatePolyline([
+          { x: junction.x - standard.cellDemiHeight, y: junction.y },
+          { x: junction.x + standard.cellDemiHeight, y: junction.y }],
+        { stroke: "black", fill: "none" });
+        rendered += generatePolyline([
+          { x: junction.x, y: junction.y - standard.cellDemiWidth },
+          { x: junction.x, y: junction.y + standard.cellDemiWidth }],
+        { stroke: "black", fill: "none" });
+        break;
+      }
+
       default: {}
     }
 

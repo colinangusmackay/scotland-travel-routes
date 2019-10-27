@@ -3,5 +3,6 @@ module.exports = function (plop) {
   require("./offset")(plop);
   require("./renderCell")(plop);
   require("./renderConnector")(plop);
+  require("./renderInterchange")(plop);
   require("./renderTerminator")(plop);
 };

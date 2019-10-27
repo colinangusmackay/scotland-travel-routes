@@ -1,8 +1,8 @@
-module.exports = function generatePolyline(path, attr){
+module.exports = function generatePolyline (path, attr) {
   let result = "<polyline points=\"";
 
-  path.forEach((c,i) => {
-    result += `${i !== 0 ? " ":""}${c.x},${c.y}`;
+  path.forEach((c, i) => {
+    result += `${i !== 0 ? " " : ""}${c.x},${c.y}`;
   });
 
   result += "\"";
@@ -13,4 +13,4 @@ module.exports = function generatePolyline(path, attr){
 
   result += "/>";
   return result;
-}
+};

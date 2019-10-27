@@ -24,7 +24,7 @@
       },
       "J2": {
         "number": "J2", "name": "Ratho",
-        "type": "connector", "angle": "ew",
+        "type": "interchange", "angle": "ew",
         "x":7700, "y": 4000
       },
       "J3": {
@@ -52,8 +52,48 @@
         "type": "services", "angle": "ew",
         "x":6700, "y": 4000
       },
+      "J5": {
+        "number": "J5", "name": "Harthill",
+        "type": "standard", "angle": "ew",
+        "x":6500, "y": 4000
+      },
+      "J6": {
+        "number": "J6", "name": "Newhouse",
+        "type": "standard", "angle": "ew",
+        "x":6300, "y": 4000
+      },
+      "J6A": {
+        "number": "J6A", "name": "Chapelhall",
+        "type": "standard", "angle": "ew",
+        "x":6100, "y": 4000
+      },
+      "J7": {
+        "number": "J7", "name": "Eurocentral",
+        "type": "standard", "angle": "ew",
+        "x":5900, "y": 4000
+      },
+      "J7A": {
+        "number": "J7A", "name": "Shawhead",
+        "type": "standard", "angle": "ew",
+        "x":5700, "y": 4000
+      },
+      "J8": {
+        "number": "J8", "name": "Baillieston",
+        "type": "interchange", "angle": "ew",
+        "x":5500, "y": 4000
+      },
+      "J9": {
+        "number": "J9", "name": "Easterhouse",
+        "type": "standard", "angle": "ew",
+        "x":5300, "y": 4000
+      },
+      "J10": {
+        "number": "J10", "name": "Bartlebeith",
+        "type": "standard", "angle": "ew",
+        "x":5100, "y": 4000
+      },
       "J30": {
-        "number": "J30", "name": "Erskine",
+        "number": "J30", "name": "Bishopton",
         "type": "interchange", "angle": "ew",
         "x":300, "y": 4000
       },
@@ -94,8 +134,26 @@
     "dx":10, "dy":1500},
   "M898":{
     "colour":"silver", "contrastColour": "black",
-    "name":"M898", "route":"Erskine - Erskine Bridge",
-    "dx":10, "dy":1700}
+    "name":"M898", "route":"Bishopton - Erskine Bridge",
+    "dx":10, "dy":1700,
+    "junctions":{
+      "S": {
+        "number": "", "name": "Bishopton",
+        "type": "interchange", "angle": "ns",
+        "x":300, "y": 4000
+      },
+      "J1": {
+        "number": "J1", "name": "Erskine",
+        "type": "standard", "angle": "ns",
+        "x":300, "y": 3800
+      },
+      "T": {
+        "number": "", "name": "Erskine Bridge",
+        "type": "terminator", "angle": "ns", "terminatorLabelOffset": "n",
+        "x":300, "y": 3600
+      }
+    }
+  }
 }
     {{/setData}}
 
@@ -109,13 +167,14 @@
 
     {{#each junctions}}
       <!-- {{../name}} {{number}} : {{name}} -->
-      {{renderCell this}}
-      {{renderConnector this}}
+      <!-- Connector: --> {{renderConnector this}}
 
     {{/each}}
 
     {{#each junctions}}
-      {{renderTerminator this}}
+        <!-- Terminator: --> {{renderTerminator this}}
+        <!-- Interchange: --> {{renderInterchange this}}
+        <!-- Cell: --> {{renderCell this}}
     {{/each}}
   {{/each}}
 

@@ -1,4 +1,5 @@
 const Handlebars = require("handlebars");
+const standard = require("./common/standardConsts");
 
 module.exports = function (plop) {
   plop.addHelper("renderTerminator", function (junction, context) {
@@ -31,8 +32,14 @@ module.exports = function (plop) {
 
       switch (junction.terminatorLabelOffset) {
         // TODO: Add the other offsets
-        case "e":
-        {
+        case "n": {
+          const labelX = junction.x;
+          const labelY = junction.y - standard.cellHalfWidth;
+          const text = route.name;
+          rendered += `<text x="${labelX}" y="${labelY}" text-anchor="middle" dominant-baseline="baseline" font-family="Fira Sans Condensed" font-size="50px">${text}</text>`;
+          break;
+        }
+        case "e": {
           const labelX = junction.x + width;
           const labelY = junction.y;
           const text = route.name;
