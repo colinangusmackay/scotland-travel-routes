@@ -4,5 +4,6 @@ module.exports = function (plop) {
   require("./renderCell")(plop);
   require("./renderConnector")(plop);
   require("./renderInterchange")(plop);
+  require("./renderLabel")(plop);
   require("./renderTerminator")(plop);
 };

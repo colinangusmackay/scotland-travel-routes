@@ -23,57 +23,57 @@
         "x":7900, "y": 4000
       },
       "J2": {
-        "number": "J2", "name": "Ratho",
+        "number": "J2", "name": "Ratho", "labelOffset": "n",
         "type": "interchange", "angle": "ew",
         "x":7700, "y": 4000
       },
       "J3": {
-        "number": "J3", "name": "Livingston",
+        "number": "J3", "name": "Livingston", "labelOffset": "s",
         "type": "standard", "angle": "ew",
         "x":7500, "y": 4000
       },
       "J3A": {
-        "number": "J3A", "name": "Bathgate",
+        "number": "J3A", "name": "Bathgate", "labelOffset": "n",
         "type": "standard", "angle": "ew",
         "x":7300, "y": 4000
       },
       "J4": {
-        "number": "J4", "name": "Whitburn",
+        "number": "J4", "name": "Whitburn", "labelOffset": "s",
         "type": "standard", "angle": "ew",
         "x":7100, "y": 4000
       },
       "J4A": {
-        "number": "J4A", "name": "Heartlands",
+        "number": "J4A", "name": "Heartlands", "labelOffset": "n",
         "type": "standard", "angle": "ew",
         "x":6900, "y": 4000
       },
       "S_4A_5": {
-        "number": "Services", "name": "Heart of Scotland Services",
+        "number": "Services", "name": "Heart of Scotland Services", "labelOffset": "s",
         "type": "services", "angle": "ew",
         "x":6700, "y": 4000
       },
       "J5": {
-        "number": "J5", "name": "Harthill",
+        "number": "J5", "name": "Harthill", "labelOffset": "n",
         "type": "standard", "angle": "ew",
         "x":6500, "y": 4000
       },
       "J6": {
-        "number": "J6", "name": "Newhouse",
+        "number": "J6", "name": "Newhouse", "labelOffset": "s",
         "type": "standard", "angle": "ew",
         "x":6300, "y": 4000
       },
       "J6A": {
-        "number": "J6A", "name": "Chapelhall",
+        "number": "J6A", "name": "Chapelhall", "labelOffset": "n",
         "type": "standard", "angle": "ew",
         "x":6100, "y": 4000
       },
       "J7": {
-        "number": "J7", "name": "Eurocentral",
+        "number": "J7", "name": "Eurocentral", "labelOffset": "s",
         "type": "standard", "angle": "ew",
         "x":5900, "y": 4000
       },
       "J7A": {
-        "number": "J7A", "name": "Shawhead",
+        "number": "J7A", "name": "Shawhead", "labelOffset": "n",
         "type": "standard", "angle": "ew",
         "x":5700, "y": 4000
       },
@@ -83,14 +83,29 @@
         "x":5500, "y": 4000
       },
       "J9": {
-        "number": "J9", "name": "Easterhouse",
+        "number": "J9", "name": "Easterhouse", "labelOffset": "n",
         "type": "standard", "angle": "ew",
         "x":5300, "y": 4000
       },
       "J10": {
-        "number": "J10", "name": "Bartlebeith",
+        "number": "J10", "name": "Bartlebeith", "labelOffset": "s",
         "type": "standard", "angle": "ew",
         "x":5100, "y": 4000
+      },
+      "J11": {
+        "number": "J11", "name": "Stepps", "labelOffset": "n",
+        "type": "standard", "angle": "ew",
+        "x":4900, "y": 4000
+      },
+      "J12": {
+        "number": "J12", "name": "Riddrie", "labelOffset": "s",
+        "type": "standard", "angle": "ew",
+        "x":4700, "y": 4000
+      },
+      "J13": {
+        "number": "J13", "name": "Provan", "labelOffset": "n",
+        "type": "standard", "angle": "ew",
+        "x":4500, "y": 4000
       },
       "J30": {
         "number": "J30", "name": "Bishopton",
@@ -168,13 +183,10 @@
     {{#each junctions}}
       <!-- {{../name}} {{number}} : {{name}} -->
       <!-- Connector: --> {{renderConnector this}}
-
     {{/each}}
 
     {{#each junctions}}
-        <!-- Terminator: --> {{renderTerminator this}}
-        <!-- Interchange: --> {{renderInterchange this}}
-        <!-- Cell: --> {{renderCell this}}
+      <!-- {{../name}} {{number}} : {{name}} -->{{renderTerminator this}}{{renderInterchange this}}{{renderLabel this}}{{renderCell this}}
     {{/each}}
   {{/each}}
 

@@ -9,7 +9,7 @@ module.exports = function (plop) {
       const routeKey = context.data._parent.key;
       const route = context.data.root.routes[routeKey];
 
-      let rendered = "";
+      let rendered = "\n<!-- Terminator: --> ";
       switch (junction.angle) {
         // TODO: Diagonal offsets
         case "ew": {

@@ -23,7 +23,7 @@ function generateDashedOutline (top, left, bottom, right) {
 
 module.exports = function (plop) {
   plop.addHelper("renderCell", function (junction, context) {
-    let rendered = "";
+    let rendered = "\n<!-- Cell: --> ";
     switch (junction.angle) {
       case "ew": {
         const deciWidth = standard.cellWidth / 10;
