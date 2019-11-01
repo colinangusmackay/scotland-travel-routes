@@ -1,13 +1,14 @@
 const Handlebars = require("handlebars");
 const standard = require("./common/standardConsts");
+const getRoute = require("./common/getRoute");
+const log = require("./common/log");
 
 module.exports = function (plop) {
   plop.addHelper("renderTerminator", function (junction, context) {
     if (junction.type === "terminator") {
       const width = 20;
       const height = 50;
-      const routeKey = context.data._parent.key;
-      const route = context.data.root.routes[routeKey];
+      const route = getRoute(context);
 
       let rendered = "\n<!-- Terminator: --> ";
       switch (junction.angle) {
@@ -25,8 +26,8 @@ module.exports = function (plop) {
           break;
         }
         default: {
-          const msg = `Unexpected junction angle, "${junction.angle}", on "${context.data._parent.key}.${context.data.key}". Valid angles are "ew", and "ns".`;
-          console.log(msg);
+          console.log(`Unexpected junction angle, "${junction.angle}", on "${context.data._parent.key}.${context.data.key}".`);
+          break;
         }
       }
 

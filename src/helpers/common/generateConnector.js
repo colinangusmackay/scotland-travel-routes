@@ -1,7 +1,10 @@
 const standard = require("./standardConsts");
-const generatePolyline = require("./generatePolyline");
+const generatePath = require("./generatePath");
+const log = require("./log");
 
 module.exports = function generateConnector (junction, previousJunction, route) {
+  // log(`Processing "${route.name}.${junction.number}/${junction.name}".`);
+
   const jx = junction.x;
   const jy = junction.y;
   const jd = junction.angle;
@@ -12,19 +15,22 @@ module.exports = function generateConnector (junction, previousJunction, route) 
   const xdir = jx === pjx ? "-" : (jx < pjx ? "e" : "w");
   const ydir = jy === pjy ? "-" : (jy < pjy ? "s" : "n");
 
-  const line = [];
+  let lastX = 0;
+  let lastY = 0;
 
+  const path = [];
   switch (jd) {
     case "ew": {
       switch (xdir) {
         case "e": {
-          line.push({ x: jx, y: jy });
-          line.push({ x: jx + standard.cellHalfWidth, y: jy });
+          path.push({ x: jx, y: jy });
+          lastX = jx + standard.cellHalfWidth;
+          lastY = jy;
+          path.push({ x: lastX, y: lastY });
           break;
         }
         default: {
-          const msg = `Unexpected x direction for an ew junction, "${xdir}", on "${route.name}.${junction.number}/${junction.name}". Valid values are "e".`;
-          console.log(msg);
+          log(`Unexpected x direction for an ew junction, "${xdir}", on "${route.name}.${junction.number}/${junction.name}".`);
         }
       }
       break;
@@ -32,29 +38,36 @@ module.exports = function generateConnector (junction, previousJunction, route) 
     case "ns": {
       switch (ydir) {
         case "s": {
-          line.push({ x: jx, y: jy });
-          line.push({ x: jx, y: jy + standard.cellHalfHeight });
+          path.push({ x: jx, y: jy });
+          lastX = jx;
+          lastY = jy + standard.cellHalfHeight;
+          path.push({ x: lastX, y: lastY });
           break;
         }
         default: {
-          const msg = `Unexpected y direction for an ns junction, "${ydir}", on "${route.name}.${junction.number}/${junction.name}". Valid values are "s".`;
-          console.log(msg);
+          log(`Unexpected y direction for an ns junction, "${ydir}", on "${route.name}.${junction.number}/${junction.name}".`);
         }
       }
       break;
     }
     default: {
-      const msg = `Unexpected junction direction, "${jd}", on "${route.name}.${junction.number}/${junction.name}". Valid values are "ew".`;
-      console.log(msg);
+      log(`Unexpected junction direction, "${jd}", between "${route.name}.${previousJunction.number}/${previousJunction.name} and ${junction.number}/${junction.name}".`);
+      break;
     }
   }
 
+  let nextX = 0;
+  let nextY = 0;
   switch (pjd) {
     case "ew": {
       switch (xdir) {
         case "e": {
-          line.push({ x: pjx - standard.cellHalfWidth, y: pjy });
-          line.push({ x: pjx, y: pjy });
+          nextX = pjx - standard.cellHalfWidth;
+          nextY = pjy;
+          break;
+        }
+        default: {
+          log(`Unexpected X direction, "${xdir}", on "${route.name}.${junction.number}/${junction.name}".`);
           break;
         }
       }
@@ -63,18 +76,58 @@ module.exports = function generateConnector (junction, previousJunction, route) 
     case "ns": {
       switch (ydir) {
         case "s": {
-          line.push({ x: pjx, y: pjy - standard.cellHalfHeight });
-          line.push({ x: pjx, y: pjy });
+          nextX = pjx;
+          nextY = pjy - standard.cellHalfHeight;
+          break;
+        }
+        default: {
+          log(`Unexpected Y direction, "${ydir}", on "${route.name}.${junction.number}/${junction.name}".`);
           break;
         }
       }
     }
   }
 
-  return generatePolyline(line, {
+  switch (junction.connectionToPrevious) {
+    case "rounded": {
+      log(`Connection to previous on "${route.name}.${junction.number}/${junction.name}".`);
+      const straightX = (Math.abs(lastX - nextX) - standard.cellWidth) / 2;
+      const straightY = (Math.abs(lastY - nextY) - standard.cellHeight);
+      path.push({ x: lastX + straightX, y: lastY });
+      path.push({
+        x: lastX + straightX + standard.cellHalfWidth,
+        y: lastY + standard.cellHalfHeight,
+        command: "A",
+        rx: standard.cellHalfWidth,
+        ry: standard.cellHalfHeight,
+        angle: 0,
+        largeArc: false,
+        sweep: true
+      });
+      path.push({ x: lastX + straightX + standard.cellHalfWidth, y: lastY + standard.cellHalfHeight + straightY });
+      path.push({
+        x: lastX + straightX + standard.cellWidth,
+        y: lastY + standard.cellHeight + straightY,
+        command: "A",
+        rx: standard.cellHalfWidth,
+        ry: standard.cellHalfHeight,
+        angle: 0,
+        largeArc: false,
+        sweep: false
+      });
+      break;
+    }
+    default: {}
+  }
+
+  path.push({ x: nextX, y: nextY });
+  path.push({ x: pjx, y: pjy });
+
+  return generatePath(path, {
     stroke: route.colour,
     fill: "none",
     "stroke-width": standard.lineWidth,
-    "stroke-linecap": "round"
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round"
   });
 };

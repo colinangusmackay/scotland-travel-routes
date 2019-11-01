@@ -1,5 +1,6 @@
 const Handlebars = require("handlebars");
 const generateConnector = require("./common/generateConnector");
+const getRoute = require("./common/getRoute");
 
 function getPreviousJunction (context) {
   const previousIndex = context.data.index - 1;
@@ -8,12 +9,6 @@ function getPreviousJunction (context) {
   const junctionKey = Object.keys(junctions)[previousIndex];
   const previousJunction = junctions[junctionKey];
   return previousJunction;
-}
-
-function getRoute (context) {
-  const routeKey = context.data._parent.key;
-  const route = context.data.root.routes[routeKey];
-  return route;
 }
 
 module.exports = function (plop) {
