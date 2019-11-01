@@ -2,6 +2,7 @@ const standard = require("./common/standardConsts");
 const generatePolyline = require("./common/generatePolyline");
 const getRoute = require("./common/getRoute");
 const Handlebars = require("handlebars");
+const log = require("./common/log");
 
 module.exports = function (plop) {
   plop.addHelper("renderJunction", function (junction, context) {
@@ -16,12 +17,20 @@ module.exports = function (plop) {
           path.push({ x: junction.x, y: junction.y - standard.cellHalfHeight });
           break;
         }
+        case "e": {
+          path.push({ x: junction.x + standard.cellHalfWidth, y: junction.y });
+          break;
+        }
         case "s": {
           path.push({ x: junction.x, y: junction.y + standard.cellHalfHeight });
           break;
         }
+        case "2": {
+          path.push({ x: junction.x - standard.cellHalfWidth, y: junction.y });
+          break;
+        }
         default: {
-          console.log(`Unexpected junction label offset, "${junction.labelOffset}", on "${context.data._parent.key}.${context.data.key}".`);
+          log(`Unexpected junction marker direction, "${junction.labelOffset}", on "${context.data._parent.key}.${context.data.key}".`);
           break;
         }
       }
