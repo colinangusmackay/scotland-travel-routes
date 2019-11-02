@@ -23,77 +23,77 @@
       <!-- M8 J2 : Ratho -->
       <!-- Connector: --> <path d="M7400,4000 L7425,4000 L7525,4000 A25 25 0 0 1 7550,4025 L7550,4075 A25 25 0 0 0 7575,4100 L7675,4100 L7700,4100" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J3 : Livingston -->
-      <!-- Connector: --> <path d="M7200,4000 L7225,4000 L7375,4000 L7400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M7400,4000 L7200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J3A : Bathgate -->
-      <!-- Connector: --> <path d="M7000,4000 L7025,4000 L7175,4000 L7200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M7200,4000 L7000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J4 : Whitburn -->
-      <!-- Connector: --> <path d="M6800,4000 L6825,4000 L6975,4000 L7000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M7000,4000 L6800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J4A : Heartlands -->
-      <!-- Connector: --> <path d="M6600,4000 L6625,4000 L6775,4000 L6800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M6800,4000 L6600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 Services : Heart of Scotland Services -->
-      <!-- Connector: --> <path d="M6300,4000 L6325,4000 L6575,4000 L6600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M6600,4000 L6300,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J5 : Harthill -->
-      <!-- Connector: --> <path d="M6000,4000 L6025,4000 L6275,4000 L6300,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M6300,4000 L6000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J6 : Newhouse -->
-      <!-- Connector: --> <path d="M5800,4000 L5825,4000 L5975,4000 L6000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M6000,4000 L5800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J6A : Chapelhall -->
-      <!-- Connector: --> <path d="M5600,4000 L5625,4000 L5775,4000 L5800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5800,4000 L5600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J7 : Eurocentral -->
-      <!-- Connector: --> <path d="M5400,4000 L5425,4000 L5575,4000 L5600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5600,4000 L5400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J7A : Shawhead -->
-      <!-- Connector: --> <path d="M5200,4000 L5225,4000 L5375,4000 L5400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5400,4000 L5200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J8 : Baillieston -->
-      <!-- Connector: --> <path d="M4800,4000 L4825,4000 L5175,4000 L5200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5200,4000 L4800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J9 : Easterhouse -->
-      <!-- Connector: --> <path d="M4600,4000 L4625,4000 L4775,4000 L4800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,4000 L4600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J10 : Bartlebeith -->
-      <!-- Connector: --> <path d="M4400,4000 L4425,4000 L4575,4000 L4600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4600,4000 L4400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J11 : Stepps -->
-      <!-- Connector: --> <path d="M4200,4000 L4225,4000 L4375,4000 L4400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4400,4000 L4200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J12 : Riddrie -->
-      <!-- Connector: --> <path d="M4000,4000 L4025,4000 L4175,4000 L4200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4200,4000 L4000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J13 : Provan -->
-      <!-- Connector: --> <path d="M3800,4000 L3825,4000 L3975,4000 L4000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4000,4000 L3800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J14 : Fruit Market -->
-      <!-- Connector: --> <path d="M3600,4000 L3625,4000 L3775,4000 L3800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3800,4000 L3600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J15 : Townhead -->
-      <!-- Connector: --> <path d="M3400,4000 L3425,4000 L3575,4000 L3600,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3600,4000 L3400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J16 : Craighall -->
-      <!-- Connector: --> <path d="M3200,4000 L3225,4000 L3375,4000 L3400,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3400,4000 L3200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J17 : Great Western Road -->
-      <!-- Connector: --> <path d="M3000,4000 L3025,4000 L3175,4000 L3200,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3200,4000 L3000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J18 : Charing Cross -->
-      <!-- Connector: --> <path d="M2800,4000 L2825,4000 L2975,4000 L3000,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3000,4000 L2800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J19 : Anderston -->
       <!-- Connector: --> <path d="M2700,4125 L2700,4150 L2700,4050 A50 50 0 0 1 2750,4000 L2775,4000 L2800,4000" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J20 : Kingston Bridge -->
-      <!-- Connector: --> <path d="M2700,4225 L2700,4250 L2700,4175 L2700,4150" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M2700,4150 L2700,4250" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J21 : Seaward Street -->
       <!-- Connector: --> <path d="M2500,4400 L2525,4400 L2650,4400 A50 50 0 0 0 2700,4350 L2700,4275 L2700,4250" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J22 : Plantation -->
-      <!-- Connector: --> <path d="M2150,4400 L2175,4400 L2475,4400 L2500,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M2500,4400 L2150,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J23 : Dumbreck Road -->
-      <!-- Connector: --> <path d="M1900,4400 L1925,4400 L2125,4400 L2150,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M2150,4400 L1900,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J24 : Helen Street -->
-      <!-- Connector: --> <path d="M1700,4400 L1725,4400 L1875,4400 L1900,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M1900,4400 L1700,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J25 : Cardonald -->
-      <!-- Connector: --> <path d="M1500,4400 L1525,4400 L1675,4400 L1700,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M1700,4400 L1500,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J25A : Breahead -->
-      <!-- Connector: --> <path d="M1350,4400 L1375,4400 L1475,4400 L1500,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M1500,4400 L1350,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J26 : Hillington -->
-      <!-- Connector: --> <path d="M1200,4400 L1225,4400 L1325,4400 L1350,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M1350,4400 L1200,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J27 : Arkleston -->
-      <!-- Connector: --> <path d="M1050,4400 L1075,4400 L1175,4400 L1200,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M1200,4400 L1050,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J28 : Glasgow Airport -->
-      <!-- Connector: --> <path d="M850,4400 L875,4400 L1025,4400 L1050,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M1050,4400 L850,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J28A : A737 -->
-      <!-- Connector: --> <path d="M725,4400 L750,4400 L825,4400 L850,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M850,4400 L725,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J29 : St. James -->
-      <!-- Connector: --> <path d="M550,4400 L575,4400 L700,4400 L725,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M725,4400 L550,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J30 : Bishopton -->
-      <!-- Connector: --> <path d="M400,4400 L425,4400 L525,4400 L550,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M550,4400 L400,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M8 J31 : Greenock -->
-      <!-- Connector: --> <path d="M150,4400 L175,4400 L375,4400 L400,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M400,4400 L150,4400" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
       <!-- M8 J1 : Edinburgh City Bypass -->
 <!-- Terminator: --> <rect x="7690" y="4075" width="20" height="50" fill="red" /><text x="7720" y="4100" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">M8</text>
@@ -275,25 +275,25 @@
       <!-- M74 J1 : Tradeston -->
       <!-- Connector: --> <path d="M2800,4500 L2775,4500 L2550,4500 A50 50 0 0 1 2500,4450 L2500,4425 L2500,4400" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J1A : Polmadie -->
-      <!-- Connector: --> <path d="M3100,4500 L3075,4500 L2825,4500 L2800,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M2800,4500 L3100,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J2 : Rutherglen -->
-      <!-- Connector: --> <path d="M3400,4500 L3375,4500 L3125,4500 L3100,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3100,4500 L3400,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J2A : Tollcross -->
-      <!-- Connector: --> <path d="M3750,4500 L3725,4500 L3425,4500 L3400,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3400,4500 L3750,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J3 : Carmyle -->
-      <!-- Connector: --> <path d="M4100,4500 L4075,4500 L3775,4500 L3750,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3750,4500 L4100,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J3A : Broomhouse -->
-      <!-- Connector: --> <path d="M4450,4500 L4425,4500 L4125,4500 L4100,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4100,4500 L4450,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J4 : M73 -->
-      <!-- Connector: --> <path d="M4800,4500 L4775,4500 L4475,4500 L4450,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4450,4500 L4800,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 Services : Bothwell Services -->
-      <!-- Connector: --> <path d="M5000,4575 L5000,4600 L4825,4500 L4800,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,4500 L5000,4600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J5 : Orbiston -->
-      <!-- Connector: --> <path d="M5000,4675 L5000,4700 L5000,4625 L5000,4600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5000,4600 L5000,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 Services : Hamilton Services -->
-      <!-- Connector: --> <path d="M5000,4775 L5000,4800 L5000,4725 L5000,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5000,4700 L5000,4800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J6 : Hamilton -->
-      <!-- Connector: --> <path d="M5000,4875 L5000,4900 L5000,4825 L5000,4800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5000,4800 L5000,4900" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
       <!-- M74 M8 : M74 -->
 <!-- Interchange: --> <circle cx="2500" cy="4400" r="25" fill="white" stroke="black" stroke-width="6.25" />
@@ -385,9 +385,9 @@
       <!-- M898  : Bishopton -->
       <!-- Connector: --> 
       <!-- M898 J1 : Erskine -->
-      <!-- Connector: --> <path d="M400,4200 L400,4225 L400,4375 L400,4400" stroke="silver" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M400,4400 L400,4200" stroke="silver" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M898  : Erskine Bridge -->
-      <!-- Connector: --> <path d="M400,4000 L400,4025 L400,4175 L400,4200" stroke="silver" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M400,4200 L400,4000" stroke="silver" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
       <!-- M898  : Bishopton -->
 <!-- Interchange: --> <circle cx="400" cy="4400" r="25" fill="white" stroke="black" stroke-width="6.25" />

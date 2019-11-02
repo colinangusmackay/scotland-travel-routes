@@ -2,8 +2,28 @@ const standard = require("./standardConsts");
 const generatePath = require("./generatePath");
 const log = require("./log");
 
+function renderPath (path, route) {
+  return generatePath(path, {
+    stroke: route.colour,
+    fill: "none",
+    "stroke-width": standard.lineWidth,
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round"
+  });
+}
+
+function generateStraightConnector (junction, previousJunction, route) {
+  const path = [
+    { x: previousJunction.x, y: previousJunction.y },
+    { x: junction.x, y: junction.y }
+  ];
+  return renderPath(path, route);
+}
+
 module.exports = function generateConnector (junction, previousJunction, route) {
-  // log(`Processing "${route.name}.${junction.number}/${junction.name}".`);
+  if (!junction.connectionToPrevious || junction.connectionToPrevious === "straight") {
+    return generateStraightConnector(junction, previousJunction, route);
+  }
 
   const jx = junction.x;
   const jy = junction.y;
@@ -149,7 +169,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
 
       if (junction.angle === "ns" && previousJunction.angle === "ew") {
-        if (xdir === "e"){
+        if (xdir === "e") {
           path.push({ x: lastX, y: lastY - straightY });
           path.push({
             x: lastX + standard.cellSize,
@@ -161,7 +181,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
             largeArc: false,
             sweep: true
           });
-        } else if (xdir === "w"){
+        } else if (xdir === "w") {
           path.push({ x: lastX, y: lastY - straightY });
           path.push({
             x: lastX - standard.cellSize,
@@ -175,7 +195,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           });
         }
       } else if (junction.angle === "ew" && previousJunction.angle === "ns") {
-        if (xdir === "e"){
+        if (xdir === "e") {
           path.push({ x: lastX + straightX, y: lastY });
           path.push({
             x: lastX + straightX + standard.cellSize,
@@ -187,7 +207,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
             largeArc: false,
             sweep: false
           });
-        } else if (xdir === "w"){
+        } else if (xdir === "w") {
           path.push({ x: lastX - straightX, y: lastY });
           path.push({
             x: lastX - straightX - standard.cellSize,
@@ -200,7 +220,6 @@ module.exports = function generateConnector (junction, previousJunction, route) 
             sweep: true
           });
         }
-
       } else {
         log(`Unexpected Rounded connection from "${route.name}.${junction.number}/${junction.name}" (${junction.angle}) to "${previousJunction.number}/${previousJunction.name}" (${previousJunction.angle}).`);
       }
@@ -217,11 +236,6 @@ module.exports = function generateConnector (junction, previousJunction, route) 
   path.push({ x: nextX, y: nextY });
   path.push({ x: pjx, y: pjy });
 
-  return generatePath(path, {
-    stroke: route.colour,
-    fill: "none",
-    "stroke-width": standard.lineWidth,
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round"
-  });
+  const result = renderPath(path, route);
+  return result;
 };
