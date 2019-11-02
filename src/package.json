@@ -4,13 +4,14 @@
   "description": "A proof of concept for making templated SVG files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "eslint": "eslint .",
     "plop": "plop --plopfile ./index.js"
   },
   "author": "Colin Mackay",
   "license": "MIT",
   "devDependencies": {
+    "ava": "^2.4.0",
     "colors": "^1.4.0",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
