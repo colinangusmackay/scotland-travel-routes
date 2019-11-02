@@ -1,6 +1,7 @@
 const standard = require("./standardConsts");
 const generatePath = require("./generatePath");
 const log = require("./log");
+const connector = require("./connector/index");
 
 function renderPath (path, route) {
   return generatePath(path, {
@@ -13,10 +14,7 @@ function renderPath (path, route) {
 }
 
 function generateStraightConnector (junction, previousJunction, route) {
-  const path = [
-    { x: previousJunction.x, y: previousJunction.y },
-    { x: junction.x, y: junction.y }
-  ];
+  const path = connector.generateStraightPath(junction, previousJunction);
   return renderPath(path, route);
 }
 
