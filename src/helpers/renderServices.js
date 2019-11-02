@@ -14,17 +14,17 @@ module.exports = function (plop) {
         const path = [];
         switch (side) {
           case "n": {
-            path.push({ x: junction.x - standard.cellHalfWidth, y: junction.y });
-            path.push({ x: junction.x, y: junction.y - standard.cellHalfHeight });
-            path.push({ x: junction.x + standard.cellHalfWidth, y: junction.y });
-            path.push({ x: junction.x - standard.cellHalfWidth, y: junction.y });
+            path.push({ x: junction.x - standard.cellHalfSize, y: junction.y });
+            path.push({ x: junction.x, y: junction.y - standard.cellHalfSize });
+            path.push({ x: junction.x + standard.cellHalfSize, y: junction.y });
+            path.push({ x: junction.x - standard.cellHalfSize, y: junction.y });
             break;
           }
           case "s": {
-            path.push({ x: junction.x - standard.cellHalfWidth, y: junction.y });
-            path.push({ x: junction.x, y: junction.y + standard.cellHalfHeight });
-            path.push({ x: junction.x + standard.cellHalfWidth, y: junction.y });
-            path.push({ x: junction.x - standard.cellHalfWidth, y: junction.y });
+            path.push({ x: junction.x - standard.cellHalfSize, y: junction.y });
+            path.push({ x: junction.x, y: junction.y + standard.cellHalfSize });
+            path.push({ x: junction.x + standard.cellHalfSize, y: junction.y });
+            path.push({ x: junction.x - standard.cellHalfSize, y: junction.y });
             break;
           }
           default: {

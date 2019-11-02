@@ -35,7 +35,7 @@ module.exports = function (plop) {
         // TODO: Add the other offsets
         case "n": {
           const labelX = junction.x;
-          const labelY = junction.y - standard.cellHalfWidth;
+          const labelY = junction.y - standard.cellHalfSize;
           const text = route.name;
           rendered += `<text x="${labelX}" y="${labelY}" text-anchor="middle" dominant-baseline="baseline" font-family="Fira Sans Condensed" font-size="50px">${text}</text>`;
           break;

@@ -24,14 +24,14 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       switch (xdir) {
         case "e": {
           path.push({ x: jx, y: jy });
-          lastX = jx + standard.cellHalfWidth;
+          lastX = jx + standard.cellHalfSize;
           lastY = jy;
           path.push({ x: lastX, y: lastY });
           break;
         }
         case "w": {
           path.push({ x: jx, y: jy });
-          lastX = jx - standard.cellHalfWidth;
+          lastX = jx - standard.cellHalfSize;
           lastY = jy;
           path.push({ x: lastX, y: lastY });
           break;
@@ -47,12 +47,12 @@ module.exports = function generateConnector (junction, previousJunction, route) 
         case "s": {
           path.push({ x: jx, y: jy });
           lastX = jx;
-          lastY = jy + standard.cellHalfHeight;
+          lastY = jy + standard.cellHalfSize;
           path.push({ x: lastX, y: lastY });
           break;
         }
         case "n": {
-          path.push({ x: jx, y: jy - standard.cellHalfHeight });
+          path.push({ x: jx, y: jy - standard.cellHalfSize });
           lastX = jx;
           lastY = jy;
           path.push({ x: lastX, y: lastY });
@@ -76,12 +76,12 @@ module.exports = function generateConnector (junction, previousJunction, route) 
     case "ew": {
       switch (xdir) {
         case "e": {
-          nextX = pjx - standard.cellHalfWidth;
+          nextX = pjx - standard.cellHalfSize;
           nextY = pjy;
           break;
         }
         case "w": {
-          nextX = pjx + standard.cellHalfWidth;
+          nextX = pjx + standard.cellHalfSize;
           nextY = pjy;
           break;
         }
@@ -96,12 +96,12 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       switch (ydir) {
         case "s": {
           nextX = pjx;
-          nextY = pjy - standard.cellHalfHeight;
+          nextY = pjy - standard.cellHalfSize;
           break;
         }
         case "n": {
           nextX = pjx;
-          nextY = pjy + standard.cellHalfHeight;
+          nextY = pjy + standard.cellHalfSize;
           break;
         }
         default: {
@@ -116,26 +116,26 @@ module.exports = function generateConnector (junction, previousJunction, route) 
     case "rounded-s": {
       log(`Rounded-S connection from "${route.name}.${junction.number}/${junction.name}" to "${previousJunction.number}/${previousJunction.name}".`);
       if (xdir === "e" && ydir === "s") {
-        const straightX = (Math.abs(lastX - nextX) - standard.cellWidth) / 2;
-        const straightY = (Math.abs(lastY - nextY) - standard.cellHeight);
+        const straightX = (Math.abs(lastX - nextX) - standard.cellSize) / 2;
+        const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
         path.push({ x: lastX + straightX, y: lastY });
         path.push({
-          x: lastX + straightX + standard.cellHalfWidth,
-          y: lastY + standard.cellHalfHeight,
+          x: lastX + straightX + standard.cellHalfSize,
+          y: lastY + standard.cellHalfSize,
           command: "A",
-          rx: standard.cellHalfWidth,
-          ry: standard.cellHalfHeight,
+          rx: standard.cellHalfSize,
+          ry: standard.cellHalfSize,
           angle: 0,
           largeArc: false,
           sweep: true
         });
-        path.push({ x: lastX + straightX + standard.cellHalfWidth, y: lastY + standard.cellHalfHeight + straightY });
+        path.push({ x: lastX + straightX + standard.cellHalfSize, y: lastY + standard.cellHalfSize + straightY });
         path.push({
-          x: lastX + straightX + standard.cellWidth,
-          y: lastY + standard.cellHeight + straightY,
+          x: lastX + straightX + standard.cellSize,
+          y: lastY + standard.cellSize + straightY,
           command: "A",
-          rx: standard.cellHalfWidth,
-          ry: standard.cellHalfHeight,
+          rx: standard.cellHalfSize,
+          ry: standard.cellHalfSize,
           angle: 0,
           largeArc: false,
           sweep: false
@@ -145,18 +145,18 @@ module.exports = function generateConnector (junction, previousJunction, route) 
     }
     case "rounded": {
       log(`Rounded connection from "${route.name}.${junction.number}/${junction.name}"(${junction.angle}) to "${previousJunction.number}/${previousJunction.name}"(${previousJunction.angle}) (${xdir},${ydir}).`);
-      const straightX = (Math.abs(lastX - nextX) - standard.cellWidth);
-      const straightY = (Math.abs(lastY - nextY) - standard.cellHeight);
+      const straightX = (Math.abs(lastX - nextX) - standard.cellSize);
+      const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
 
       if (junction.angle === "ns" && previousJunction.angle === "ew") {
         if (xdir === "e"){
           path.push({ x: lastX, y: lastY - straightY });
           path.push({
-            x: lastX + standard.cellWidth,
-            y: lastY - straightY - standard.cellHeight,
+            x: lastX + standard.cellSize,
+            y: lastY - straightY - standard.cellSize,
             command: "A",
-            rx: standard.cellWidth,
-            ry: standard.cellHeight,
+            rx: standard.cellSize,
+            ry: standard.cellSize,
             angle: 0,
             largeArc: false,
             sweep: true
@@ -164,11 +164,11 @@ module.exports = function generateConnector (junction, previousJunction, route) 
         } else if (xdir === "w"){
           path.push({ x: lastX, y: lastY - straightY });
           path.push({
-            x: lastX - standard.cellWidth,
-            y: lastY - straightY - standard.cellHeight,
+            x: lastX - standard.cellSize,
+            y: lastY - straightY - standard.cellSize,
             command: "A",
-            rx: standard.cellWidth,
-            ry: standard.cellHeight,
+            rx: standard.cellSize,
+            ry: standard.cellSize,
             angle: 0,
             largeArc: false,
             sweep: true
@@ -178,11 +178,11 @@ module.exports = function generateConnector (junction, previousJunction, route) 
         if (xdir === "e"){
           path.push({ x: lastX + straightX, y: lastY });
           path.push({
-            x: lastX + straightX + standard.cellWidth,
-            y: lastY - standard.cellHeight,
+            x: lastX + straightX + standard.cellSize,
+            y: lastY - standard.cellSize,
             command: "A",
-            rx: standard.cellWidth,
-            ry: standard.cellHeight,
+            rx: standard.cellSize,
+            ry: standard.cellSize,
             angle: 0,
             largeArc: false,
             sweep: false
@@ -190,11 +190,11 @@ module.exports = function generateConnector (junction, previousJunction, route) 
         } else if (xdir === "w"){
           path.push({ x: lastX - straightX, y: lastY });
           path.push({
-            x: lastX - straightX - standard.cellWidth,
-            y: lastY - standard.cellHeight,
+            x: lastX - straightX - standard.cellSize,
+            y: lastY - standard.cellSize,
             command: "A",
-            rx: standard.cellWidth,
-            ry: standard.cellHeight,
+            rx: standard.cellSize,
+            ry: standard.cellSize,
             angle: 0,
             largeArc: false,
             sweep: true

@@ -1,14 +1,12 @@
-const cellWidth = 50;
-const cellHeight = 50;
+const cellSize = 50;
 
 module.exports = {
-  cellWidth: cellWidth,
-  cellHeight: cellHeight,
-  cellHalfWidth: cellWidth / 2,
-  cellHalfHeight: cellHeight / 2,
-  cellDemiWidth: cellWidth / 10,
-  cellDemiHeight: cellHeight / 10,
-  lineWidth: (cellHeight < cellWidth ? cellHeight : cellWidth) / 2.5,
-  interchangeRadius: (cellHeight < cellWidth ? cellHeight : cellWidth) / 2,
-  interchangeLineWidth: (cellHeight < cellWidth ? cellHeight : cellWidth) / 8
+  cellSize: cellSize,
+  cellHalfSize: cellSize / 2,
+  cellDeciSize: cellSize / 10,
+  lineWidth: cellSize / 2.5,
+  roundedRadius: cellSize,
+  roundedSRadius: cellSize / 2,
+  interchangeRadius: cellSize / 2,
+  interchangeLineWidth: cellSize / 8
 };
