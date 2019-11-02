@@ -287,7 +287,7 @@
       <!-- M74 J4 : M73 -->
       <!-- Connector: --> <path d="M4450,4500 L4800,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 Services : Bothwell (SB) Services -->
-      <!-- Connector: --> <path d="M4800,4500 L5000,4600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5000,4575 L5000,4600 L5000,4550 A50 50 0 0 0 4950,4500 L4825,4500 L4800,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J5 : Orbiston -->
       <!-- Connector: --> <path d="M5000,4600 L5000,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 Services : Hamilton (NB) Services -->

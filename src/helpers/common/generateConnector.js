@@ -164,7 +164,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       break;
     }
     case "rounded": {
-      log(`Rounded connection from "${route.name}.${junction.number}/${junction.name}"(${junction.angle}) to "${previousJunction.number}/${previousJunction.name}"(${previousJunction.angle}) (${xdir},${ydir}).`);
+      log(`Rounded connection to "${route.name}.${junction.number}/${junction.name}"(${junction.angle}) from "${previousJunction.number}/${previousJunction.name}"(${previousJunction.angle}) (${xdir},${ydir}).`);
       const straightX = (Math.abs(lastX - nextX) - standard.cellSize);
       const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
 
@@ -182,17 +182,31 @@ module.exports = function generateConnector (junction, previousJunction, route) 
             sweep: true
           });
         } else if (xdir === "w") {
-          path.push({ x: lastX, y: lastY - straightY });
-          path.push({
-            x: lastX - standard.cellSize,
-            y: lastY - straightY - standard.cellSize,
-            command: "A",
-            rx: standard.cellSize,
-            ry: standard.cellSize,
-            angle: 0,
-            largeArc: false,
-            sweep: true
-          });
+          if (ydir === "n") {
+            path.push({ x: lastX, y: lastY - straightY });
+            path.push({
+              x: lastX - standard.cellSize,
+              y: lastY - straightY - standard.cellSize,
+              command: "A",
+              rx: standard.cellSize,
+              ry: standard.cellSize,
+              angle: 0,
+              largeArc: false,
+              sweep: false
+            });
+          } else if (ydir === "s") {
+            // path.push({ x: lastX, y: lastY - straightY });
+            // path.push({
+            //   x: lastX - standard.cellSize,
+            //   y: lastY - straightY - standard.cellSize,
+            //   command: "A",
+            //   rx: standard.cellSize,
+            //   ry: standard.cellSize,
+            //   angle: 0,
+            //   largeArc: false,
+            //   sweep: true
+            // });
+          }
         }
       } else if (junction.angle === "ew" && previousJunction.angle === "ns") {
         if (xdir === "e") {
