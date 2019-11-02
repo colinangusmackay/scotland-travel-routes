@@ -286,11 +286,11 @@
       <!-- Connector: --> <path d="M4100,4500 L4450,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J4 : M73 -->
       <!-- Connector: --> <path d="M4450,4500 L4800,4500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 Services : Bothwell Services -->
+      <!-- M74 Services : Bothwell (SB) Services -->
       <!-- Connector: --> <path d="M4800,4500 L5000,4600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J5 : Orbiston -->
       <!-- Connector: --> <path d="M5000,4600 L5000,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 Services : Hamilton Services -->
+      <!-- M74 Services : Hamilton (NB) Services -->
       <!-- Connector: --> <path d="M5000,4700 L5000,4800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J6 : Hamilton -->
       <!-- Connector: --> <path d="M5000,4800 L5000,4900" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -327,17 +327,17 @@
 <!-- Interchange: --> <circle cx="4800" cy="4500" r="25" fill="white" stroke="black" stroke-width="6.25" />
 <!-- Label: --> <text x="4800" y="4530" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">M73</text>
 <!-- Cell: --> <polyline points="4775,4475 4825,4475 4825,4525 4775,4525 4775,4475" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,4475 4825,4525" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4825,4475 4775,4525" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,4480 4775,4475 4780,4475" stroke="black" fill="none"/><polyline points="4825,4480 4825,4475 4820,4475" stroke="black" fill="none"/><polyline points="4825,4520 4825,4525 4820,4525" stroke="black" fill="none"/><polyline points="4775,4520 4775,4525 4780,4525" stroke="black" fill="none"/><polyline points="4795,4475 4805,4475" stroke="black" fill="none"/><polyline points="4795,4525 4805,4525" stroke="black" fill="none"/><polyline points="4775,4495 4775,4505" stroke="black" fill="none"/><polyline points="4825,4495 4825,4505" stroke="black" fill="none"/><polyline points="4795,4500 4805,4500" stroke="black" fill="none"/><polyline points="4800,4495 4800,4505" stroke="black" fill="none"/>
-      <!-- M74 Services : Bothwell Services -->
-<!-- Services: --> <polygon points="" fill="blue"/>
-<!-- Label: --> <text x="5030" y="4575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Bothwell Services</text>
+      <!-- M74 Services : Bothwell (SB) Services -->
+<!-- Services: --> <polygon points="5000,4575 5025,4600 5000,4625 5000,4575" fill="blue"/>
+<!-- Label: --> <text x="5030" y="4575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Bothwell (SB) Services</text>
 <!-- Cell: --> <polyline points="4975,4580 4975,4575 4980,4575" stroke="black" fill="none"/><polyline points="5025,4580 5025,4575 5020,4575" stroke="black" fill="none"/><polyline points="5025,4620 5025,4625 5020,4625" stroke="black" fill="none"/><polyline points="4975,4620 4975,4625 4980,4625" stroke="black" fill="none"/><polyline points="4995,4575 5005,4575" stroke="black" fill="none"/><polyline points="4995,4625 5005,4625" stroke="black" fill="none"/><polyline points="4975,4595 4975,4605" stroke="black" fill="none"/><polyline points="5025,4595 5025,4605" stroke="black" fill="none"/><polyline points="4995,4600 5005,4600" stroke="black" fill="none"/><polyline points="5000,4595 5000,4605" stroke="black" fill="none"/>
       <!-- M74 J5 : Orbiston -->
 <!-- Junction: --> <polyline points="5000,4700 5025,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5030" y="4675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Orbiston</text>
 <!-- Cell: --> <polyline points="4975,4680 4975,4675 4980,4675" stroke="black" fill="none"/><polyline points="5025,4680 5025,4675 5020,4675" stroke="black" fill="none"/><polyline points="5025,4720 5025,4725 5020,4725" stroke="black" fill="none"/><polyline points="4975,4720 4975,4725 4980,4725" stroke="black" fill="none"/><polyline points="4995,4675 5005,4675" stroke="black" fill="none"/><polyline points="4995,4725 5005,4725" stroke="black" fill="none"/><polyline points="4975,4695 4975,4705" stroke="black" fill="none"/><polyline points="5025,4695 5025,4705" stroke="black" fill="none"/><polyline points="4995,4700 5005,4700" stroke="black" fill="none"/><polyline points="5000,4695 5000,4705" stroke="black" fill="none"/>
-      <!-- M74 Services : Hamilton Services -->
-<!-- Services: --> <polygon points="" fill="blue"/>
-<!-- Label: --> <text x="4970" y="4775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Hamilton Services</text>
+      <!-- M74 Services : Hamilton (NB) Services -->
+<!-- Services: --> <polygon points="5000,4775 4975,4800 5000,4825 5000,4775" fill="blue"/>
+<!-- Label: --> <text x="4970" y="4775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Hamilton (NB) Services</text>
 <!-- Cell: --> <polyline points="4975,4780 4975,4775 4980,4775" stroke="black" fill="none"/><polyline points="5025,4780 5025,4775 5020,4775" stroke="black" fill="none"/><polyline points="5025,4820 5025,4825 5020,4825" stroke="black" fill="none"/><polyline points="4975,4820 4975,4825 4980,4825" stroke="black" fill="none"/><polyline points="4995,4775 5005,4775" stroke="black" fill="none"/><polyline points="4995,4825 5005,4825" stroke="black" fill="none"/><polyline points="4975,4795 4975,4805" stroke="black" fill="none"/><polyline points="5025,4795 5025,4805" stroke="black" fill="none"/><polyline points="4995,4800 5005,4800" stroke="black" fill="none"/><polyline points="5000,4795 5000,4805" stroke="black" fill="none"/>
       <!-- M74 J6 : Hamilton -->
 <!-- Junction: --> <polyline points="5000,4900 4975,4900" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
