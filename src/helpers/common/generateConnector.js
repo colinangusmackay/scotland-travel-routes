@@ -13,22 +13,22 @@ function renderPath (path, route) {
   });
 }
 
-function generateStraightConnector (junction, previousJunction, route) {
-  const path = connector.generateStraightPath(junction, previousJunction);
+function generateStraightConnector (from, to, route) {
+  const path = connector.generateStraightPath(from, to);
   return renderPath(path, route);
 }
 
-module.exports = function generateConnector (junction, previousJunction, route) {
-  if (!junction.connectionToPrevious || junction.connectionToPrevious === "straight") {
-    return generateStraightConnector(junction, previousJunction, route);
+module.exports = function generateConnector (to, from, route) {
+  if (!to.connectionToPrevious || to.connectionToPrevious === "straight") {
+    return generateStraightConnector(from, to, route);
   }
 
-  const jx = junction.x;
-  const jy = junction.y;
-  const jd = junction.angle;
-  const pjx = previousJunction.x;
-  const pjy = previousJunction.y;
-  const pjd = previousJunction.angle;
+  const jx = to.x;
+  const jy = to.y;
+  const jd = to.angle;
+  const pjx = from.x;
+  const pjy = from.y;
+  const pjd = from.angle;
 
   const xdir = jx === pjx ? "-" : (jx < pjx ? "e" : "w");
   const ydir = jy === pjy ? "-" : (jy < pjy ? "s" : "n");
@@ -55,7 +55,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           break;
         }
         default: {
-          log(`Unexpected x direction for an ew junction, "${xdir}", on "${route.name}.${junction.number}/${junction.name}".`);
+          log(`Unexpected x direction for an ew junction, "${xdir}", on "${route.name}.${to.number}/${to.name}".`);
         }
       }
       break;
@@ -77,13 +77,13 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           break;
         }
         default: {
-          log(`Unexpected y direction for an ns junction, "${ydir}", on "${route.name}.${junction.number}/${junction.name}".`);
+          log(`Unexpected y direction for an ns junction, "${ydir}", on "${route.name}.${to.number}/${to.name}".`);
         }
       }
       break;
     }
     default: {
-      log(`Unexpected junction direction, "${jd}", between "${route.name}.${previousJunction.number}/${previousJunction.name} and ${junction.number}/${junction.name}".`);
+      log(`Unexpected junction direction, "${jd}", between "${route.name}.${from.number}/${from.name} and ${to.number}/${to.name}".`);
       break;
     }
   }
@@ -104,7 +104,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           break;
         }
         default: {
-          log(`Unexpected X direction, "${xdir}", on "${route.name}.${junction.number}/${junction.name}".`);
+          log(`Unexpected X direction, "${xdir}", on "${route.name}.${to.number}/${to.name}".`);
           break;
         }
       }
@@ -123,16 +123,16 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           break;
         }
         default: {
-          log(`Unexpected Y direction, "${ydir}", on "${route.name}.${junction.number}/${junction.name}".`);
+          log(`Unexpected Y direction, "${ydir}", on "${route.name}.${to.number}/${to.name}".`);
           break;
         }
       }
     }
   }
 
-  switch (junction.connectionToPrevious) {
+  switch (to.connectionToPrevious) {
     case "rounded-s": {
-      log(`Rounded-S connection from "${route.name}.${junction.number}/${junction.name}" to "${previousJunction.number}/${previousJunction.name}".`);
+      log(`Rounded-S connection from "${route.name}.${to.number}/${to.name}" to "${from.number}/${from.name}".`);
       if (xdir === "e" && ydir === "s") {
         const straightX = (Math.abs(lastX - nextX) - standard.cellSize) / 2;
         const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
@@ -162,11 +162,11 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       break;
     }
     case "rounded": {
-      log(`Rounded connection to "${route.name}.${junction.number}/${junction.name}"(${junction.angle}) from "${previousJunction.number}/${previousJunction.name}"(${previousJunction.angle}) (${xdir},${ydir}).`);
+      log(`Rounded connection to "${route.name}.${to.number}/${to.name}"(${to.angle}) from "${from.number}/${from.name}"(${from.angle}) (${xdir},${ydir}).`);
       const straightX = (Math.abs(lastX - nextX) - standard.cellSize);
       const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
 
-      if (junction.angle === "ns" && previousJunction.angle === "ew") {
+      if (to.angle === "ns" && from.angle === "ew") {
         if (xdir === "e") {
           path.push({ x: lastX, y: lastY - straightY });
           path.push({
@@ -206,7 +206,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
             // });
           }
         }
-      } else if (junction.angle === "ew" && previousJunction.angle === "ns") {
+      } else if (to.angle === "ew" && from.angle === "ns") {
         if (xdir === "e") {
           path.push({ x: lastX + straightX, y: lastY });
           path.push({
@@ -233,7 +233,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           });
         }
       } else {
-        log(`Unexpected Rounded connection from "${route.name}.${junction.number}/${junction.name}" (${junction.angle}) to "${previousJunction.number}/${previousJunction.name}" (${previousJunction.angle}).`);
+        log(`Unexpected Rounded connection from "${route.name}.${to.number}/${to.name}" (${to.angle}) to "${from.number}/${from.name}" (${from.angle}).`);
       }
       break;
     }
@@ -241,7 +241,7 @@ module.exports = function generateConnector (junction, previousJunction, route) 
     case null:
       break;
     default: {
-      log(`Unknown connection, "${junction.connectionToPrevious}", from "${route.name}.${junction.number}/${junction.name}" to "${previousJunction.number}/${previousJunction.name}".`);
+      log(`Unknown connection, "${to.connectionToPrevious}", from "${route.name}.${to.number}/${to.name}" to "${from.number}/${from.name}".`);
     }
   }
 

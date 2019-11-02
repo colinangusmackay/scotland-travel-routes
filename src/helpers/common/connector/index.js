@@ -1,3 +1,4 @@
 module.exports = {
-  generateStraightPath: require("./generateStraightPath")
+  generateStraightPath: require("./generateStraightPath"),
+  generateTwoPartRoundedPath: require("./generateTwoPartRoundedPath")
 };

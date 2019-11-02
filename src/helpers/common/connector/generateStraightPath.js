@@ -1,6 +1,6 @@
-module.exports = function generateStraightPath(junction, previousJunction){
+module.exports = function generateStraightPath (from, to) {
   return [
-    { x: previousJunction.x, y: previousJunction.y },
-    { x: junction.x, y: junction.y }
+    { x: from.x, y: from.y },
+    { x: to.x, y: to.y }
   ];
 };
