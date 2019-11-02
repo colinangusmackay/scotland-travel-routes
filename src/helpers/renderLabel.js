@@ -21,6 +21,10 @@ module.exports = function (plop) {
         rendered += `<text x="${junction.x + (standard.cellWidth * 0.6)}" y="${junction.y - standard.cellHalfHeight}" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="${standard.cellHeight}px">${junction.name}</text>`;
         break;
       }
+      case "se": {
+        rendered += `<text x="${junction.x + (standard.cellWidth * 0.6)}" y="${junction.y + (standard.cellHeight * 0.6)}" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="${standard.cellHeight}px">${junction.name}</text>`;
+        break;
+      }
       case "s": {
         rendered += `<text x="${junction.x}" y="${junction.y + (standard.cellHeight * 0.6)}" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="${standard.cellHeight}px">${junction.name}</text>`;
         break;

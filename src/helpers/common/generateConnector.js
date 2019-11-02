@@ -29,6 +29,13 @@ module.exports = function generateConnector (junction, previousJunction, route) 
           path.push({ x: lastX, y: lastY });
           break;
         }
+        case "w": {
+          path.push({ x: jx, y: jy });
+          lastX = jx - standard.cellHalfWidth;
+          lastY = jy;
+          path.push({ x: lastX, y: lastY });
+          break;
+        }
         default: {
           log(`Unexpected x direction for an ew junction, "${xdir}", on "${route.name}.${junction.number}/${junction.name}".`);
         }
@@ -70,6 +77,11 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       switch (xdir) {
         case "e": {
           nextX = pjx - standard.cellHalfWidth;
+          nextY = pjy;
+          break;
+        }
+        case "w": {
+          nextX = pjx + standard.cellHalfWidth;
           nextY = pjy;
           break;
         }
@@ -132,34 +144,62 @@ module.exports = function generateConnector (junction, previousJunction, route) 
       break;
     }
     case "rounded": {
-      log(`Rounded connection from "${route.name}.${junction.number}/${junction.name}" to "${previousJunction.number}/${previousJunction.name}" (${xdir},${ydir}).`);
+      log(`Rounded connection from "${route.name}.${junction.number}/${junction.name}"(${junction.angle}) to "${previousJunction.number}/${previousJunction.name}"(${previousJunction.angle}) (${xdir},${ydir}).`);
       const straightX = (Math.abs(lastX - nextX) - standard.cellWidth);
       const straightY = (Math.abs(lastY - nextY) - standard.cellHeight);
 
       if (junction.angle === "ns" && previousJunction.angle === "ew") {
-        path.push({ x: lastX, y: lastY - straightY });
-        path.push({
-          x: lastX + standard.cellWidth,
-          y: lastY - straightY - standard.cellHeight,
-          command: "A",
-          rx: standard.cellWidth,
-          ry: standard.cellHeight,
-          angle: 0,
-          largeArc: false,
-          sweep: true
-        });
+        if (xdir === "e"){
+          path.push({ x: lastX, y: lastY - straightY });
+          path.push({
+            x: lastX + standard.cellWidth,
+            y: lastY - straightY - standard.cellHeight,
+            command: "A",
+            rx: standard.cellWidth,
+            ry: standard.cellHeight,
+            angle: 0,
+            largeArc: false,
+            sweep: true
+          });
+        } else if (xdir === "w"){
+          path.push({ x: lastX, y: lastY - straightY });
+          path.push({
+            x: lastX - standard.cellWidth,
+            y: lastY - straightY - standard.cellHeight,
+            command: "A",
+            rx: standard.cellWidth,
+            ry: standard.cellHeight,
+            angle: 0,
+            largeArc: false,
+            sweep: true
+          });
+        }
       } else if (junction.angle === "ew" && previousJunction.angle === "ns") {
-        path.push({ x: lastX + straightX, y: lastY });
-        path.push({
-          x: lastX + straightX + standard.cellWidth,
-          y: lastY - standard.cellHeight,
-          command: "A",
-          rx: standard.cellWidth,
-          ry: standard.cellHeight,
-          angle: 0,
-          largeArc: false,
-          sweep: false
-        });
+        if (xdir === "e"){
+          path.push({ x: lastX + straightX, y: lastY });
+          path.push({
+            x: lastX + straightX + standard.cellWidth,
+            y: lastY - standard.cellHeight,
+            command: "A",
+            rx: standard.cellWidth,
+            ry: standard.cellHeight,
+            angle: 0,
+            largeArc: false,
+            sweep: false
+          });
+        } else if (xdir === "w"){
+          path.push({ x: lastX - straightX, y: lastY });
+          path.push({
+            x: lastX - straightX - standard.cellWidth,
+            y: lastY - standard.cellHeight,
+            command: "A",
+            rx: standard.cellWidth,
+            ry: standard.cellHeight,
+            angle: 0,
+            largeArc: false,
+            sweep: true
+          });
+        }
 
       } else {
         log(`Unexpected Rounded connection from "${route.name}.${junction.number}/${junction.name}" (${junction.angle}) to "${previousJunction.number}/${previousJunction.name}" (${previousJunction.angle}).`);
