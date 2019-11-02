@@ -25,7 +25,7 @@ module.exports = function (plop) {
           path.push({ x: junction.x, y: junction.y + standard.cellHalfSize });
           break;
         }
-        case "2": {
+        case "w": {
           path.push({ x: junction.x - standard.cellHalfSize, y: junction.y });
           break;
         }
