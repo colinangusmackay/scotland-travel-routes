@@ -18,9 +18,17 @@ function generateStraightConnector (from, to, route) {
   return renderPath(path, route);
 }
 
+function generateTwoPartRoundedConnector(from, to, route){
+  const path = connector.generateTwoPartRoundedPath(from, to, route);
+  return renderPath(path, route);
+}
+
 module.exports = function generateConnector (to, from, route) {
   if (!to.connectionToPrevious || to.connectionToPrevious === "straight") {
     return generateStraightConnector(from, to, route);
+  }
+  if (to.connectionToPrevious === "two-part-rounded") {
+    return generateTwoPartRoundedConnector(from, to, route);
   }
 
   const jx = to.x;

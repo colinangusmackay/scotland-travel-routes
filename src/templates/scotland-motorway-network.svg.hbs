@@ -216,7 +216,35 @@
   "M73":{
     "colour":"yellow", "contrastColour": "black",
     "name":"M73", "route":"Maryville - Mollinsburn",
-    "dx":10, "dy":500},
+    "dx":10, "dy":500,
+    "junctions": {
+      "J1": {
+        "number": "J1", "name": "M74",
+        "type": "interchange", "angle": "ns",
+        "x":4800, "y": 4500
+      },
+      "J2": {
+        "number": "J2", "name": "M8",
+        "type": "interchange", "angle": "ns",
+        "x":4800, "y": 4000
+      },
+      "J2A": {
+        "number": "J2A", "name": "Gartcosh", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":4800, "y": 3800
+      },
+      "J3": {
+        "number": "J3", "name": "Mollinsburn", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":4800, "y": 3600
+      },
+      "J3-": {
+        "number": "J3", "name": "M80",
+        "type": "interchange", "angle": "ns",
+        "x":4800, "y": 3400
+      }
+    }
+  },
   "M74":{
     "colour":"blue", "contrastColour": "white",
     "name":"M74", "route":"Tradeston - Gretna",
@@ -291,7 +319,30 @@
   "M80":{
     "colour":"green", "contrastColour": "white",
     "name":"M80", "route":"Provan - Stirling",
-    "dx":10, "dy":1100},
+    "dx":10, "dy":1100,
+    "junctions":{
+      "J1": {
+        "number": "J1", "name": "Townhead",
+        "type": "interchange", "angle": "ns",
+        "x":3400, "y": 4000
+      },
+      "J2": {
+        "number": "J2", "name": "Robroyston", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":3400, "y": 3800
+      },
+      "J3": {
+        "number": "J3", "name": "Lenzie", "labelOffset": "n", "connectionToPrevious": "rounded",
+        "type": "standard", "angle": "ew",
+        "x":4000, "y": 3400
+      },
+      "J4": {
+        "number": "J4", "name": "M73", "labelOffset": "n",
+        "type": "interchange", "angle": "ew",
+        "x":4800, "y": 3400
+      }
+    }
+  },
   "M90":{
     "colour":"cyan", "contrastColour": "black",
     "name":"M90", "route":"Kirliston - Perth",

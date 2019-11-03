@@ -17,6 +17,14 @@ module.exports = function generatePolyline (path, attr) {
         result += arc;
         break;
       }
+      case "C": {
+        result += `${space}${command}${c.x1},${c.y1} ${c.x2},${c.y2} ${c.x},${c.y} `;
+        break;
+      }
+      case "Q": {
+        result += `${space}${command}${c.x1},${c.y1} ${c.x},${c.y}`;
+        break;
+      }
       default:
         result += `${space}${command}${c.x},${c.y}`;
         break;

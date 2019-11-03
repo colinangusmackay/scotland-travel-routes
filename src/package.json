@@ -6,7 +6,9 @@
   "scripts": {
     "test": "ava",
     "eslint": "eslint .",
-    "plop": "plop --plopfile ./index.js"
+    "plop": "plop --plopfile ./index.js",
+    "plop:motorway": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --source ./templates/scotland-motorway-network.svg.hbs --destination ../result.svg",
+    "plop:2prc": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --source ./templates/two-part-rounded-connectors.svg.hbs --destination ../two-part-rounded-connectors.svg"
   },
   "author": "Colin Mackay",
   "license": "MIT",

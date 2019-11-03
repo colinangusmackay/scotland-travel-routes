@@ -1,0 +1,126 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="8000" height="8000"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+        font-family: "Fira Sans Condensed";
+        src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
+    }
+  </style>
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="white" stroke="#dddddd"/>
+    {{#setData "routes"}}
+{
+  "RW-E-E":{
+    "colour":"blue", "contrastColour":"white",
+    "name":"→", "route":"",
+    "junctions": {
+      "Start": {
+        "number": "Start", "name": "Start", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w",
+        "x":200, "y": 200
+      },
+      "End": {
+        "number": "End", "name": "End", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e", "connectionToPrevious": "two-part-rounded",
+        "x":400, "y": 200
+      }
+    }
+  },
+  "RW-E-NE":{
+    "colour":"red", "contrastColour":"white",
+    "name":"→", "route":"",
+    "junctions": {
+      "Start": {
+        "number": "Start", "name": "Start", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w",
+        "x":600, "y": 200
+      },
+      "End": {
+        "number": "End", "name": "End", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e", "connectionToPrevious": "two-part-rounded",
+        "x":800, "y": 150
+      }
+    }
+  },
+  "RW-E-SE":{
+    "colour":"darkGreen", "contrastColour":"white",
+    "name":"→", "route":"",
+    "junctions": {
+      "Start": {
+        "number": "Start", "name": "Start", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w",
+        "x":1000, "y": 200
+      },
+      "End": {
+        "number": "End", "name": "End", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e", "connectionToPrevious": "two-part-rounded",
+        "x":1200, "y": 250
+      }
+    }
+  },
+  "RE-W-W":{
+    "colour":"purple", "contrastColour":"white",
+    "name":"←", "route":"",
+    "junctions": {
+      "Start": {
+        "number": "Start", "name": "Start", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e",
+        "x":400, "y": 400
+      },
+        "End": {
+        "number": "End", "name": "End", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w", "connectionToPrevious": "two-part-rounded",
+        "x":200, "y": 400
+      }
+    }
+  },
+  "RE-W-NW":{
+    "colour":"gray", "contrastColour":"white",
+    "name":"←", "route":"",
+    "junctions": {
+      "Start": {
+        "number": "Start", "name": "Start", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e",
+        "x":800, "y": 400
+      },
+      "End": {
+        "number": "End", "name": "End", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w", "connectionToPrevious": "two-part-rounded",
+        "x":600, "y": 350
+      }
+    }
+  },
+  "RE-W-NE":{
+    "colour":"orange", "contrastColour":"white",
+    "name":"←", "route":"",
+    "junctions": {
+      "Start": {
+        "number": "Start", "name": "Start", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e",
+        "x":1200, "y": 400
+      },
+      "End": {
+        "number": "End", "name": "End", "labelOffset": "s",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w", "connectionToPrevious": "two-part-rounded",
+        "x":1000, "y": 450
+      }
+    }
+  }
+}
+    {{/setData}}
+
+  {{#each routes}}
+
+    {{#each junctions}}
+      <!-- {{../name}} {{number}} : {{name}} -->
+      <!-- Connector: --> {{renderConnector this}}{{renderTerminator this}}
+    {{/each}}
+
+    {{#each junctions}}
+      <!-- {{../name}} {{number}} : {{name}} -->{{renderTerminator this}}{{renderServices this}}{{renderInterchange this}}{{renderJunction this}}{{renderLabel this}}{{renderCell this}}
+    {{/each}}
+  {{/each}}
+
+</svg>
