@@ -47,6 +47,13 @@ module.exports = function (plop) {
           rendered += `<text x="${labelX}" y="${labelY}" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">${text}</text>`;
           break;
         }
+        case "s": {
+          const labelX = junction.x;
+          const labelY = junction.y + standard.cellHalfSize;
+          const text = route.name;
+          rendered += `<text x="${labelX}" y="${labelY}" text-anchor="middle" dominant-baseline="hanging" font-family="Fira Sans Condensed" font-size="50px">${text}</text>`;
+          break;
+        }
         case "w":
         {
           const labelX = junction.x - width;
@@ -56,8 +63,7 @@ module.exports = function (plop) {
           break;
         }
         default: {
-          const msg = `Unexpected terminator label offset, "${junction.terminatorLabelOffset}", on "${context.data._parent.key}.${context.data.key}". Valid offsets are "e", and "w".`;
-          console.log(msg);
+          log(`Unexpected terminator label offset, "${junction.terminatorLabelOffset}", on "${context.data._parent.key}.${context.data.key}".`);
         }
       }
       return new Handlebars.SafeString(rendered);

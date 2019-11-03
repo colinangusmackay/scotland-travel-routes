@@ -85,6 +85,30 @@ module.exports = function generateTwoPartRoundedPath (from, to, route) {
     case "ew;ew;nw":
       appendEastWestToEastWestPath(path, from, to, dir, route);
       break;
+    case "ns;ew;ne": {
+      const fromExit = getCellExitPoint(from, dir, route);
+      const toEntry = getCellEntryPoint(to, dir, route);
+      let xDist = Math.abs(fromExit.x - toEntry.x);
+      let yDist = Math.abs(fromExit.y - toEntry.y);
+      let equiDist = Math.min(xDist, yDist);
+      if (equiDist > standard.cellSize) { equiDist -= standard.cellSize; }
+      xDist -= equiDist;
+      yDist -= equiDist;
+      if (yDist > 0) {
+        path.push({ x: fromExit.x, y: fromExit.y - yDist });
+      }
+      const halfEquiDist = equiDist / 2;
+      path.push({
+        command: "C",
+        x1: fromExit.x,
+        y1: fromExit.y - (yDist + halfEquiDist),
+        x2: toEntry.x - (xDist + halfEquiDist),
+        y2: toEntry.y,
+        x: toEntry.x - xDist,
+        y: toEntry.y
+      });
+      break;
+    }
     case "ew;ew;n":
     case "ew;ew;s":
       log(`"${style}" is not a valid combination. ${route.name} from ${from.number}/${from.name} (${from.angle}) to ${to.number}/${to.name} (${to.angle}) travelling in a ${dir} direction.`);
