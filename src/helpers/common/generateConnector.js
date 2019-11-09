@@ -37,7 +37,7 @@ function generateStraightConnector (from, to, route) {
 function generateTwoPartRoundedConnector (from, to, route) {
   const path = connector.generateTwoPartRoundedPath(from, to, route);
   const renderedPath = renderPath(path, route);
-  //return renderedPath;
+  // return renderedPath;
   const renderedControlPoints = renderControlPoints(path);
   return renderedPath + renderedControlPoints;
 }

@@ -5,7 +5,7 @@ module.exports = {
   cellHalfSize: cellSize / 2,
   cellQuarterSize: cellSize / 4,
   cellDeciSize: cellSize / 10,
-  lineWidth: 2, // cellSize / 2.5,
+  lineWidth: cellSize / 2.5,
   roundedRadius: cellSize,
   roundedSRadius: cellSize / 2,
   interchangeRadius: cellSize / 2,

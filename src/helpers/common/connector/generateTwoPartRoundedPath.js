@@ -70,6 +70,28 @@ function appendEastWestToEastWestPath (path, from, to, dir, route) {
   });
 }
 
+function polarToCartesian (centerX, centerY, radius, angleInDegrees) {
+  // https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
+  var angleInRadians = (angleInDegrees - 90) * Math.PI / 180.0;
+
+  return {
+    x: centerX + (radius * Math.cos(angleInRadians)),
+    y: centerY + (radius * Math.sin(angleInRadians))
+  };
+}
+
+function generateArcPath (x, y, radius, startAngle, endAngle) {
+  const start = polarToCartesian(x, y, radius, startAngle);
+  const end = polarToCartesian(x, y, radius, endAngle);
+
+  const largeArcFlag = endAngle - startAngle <= 180 ? 0 : 1;
+  const sweep = 1;
+
+  const path = { command: "A", rx: radius, ry: radius, angle: 0, largeArc: largeArcFlag, sweep: sweep, x: end.x, y: end.y };
+
+  return { path, start, end };
+}
+
 module.exports = function generateTwoPartRoundedPath (from, to, route) {
   const dir = getDirection(from, to);
 
@@ -92,6 +114,7 @@ module.exports = function generateTwoPartRoundedPath (from, to, route) {
       let yDist = Math.abs(fromExit.y - toEntry.y);
       let equiDist = Math.min(xDist, yDist);
       const turnCells = Math.floor(equiDist / (standard.cellSize * 2));
+      const turnSize = standard.cellSize * turnCells;
       if (turnCells > 0) { equiDist -= turnCells * standard.cellSize; }
       xDist -= equiDist;
       yDist -= equiDist;
@@ -99,34 +122,12 @@ module.exports = function generateTwoPartRoundedPath (from, to, route) {
         path.push({ x: fromExit.x, y: fromExit.y - yDist });
       }
 
-      const turnCellSize = standard.cellHalfSize * turnCells;
-      const turnDist = turnCellSize * Math.sin(Math.PI / 4);
-      const inverseTurnDist = turnCellSize - turnDist;
+      const firstTurn = generateArcPath(fromExit.x + turnSize, fromExit.y - yDist, turnSize, 270, 315);
+      path.push(firstTurn.path);
 
-      path.push({
-        command: "C",
-        x1: fromExit.x,
-        y1: fromExit.y - (yDist + inverseTurnDist),
-        x2: fromExit.x + (inverseTurnDist),
-        y2: fromExit.y - (yDist + turnDist),
-        x: fromExit.x + turnDist,
-        y: fromExit.y - (yDist + turnCellSize)
-      });
-
-      path.push({
-        x: toEntry.x - (xDist + turnCellSize),
-        y: toEntry.y + turnCellSize
-      });
-
-      path.push({
-        command: "C",
-        x1: toEntry.x - (xDist + turnDist),
-        y1: toEntry.y + (turnDist),
-        x2: toEntry.x - (xDist + inverseTurnDist),
-        y2: toEntry.y,
-        x: toEntry.x - xDist,
-        y: toEntry.y
-      });
+      const secondTurn = generateArcPath(toEntry.x - xDist, toEntry.y + turnSize, turnSize, 315, 0);
+      path.push({ x: secondTurn.start.x, y: secondTurn.start.y });
+      path.push(secondTurn.path);
 
       if (xDist > 0) {
         path.push({ x: toEntry.x, y: toEntry.y });

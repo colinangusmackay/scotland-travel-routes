@@ -256,7 +256,7 @@
 
 
       <!-- Legend for M73 : Maryville - Mollinsburn -->
-      <rect x="10" y="500" fill="yellow" height="200" width="3500" stroke="white" stroke-width="1"/>
+      <rect x="10" y="500" fill="orange" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="black" font-family="Fira Sans Condensed">
           <text x="60" y="600" font-weight="bold">M73</text>
           <text x="610" y="600">Maryville - Mollinsburn</text>
@@ -265,13 +265,13 @@
       <!-- M73 J1 : M74 -->
       <!-- Connector: --> 
       <!-- M73 J2 : M8 -->
-      <!-- Connector: --> <path d="M4800,4500 L4800,4000" stroke="yellow" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,4500 L4800,4000" stroke="orange" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M73 J2A : Gartcosh -->
-      <!-- Connector: --> <path d="M4800,4000 L4800,3800" stroke="yellow" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,4000 L4800,3800" stroke="orange" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M73 J3 : Mollinsburn -->
-      <!-- Connector: --> <path d="M4800,3800 L4800,3600" stroke="yellow" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,3800 L4800,3600" stroke="orange" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M73 J3 : M80 -->
-      <!-- Connector: --> <path d="M4800,3600 L4800,3400" stroke="yellow" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,3600 L4800,3400" stroke="orange" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
       <!-- M73 J1 : M74 -->
 <!-- Interchange: --> <circle cx="4800" cy="4500" r="25" fill="white" stroke="black" stroke-width="6.25" />
@@ -280,11 +280,11 @@
 <!-- Interchange: --> <circle cx="4800" cy="4000" r="25" fill="white" stroke="black" stroke-width="6.25" />
 <!-- Cell: --> <polyline points="4775,3980 4775,3975 4780,3975" stroke="black" fill="none"/><polyline points="4825,3980 4825,3975 4820,3975" stroke="black" fill="none"/><polyline points="4825,4020 4825,4025 4820,4025" stroke="black" fill="none"/><polyline points="4775,4020 4775,4025 4780,4025" stroke="black" fill="none"/><polyline points="4795,3975 4805,3975" stroke="black" fill="none"/><polyline points="4795,4025 4805,4025" stroke="black" fill="none"/><polyline points="4775,3995 4775,4005" stroke="black" fill="none"/><polyline points="4825,3995 4825,4005" stroke="black" fill="none"/><polyline points="4795,4000 4805,4000" stroke="black" fill="none"/><polyline points="4800,3995 4800,4005" stroke="black" fill="none"/>
       <!-- M73 J2A : Gartcosh -->
-<!-- Junction: --> <polyline points="4800,3800 4775,3800" stroke="yellow" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Junction: --> <polyline points="4800,3800 4775,3800" stroke="orange" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="4770" y="3775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Gartcosh</text>
 <!-- Cell: --> <polyline points="4775,3780 4775,3775 4780,3775" stroke="black" fill="none"/><polyline points="4825,3780 4825,3775 4820,3775" stroke="black" fill="none"/><polyline points="4825,3820 4825,3825 4820,3825" stroke="black" fill="none"/><polyline points="4775,3820 4775,3825 4780,3825" stroke="black" fill="none"/><polyline points="4795,3775 4805,3775" stroke="black" fill="none"/><polyline points="4795,3825 4805,3825" stroke="black" fill="none"/><polyline points="4775,3795 4775,3805" stroke="black" fill="none"/><polyline points="4825,3795 4825,3805" stroke="black" fill="none"/><polyline points="4795,3800 4805,3800" stroke="black" fill="none"/><polyline points="4800,3795 4800,3805" stroke="black" fill="none"/>
       <!-- M73 J3 : Mollinsburn -->
-<!-- Junction: --> <polyline points="4800,3600 4825,3600" stroke="yellow" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Junction: --> <polyline points="4800,3600 4825,3600" stroke="orange" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="4830" y="3575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Mollinsburn</text>
 <!-- Cell: --> <polyline points="4775,3580 4775,3575 4780,3575" stroke="black" fill="none"/><polyline points="4825,3580 4825,3575 4820,3575" stroke="black" fill="none"/><polyline points="4825,3620 4825,3625 4820,3625" stroke="black" fill="none"/><polyline points="4775,3620 4775,3625 4780,3625" stroke="black" fill="none"/><polyline points="4795,3575 4805,3575" stroke="black" fill="none"/><polyline points="4795,3625 4805,3625" stroke="black" fill="none"/><polyline points="4775,3595 4775,3605" stroke="black" fill="none"/><polyline points="4825,3595 4825,3605" stroke="black" fill="none"/><polyline points="4795,3600 4805,3600" stroke="black" fill="none"/><polyline points="4800,3595 4800,3605" stroke="black" fill="none"/>
       <!-- M73 J3 : M80 -->
@@ -390,7 +390,7 @@
       <!-- M80 J2 : Robroyston -->
       <!-- Connector: --> <path d="M3400,4000 L3400,3800" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J3 : Lenzie -->
-      <!-- Connector: --> <path d="M3400,3800 L3400,3775 L3400,3625 C3400,3603.033008588991 3421.966991411009,3571.966991411009 3453.033008588991,3550  L3550,3475 C3571.966991411009,3453.033008588991 3603.033008588991,3400 3625,3400  L3975,3400 L4000,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3400,3800 L3400,3775 L3400,3625 A150 150 0 0 1 3443.9339828220177,3518.9339828220177 L3518.9339828220177,3443.9339828220177 A150 150 0 0 1 3625,3400 L3975,3400 L4000,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J4 : M73 -->
       <!-- Connector: --> <path d="M4000,3400 L4800,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
