@@ -13,22 +13,6 @@ function renderPath (path, route) {
   });
 }
 
-function renderControlPoints (path) {
-  let rendered = "";
-  for (var i = 1; i < path.length; i++) {
-    const command = path[i];
-    if (command.command != "C") { continue; }
-    const previous = path[i - 1];
-    rendered += `<line x1="${previous.x}" y1="${previous.y}" x2="${command.x1}" y2="${command.y1}" stroke="gray" stroke-width="${standard.lineWidth / 2}" />`;
-    rendered += `<circle cx="${previous.x}" cy="${previous.y}" r="${standard.lineWidth + 1}" fill="red"/>`;
-    rendered += `<circle cx="${command.x1}" cy="${command.y1}" r="${standard.lineWidth + 1}" fill="green"/>`;
-    rendered += `<line x1="${command.x2}" y1="${command.y2}" x2="${command.x}" y2="${command.y}" stroke="gray" stroke-width="${standard.lineWidth / 2}" />`;
-    rendered += `<circle cx="${command.x2}" cy="${command.y2}" r="${standard.lineWidth + 1}" fill="black"/>`;
-    rendered += `<circle cx="${command.x}" cy="${command.y}" r="${standard.lineWidth + 1}" fill="cyan"/>`;
-  }
-  return rendered;
-}
-
 function generateStraightConnector (from, to, route) {
   const path = connector.generateStraightPath(from, to);
   return renderPath(path, route);
@@ -37,9 +21,7 @@ function generateStraightConnector (from, to, route) {
 function generateTwoPartRoundedConnector (from, to, route) {
   const path = connector.generateTwoPartRoundedPath(from, to, route);
   const renderedPath = renderPath(path, route);
-  // return renderedPath;
-  const renderedControlPoints = renderControlPoints(path);
-  return renderedPath + renderedControlPoints;
+  return renderedPath;
 }
 
 module.exports = function generateConnector (to, from, route) {
@@ -50,34 +32,34 @@ module.exports = function generateConnector (to, from, route) {
     return generateTwoPartRoundedConnector(from, to, route);
   }
 
-  const jx = to.x;
-  const jy = to.y;
-  const jd = to.angle;
-  const pjx = from.x;
-  const pjy = from.y;
-  const pjd = from.angle;
+  const toX = to.x;
+  const toY = to.y;
+  const toD = to.angle;
+  const fromX = from.x;
+  const fromY = from.y;
+  const fromD = from.angle;
 
-  const xdir = jx === pjx ? "-" : (jx < pjx ? "e" : "w");
-  const ydir = jy === pjy ? "-" : (jy < pjy ? "s" : "n");
+  const xdir = toX === fromX ? "-" : (toX < fromX ? "e" : "w");
+  const ydir = toY === fromY ? "-" : (toY < fromY ? "s" : "n");
 
   let lastX = 0;
   let lastY = 0;
 
   const path = [];
-  switch (jd) {
+  switch (toD) {
     case "ew": {
       switch (xdir) {
         case "e": {
-          path.push({ x: jx, y: jy });
-          lastX = jx + standard.cellHalfSize;
-          lastY = jy;
+          path.push({ x: toX, y: toY });
+          lastX = toX + standard.cellHalfSize;
+          lastY = toY;
           path.push({ x: lastX, y: lastY });
           break;
         }
         case "w": {
-          path.push({ x: jx, y: jy });
-          lastX = jx - standard.cellHalfSize;
-          lastY = jy;
+          path.push({ x: toX, y: toY });
+          lastX = toX - standard.cellHalfSize;
+          lastY = toY;
           path.push({ x: lastX, y: lastY });
           break;
         }
@@ -90,16 +72,16 @@ module.exports = function generateConnector (to, from, route) {
     case "ns": {
       switch (ydir) {
         case "s": {
-          path.push({ x: jx, y: jy });
-          lastX = jx;
-          lastY = jy + standard.cellHalfSize;
+          path.push({ x: toX, y: toY });
+          lastX = toX;
+          lastY = toY + standard.cellHalfSize;
           path.push({ x: lastX, y: lastY });
           break;
         }
         case "n": {
-          path.push({ x: jx, y: jy - standard.cellHalfSize });
-          lastX = jx;
-          lastY = jy;
+          path.push({ x: toX, y: toY - standard.cellHalfSize });
+          lastX = toX;
+          lastY = toY;
           path.push({ x: lastX, y: lastY });
           break;
         }
@@ -110,24 +92,24 @@ module.exports = function generateConnector (to, from, route) {
       break;
     }
     default: {
-      log(`Unexpected junction direction, "${jd}", between "${route.name}.${from.number}/${from.name} and ${to.number}/${to.name}".`);
+      log(`Unexpected junction direction, "${toD}", between "${route.name}.${from.number}/${from.name} and ${to.number}/${to.name}".`);
       break;
     }
   }
 
   let nextX = 0;
   let nextY = 0;
-  switch (pjd) {
+  switch (fromD) {
     case "ew": {
       switch (xdir) {
         case "e": {
-          nextX = pjx - standard.cellHalfSize;
-          nextY = pjy;
+          nextX = fromX - standard.cellHalfSize;
+          nextY = fromY;
           break;
         }
         case "w": {
-          nextX = pjx + standard.cellHalfSize;
-          nextY = pjy;
+          nextX = fromX + standard.cellHalfSize;
+          nextY = fromY;
           break;
         }
         default: {
@@ -140,13 +122,13 @@ module.exports = function generateConnector (to, from, route) {
     case "ns": {
       switch (ydir) {
         case "s": {
-          nextX = pjx;
-          nextY = pjy - standard.cellHalfSize;
+          nextX = fromX;
+          nextY = fromY - standard.cellHalfSize;
           break;
         }
         case "n": {
-          nextX = pjx;
-          nextY = pjy + standard.cellHalfSize;
+          nextX = fromX;
+          nextY = fromY + standard.cellHalfSize;
           break;
         }
         default: {
@@ -273,7 +255,7 @@ module.exports = function generateConnector (to, from, route) {
   }
 
   path.push({ x: nextX, y: nextY });
-  path.push({ x: pjx, y: pjy });
+  path.push({ x: fromX, y: fromY });
 
   const result = renderPath(path, route);
   return result;
