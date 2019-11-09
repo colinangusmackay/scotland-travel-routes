@@ -13,14 +13,33 @@ function renderPath (path, route) {
   });
 }
 
+function renderControlPoints (path) {
+  let rendered = "";
+  for (var i = 1; i < path.length; i++) {
+    const command = path[i];
+    if (command.command != "C") { continue; }
+    const previous = path[i - 1];
+    rendered += `<line x1="${previous.x}" y1="${previous.y}" x2="${command.x1}" y2="${command.y1}" stroke="gray" stroke-width="${standard.lineWidth / 2}" />`;
+    rendered += `<circle cx="${previous.x}" cy="${previous.y}" r="${standard.lineWidth + 1}" fill="red"/>`;
+    rendered += `<circle cx="${command.x1}" cy="${command.y1}" r="${standard.lineWidth + 1}" fill="green"/>`;
+    rendered += `<line x1="${command.x2}" y1="${command.y2}" x2="${command.x}" y2="${command.y}" stroke="gray" stroke-width="${standard.lineWidth / 2}" />`;
+    rendered += `<circle cx="${command.x2}" cy="${command.y2}" r="${standard.lineWidth + 1}" fill="black"/>`;
+    rendered += `<circle cx="${command.x}" cy="${command.y}" r="${standard.lineWidth + 1}" fill="cyan"/>`;
+  }
+  return rendered;
+}
+
 function generateStraightConnector (from, to, route) {
   const path = connector.generateStraightPath(from, to);
   return renderPath(path, route);
 }
 
-function generateTwoPartRoundedConnector(from, to, route){
+function generateTwoPartRoundedConnector (from, to, route) {
   const path = connector.generateTwoPartRoundedPath(from, to, route);
-  return renderPath(path, route);
+  const renderedPath = renderPath(path, route);
+  //return renderedPath;
+  const renderedControlPoints = renderControlPoints(path);
+  return renderedPath + renderedControlPoints;
 }
 
 module.exports = function generateConnector (to, from, route) {

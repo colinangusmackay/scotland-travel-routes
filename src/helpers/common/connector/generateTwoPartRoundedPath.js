@@ -91,22 +91,46 @@ module.exports = function generateTwoPartRoundedPath (from, to, route) {
       let xDist = Math.abs(fromExit.x - toEntry.x);
       let yDist = Math.abs(fromExit.y - toEntry.y);
       let equiDist = Math.min(xDist, yDist);
-      if (equiDist > standard.cellSize) { equiDist -= standard.cellSize; }
+      const turnCells = Math.floor(equiDist / (standard.cellSize * 2));
+      if (turnCells > 0) { equiDist -= turnCells * standard.cellSize; }
       xDist -= equiDist;
       yDist -= equiDist;
       if (yDist > 0) {
         path.push({ x: fromExit.x, y: fromExit.y - yDist });
       }
-      const halfEquiDist = equiDist / 2;
+
+      const turnCellSize = standard.cellHalfSize * turnCells;
+      const turnDist = turnCellSize * Math.sin(Math.PI / 4);
+      const inverseTurnDist = turnCellSize - turnDist;
+
       path.push({
         command: "C",
         x1: fromExit.x,
-        y1: fromExit.y - (yDist + halfEquiDist),
-        x2: toEntry.x - (xDist + halfEquiDist),
+        y1: fromExit.y - (yDist + inverseTurnDist),
+        x2: fromExit.x + (inverseTurnDist),
+        y2: fromExit.y - (yDist + turnDist),
+        x: fromExit.x + turnDist,
+        y: fromExit.y - (yDist + turnCellSize)
+      });
+
+      path.push({
+        x: toEntry.x - (xDist + turnCellSize),
+        y: toEntry.y + turnCellSize
+      });
+
+      path.push({
+        command: "C",
+        x1: toEntry.x - (xDist + turnDist),
+        y1: toEntry.y + (turnDist),
+        x2: toEntry.x - (xDist + inverseTurnDist),
         y2: toEntry.y,
         x: toEntry.x - xDist,
         y: toEntry.y
       });
+
+      if (xDist > 0) {
+        path.push({ x: toEntry.x, y: toEntry.y });
+      }
       break;
     }
     case "ew;ew;n":

@@ -390,7 +390,7 @@
       <!-- M80 J2 : Robroyston -->
       <!-- Connector: --> <path d="M3400,4000 L3400,3800" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J3 : Lenzie -->
-      <!-- Connector: --> <path d="M3400,3800 L3400,3775 L3400,3725 C3400,3562.5 3562.5,3400 3725,3400  L4000,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3400,3800 L3400,3775 L3400,3625 C3400,3603.033008588991 3421.966991411009,3571.966991411009 3453.033008588991,3550  L3550,3475 C3571.966991411009,3453.033008588991 3603.033008588991,3400 3625,3400  L3975,3400 L4000,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J4 : M73 -->
       <!-- Connector: --> <path d="M4000,3400 L4800,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
