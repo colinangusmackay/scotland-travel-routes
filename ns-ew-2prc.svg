@@ -16,7 +16,7 @@
       <!-- Connector: --> 
 <!-- Terminator: --> <rect x="175" y="390" width="50" height="20" fill="blue" /><text x="200" y="425" text-anchor="middle" dominant-baseline="hanging" font-family="Fira Sans Condensed" font-size="50px">↑→</text>
       <!-- ↑→ End : End -->
-      <!-- Connector: --> <path d="M200,400 L200,375 L200,325 A50 50 0 0 1 214.64466094067262,289.6446609406726 L289.6446609406726,214.64466094067262 A50 50 0 0 1 325,200 L575,200 L600,200" stroke="blue" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M200,400 L200,375 L200,325 A50 50 0 0 1 214.64466094067262,289.6446609406726 L289.6446609406726,214.64466094067262 A50 50 0 0 1 325,200 L575,200 L600,200" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 <!-- Terminator: --> <rect x="590" y="175" width="20" height="50" fill="blue" /><text x="620" y="200" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">↑→</text>
 
       <!-- ↑→ Start : Start -->
@@ -32,7 +32,7 @@
       <!-- Connector: --> 
 <!-- Terminator: --> <rect x="890" y="175" width="20" height="50" fill="red" /><text x="880" y="200" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">→</text>
       <!-- → End : End -->
-      <!-- Connector: --> <path d="M900,200 L925,200 C975,200 1025,100 1075,100  L1100,100" stroke="red" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="925" y1="200" x2="975" y2="200" stroke="gray" stroke-width="1" /><circle cx="925" cy="200" r="3" fill="red"/><circle cx="975" cy="200" r="3" fill="green"/><line x1="1025" y1="100" x2="1075" y2="100" stroke="gray" stroke-width="1" /><circle cx="1025" cy="100" r="3" fill="black"/><circle cx="1075" cy="100" r="3" fill="cyan"/>
+      <!-- Connector: --> <path d="M900,200 L925,200 C975,200 1025,100 1075,100  L1100,100" stroke="red" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 <!-- Terminator: --> <rect x="1090" y="75" width="20" height="50" fill="red" /><text x="1120" y="100" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">→</text>
 
       <!-- → Start : Start -->
@@ -48,7 +48,7 @@
       <!-- Connector: --> 
 <!-- Terminator: --> <rect x="1490" y="175" width="20" height="50" fill="darkGreen" /><text x="1480" y="200" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">→</text>
       <!-- → End : End -->
-      <!-- Connector: --> <path d="M1500,200 L1525,200 C1575,200 1625,300 1675,300  L1700,300" stroke="darkGreen" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="1525" y1="200" x2="1575" y2="200" stroke="gray" stroke-width="1" /><circle cx="1525" cy="200" r="3" fill="red"/><circle cx="1575" cy="200" r="3" fill="green"/><line x1="1625" y1="300" x2="1675" y2="300" stroke="gray" stroke-width="1" /><circle cx="1625" cy="300" r="3" fill="black"/><circle cx="1675" cy="300" r="3" fill="cyan"/>
+      <!-- Connector: --> <path d="M1500,200 L1525,200 C1575,200 1625,300 1675,300  L1700,300" stroke="darkGreen" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 <!-- Terminator: --> <rect x="1690" y="275" width="20" height="50" fill="darkGreen" /><text x="1720" y="300" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">→</text>
 
       <!-- → Start : Start -->
@@ -64,7 +64,7 @@
       <!-- Connector: --> 
 <!-- Terminator: --> <rect x="390" y="675" width="20" height="50" fill="purple" /><text x="420" y="700" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">←</text>
       <!-- ← End : End -->
-      <!-- Connector: --> <path d="M400,700 L200,700" stroke="purple" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M400,700 L200,700" stroke="purple" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 <!-- Terminator: --> <rect x="190" y="675" width="20" height="50" fill="purple" /><text x="180" y="700" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">←</text>
 
       <!-- ← Start : Start -->
@@ -80,7 +80,7 @@
       <!-- Connector: --> 
 <!-- Terminator: --> <rect x="1090" y="675" width="20" height="50" fill="gray" /><text x="1120" y="700" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">←</text>
       <!-- ← End : End -->
-      <!-- Connector: --> <path d="M1100,700 L1075,700 C1025,700 975,650 925,650  L900,650" stroke="gray" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="1075" y1="700" x2="1025" y2="700" stroke="gray" stroke-width="1" /><circle cx="1075" cy="700" r="3" fill="red"/><circle cx="1025" cy="700" r="3" fill="green"/><line x1="975" y1="650" x2="925" y2="650" stroke="gray" stroke-width="1" /><circle cx="975" cy="650" r="3" fill="black"/><circle cx="925" cy="650" r="3" fill="cyan"/>
+      <!-- Connector: --> <path d="M1100,700 L1075,700 C1025,700 975,650 925,650  L900,650" stroke="gray" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 <!-- Terminator: --> <rect x="890" y="625" width="20" height="50" fill="gray" /><text x="880" y="650" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">←</text>
 
       <!-- ← Start : Start -->
@@ -96,7 +96,7 @@
       <!-- Connector: --> 
 <!-- Terminator: --> <rect x="1690" y="675" width="20" height="50" fill="orange" /><text x="1720" y="700" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">←</text>
       <!-- ← End : End -->
-      <!-- Connector: --> <path d="M1700,700 L1675,700 C1625,700 1575,750 1525,750  L1500,750" stroke="orange" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="1675" y1="700" x2="1625" y2="700" stroke="gray" stroke-width="1" /><circle cx="1675" cy="700" r="3" fill="red"/><circle cx="1625" cy="700" r="3" fill="green"/><line x1="1575" y1="750" x2="1525" y2="750" stroke="gray" stroke-width="1" /><circle cx="1575" cy="750" r="3" fill="black"/><circle cx="1525" cy="750" r="3" fill="cyan"/>
+      <!-- Connector: --> <path d="M1700,700 L1675,700 C1625,700 1575,750 1525,750  L1500,750" stroke="orange" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 <!-- Terminator: --> <rect x="1490" y="725" width="20" height="50" fill="orange" /><text x="1480" y="750" text-anchor="end" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">←</text>
 
       <!-- ← Start : Start -->

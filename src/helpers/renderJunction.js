@@ -9,7 +9,7 @@ module.exports = function (plop) {
     const route = getRoute(context);
 
     let rendered = "";
-    if (junction.type === "standard") {
+    if ((junction.type === "standard") && (junction.labelOffset)) {
       rendered += "\n<!-- Junction: --> ";
       const path = [{ x: junction.x, y: junction.y }];
       switch (junction.labelOffset) {

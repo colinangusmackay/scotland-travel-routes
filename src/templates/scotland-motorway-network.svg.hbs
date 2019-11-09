@@ -1,6 +1,6 @@
 <svg version="1.1"
      baseProfile="full"
-     width="8000" height="8000"
+     width="8000" height="7000"
      xmlns="http://www.w3.org/2000/svg">
   <style>
     @font-face {
@@ -212,7 +212,25 @@
   "M9":{
     "colour":"purple", "contrastColour": "white",
     "name":"M9", "route":"Newbridge - Dunblane",
-    "dx":10, "dy":300},
+    "dx":10, "dy":300,
+    "junctions": {
+      "J0": {
+        "number": "J0", "name": "", "labelOffset": "s",
+        "type": "interchange", "angle": "ns",
+        "x":7400, "y": 4000
+      },
+      "J1": {
+        "number": "J1", "name": "Newbridge", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 3850
+      },
+      "J2": {
+        "number": "J2", "name": "Kirkliston", "labelOffset": "w",
+        "type": "interchange", "angle": "ns",
+        "x":7400, "y": 3700
+      }
+    }
+  },
   "M73":{
     "colour":"orange", "contrastColour": "black",
     "name":"M73", "route":"Maryville - Mollinsburn",
@@ -516,7 +534,117 @@
   "M90":{
     "colour":"cyan", "contrastColour": "black",
     "name":"M90", "route":"Kirliston - Perth",
-    "dx":10, "dy":1300},
+    "dx":10, "dy":1300,
+    "junctions": {
+      "J0": {
+        "number": "J0", "name": "M90", "labelOffset": "ne",
+        "type": "interchange", "angle": "ew",
+        "x":7400, "y": 3700
+      },
+      "pre-J1": {
+        "number": "pre-J1", "name": "", "labelOffset": "",
+        "type": "standard", "angle": "ns", "connectionToPrevious": "rounded",
+        "x":7700, "y": 3500
+      },
+      "J1": {
+        "number": "J1", "name": "Dalmeny", "labelOffset": "n",
+        "type": "standard", "angle": "ew", "connectionToPrevious": "rounded",
+        "x":7600, "y": 3400
+      },
+      "J1A": {
+        "number": "J1A", "name": "Queensferry", "labelOffset": "w",
+        "type": "standard", "angle": "ns", "connectionToPrevious": "rounded",
+        "x":7400, "y": 3300
+      },
+      "J1B": {
+        "number": "J1B", "name": "North Queensferry", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 3100
+      },
+      "J1C": {
+        "number": "J1C", "name": "Rosyth", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 3000
+      },
+      "J2": {
+        "number": "J2", "name": "Pitreavie", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2900
+      },
+      "J2A": {
+        "number": "J2A", "name": "Crossgates", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2800
+      },
+      "J3": {
+        "number": "J3", "name": "Halbeath", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2700
+      },
+      "J4": {
+        "number": "J4", "name": "Kelty", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2600
+      },
+      "J5": {
+        "number": "J5", "name": "Cleish", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2500
+      },
+      "J6": {
+        "number": "J6", "name": "Kinross", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2400
+      },
+      "J6S": {
+        "number": "J6S", "name": "Services", "labelOffset": "e",
+        "type": "services", "angle": "ns", "serviceSides": "e",
+        "x":7400, "y": 2400
+      },
+      "J7": {
+        "number": "J7", "name": "Milnathort", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2300
+      },
+      "J8": {
+        "number": "J8", "name": "Mawcarse", "labelOffset": "e",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2200
+      },
+      "J9": {
+        "number": "J9", "name": "Bridge of Earn", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":7400, "y": 2100
+      },
+      "J10": {
+        "number": "J10", "name": "Friarton", "labelOffset": "s",
+        "type": "standard", "angle": "ew", "connectionToPrevious": "rounded",
+        "x":7200, "y": 1900
+      },
+      "J12": {
+        "number": "J12", "name": "Broxden Roundabout", "labelOffset": "n",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "w",
+        "x":6800, "y": 1900
+      }
+    }
+  },
+  "M90-spur":{
+    "colour":"cyan", "contrastColour": "black",
+    "name":"M90", "route":"Kirliston - Perth",
+    "dx":10, "dy":1300,
+    "junctions": {
+      "J10": {
+        "number": "J10", "name": "", "labelOffset": "s",
+        "type": "standard", "angle": "ew",
+        "x":7200, "y": 1900
+      },
+      "J11": {
+        "number": "J11", "name": "Perth", "labelOffset": "e",
+        "type": "terminator", "angle": "ns", "connectionToPrevious": "rounded", "terminatorLabelOffset": "n",
+        "x":7100, "y": 1700
+      }
+     }
+  },
   "M876":{
     "colour":"pink", "contrastColour": "black",
     "name":"M876", "route":"Denny - Kincardine",

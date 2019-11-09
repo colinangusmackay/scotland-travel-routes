@@ -18,10 +18,14 @@ function generateStraightConnector (from, to, route) {
   return renderPath(path, route);
 }
 
+function generateRoundedConnector (from, to, route) {
+  const path = connector.generateRoundedPath(from, to, route);
+  return renderPath(path, route);
+}
+
 function generateTwoPartRoundedConnector (from, to, route) {
   const path = connector.generateTwoPartRoundedPath(from, to, route);
-  const renderedPath = renderPath(path, route);
-  return renderedPath;
+  return renderPath(path, route);
 }
 
 module.exports = function generateConnector (to, from, route) {
@@ -30,6 +34,9 @@ module.exports = function generateConnector (to, from, route) {
   }
   if (to.connectionToPrevious === "two-part-rounded") {
     return generateTwoPartRoundedConnector(from, to, route);
+  }
+  if (to.connectionToPrevious === "rounded") {
+    return generateRoundedConnector(from, to, route);
   }
 
   const toX = to.x;
@@ -167,82 +174,6 @@ module.exports = function generateConnector (to, from, route) {
           largeArc: false,
           sweep: false
         });
-      }
-      break;
-    }
-    case "rounded": {
-      log(`Rounded connection to "${route.name}.${to.number}/${to.name}"(${to.angle}) from "${from.number}/${from.name}"(${from.angle}) (${xdir},${ydir}).`);
-      const straightX = (Math.abs(lastX - nextX) - standard.cellSize);
-      const straightY = (Math.abs(lastY - nextY) - standard.cellSize);
-
-      if (to.angle === "ns" && from.angle === "ew") {
-        if (xdir === "e") {
-          path.push({ x: lastX, y: lastY - straightY });
-          path.push({
-            x: lastX + standard.cellSize,
-            y: lastY - straightY - standard.cellSize,
-            command: "A",
-            rx: standard.cellSize,
-            ry: standard.cellSize,
-            angle: 0,
-            largeArc: false,
-            sweep: true
-          });
-        } else if (xdir === "w") {
-          if (ydir === "n") {
-            path.push({ x: lastX, y: lastY - straightY });
-            path.push({
-              x: lastX - standard.cellSize,
-              y: lastY - straightY - standard.cellSize,
-              command: "A",
-              rx: standard.cellSize,
-              ry: standard.cellSize,
-              angle: 0,
-              largeArc: false,
-              sweep: false
-            });
-          } else if (ydir === "s") {
-            // path.push({ x: lastX, y: lastY - straightY });
-            // path.push({
-            //   x: lastX - standard.cellSize,
-            //   y: lastY - straightY - standard.cellSize,
-            //   command: "A",
-            //   rx: standard.cellSize,
-            //   ry: standard.cellSize,
-            //   angle: 0,
-            //   largeArc: false,
-            //   sweep: true
-            // });
-          }
-        }
-      } else if (to.angle === "ew" && from.angle === "ns") {
-        if (xdir === "e") {
-          path.push({ x: lastX + straightX, y: lastY });
-          path.push({
-            x: lastX + straightX + standard.cellSize,
-            y: lastY - standard.cellSize,
-            command: "A",
-            rx: standard.cellSize,
-            ry: standard.cellSize,
-            angle: 0,
-            largeArc: false,
-            sweep: false
-          });
-        } else if (xdir === "w") {
-          path.push({ x: lastX - straightX, y: lastY });
-          path.push({
-            x: lastX - straightX - standard.cellSize,
-            y: lastY - standard.cellSize,
-            command: "A",
-            rx: standard.cellSize,
-            ry: standard.cellSize,
-            angle: 0,
-            largeArc: false,
-            sweep: true
-          });
-        }
-      } else {
-        log(`Unexpected Rounded connection from "${route.name}.${to.number}/${to.name}" (${to.angle}) to "${from.number}/${from.name}" (${from.angle}).`);
       }
       break;
     }
