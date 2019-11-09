@@ -515,13 +515,66 @@
 <!-- Interchange: --> <circle cx="5000" cy="5600" r="25" fill="white" stroke="black" stroke-width="6.25" />
 <!-- Cell: --> <polyline points="4975,5575 5025,5575 5025,5625 4975,5625 4975,5575" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4975,5575 5025,5625" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5025,5575 4975,5625" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4975,5580 4975,5575 4980,5575" stroke="black" fill="none"/><polyline points="5025,5580 5025,5575 5020,5575" stroke="black" fill="none"/><polyline points="5025,5620 5025,5625 5020,5625" stroke="black" fill="none"/><polyline points="4975,5620 4975,5625 4980,5625" stroke="black" fill="none"/><polyline points="4995,5575 5005,5575" stroke="black" fill="none"/><polyline points="4995,5625 5005,5625" stroke="black" fill="none"/><polyline points="4975,5595 4975,5605" stroke="black" fill="none"/><polyline points="5025,5595 5025,5605" stroke="black" fill="none"/><polyline points="4995,5600 5005,5600" stroke="black" fill="none"/><polyline points="5000,5595 5000,5605" stroke="black" fill="none"/>
       <!-- Legend for M77 : Tradeston - Fenwick -->
-      <rect x="10" y="900" fill="dark-green" height="200" width="3500" stroke="white" stroke-width="1"/>
+      <rect x="10" y="900" fill="mediumorchid" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
           <text x="60" y="1000" font-weight="bold">M77</text>
           <text x="610" y="1000">Tradeston - Fenwick</text>
       </g>
 
+      <!-- M77 J0 : M77 -->
+      <!-- Connector: --> 
+      <!-- M77 J1 : Bellahouston -->
+      <!-- Connector: --> <path d="M1900,4600 L1925,4600 L2100,4600 A50 50 0 0 0 2150,4550 L2150,4425 L2150,4400" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J2 : Silverburn -->
+      <!-- Connector: --> <path d="M1700,4775 L1700,4800 L1700,4650 A50 50 0 0 1 1750,4600 L1875,4600 L1900,4600" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J3 : Darnley -->
+      <!-- Connector: --> <path d="M1700,4800 L1700,4900" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J4 : Newton Mearns -->
+      <!-- Connector: --> <path d="M1700,4900 L1700,5000" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J5 : Loganswell -->
+      <!-- Connector: --> <path d="M1700,5000 L1700,5100" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J6 : Kingswell -->
+      <!-- Connector: --> <path d="M1700,5100 L1700,5200" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J7 : Fenwick -->
+      <!-- Connector: --> <path d="M1700,5200 L1700,5300" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M77 J8 :  -->
+      <!-- Connector: --> <path d="M1700,5300 L1700,5400" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
+      <!-- M77 J0 : M77 -->
+<!-- Interchange: --> <circle cx="2150" cy="4400" r="25" fill="white" stroke="black" stroke-width="6.25" />
+<!-- Label: --> <text x="2180" y="4430" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">M77</text>
+<!-- Cell: --> <polyline points="2125,4380 2125,4375 2130,4375" stroke="black" fill="none"/><polyline points="2175,4380 2175,4375 2170,4375" stroke="black" fill="none"/><polyline points="2175,4420 2175,4425 2170,4425" stroke="black" fill="none"/><polyline points="2125,4420 2125,4425 2130,4425" stroke="black" fill="none"/><polyline points="2145,4375 2155,4375" stroke="black" fill="none"/><polyline points="2145,4425 2155,4425" stroke="black" fill="none"/><polyline points="2125,4395 2125,4405" stroke="black" fill="none"/><polyline points="2175,4395 2175,4405" stroke="black" fill="none"/><polyline points="2145,4400 2155,4400" stroke="black" fill="none"/><polyline points="2150,4395 2150,4405" stroke="black" fill="none"/>
+      <!-- M77 J1 : Bellahouston -->
+<!-- Junction: --> <polyline points="1900,4600 1900,4575" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1900" y="4520" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Bellahouston</text>
+<!-- Cell: --> <polyline points="1875,4575 1925,4575 1925,4625 1875,4625 1875,4575" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1875,4575 1925,4625" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1925,4575 1875,4625" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1875,4580 1875,4575 1880,4575" stroke="black" fill="none"/><polyline points="1925,4580 1925,4575 1920,4575" stroke="black" fill="none"/><polyline points="1925,4620 1925,4625 1920,4625" stroke="black" fill="none"/><polyline points="1875,4620 1875,4625 1880,4625" stroke="black" fill="none"/><polyline points="1895,4575 1905,4575" stroke="black" fill="none"/><polyline points="1895,4625 1905,4625" stroke="black" fill="none"/><polyline points="1875,4595 1875,4605" stroke="black" fill="none"/><polyline points="1925,4595 1925,4605" stroke="black" fill="none"/><polyline points="1895,4600 1905,4600" stroke="black" fill="none"/><polyline points="1900,4595 1900,4605" stroke="black" fill="none"/>
+      <!-- M77 J2 : Silverburn -->
+<!-- Junction: --> <polyline points="1700,4800 1725,4800" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1730" y="4775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Silverburn</text>
+<!-- Cell: --> <polyline points="1675,4780 1675,4775 1680,4775" stroke="black" fill="none"/><polyline points="1725,4780 1725,4775 1720,4775" stroke="black" fill="none"/><polyline points="1725,4820 1725,4825 1720,4825" stroke="black" fill="none"/><polyline points="1675,4820 1675,4825 1680,4825" stroke="black" fill="none"/><polyline points="1695,4775 1705,4775" stroke="black" fill="none"/><polyline points="1695,4825 1705,4825" stroke="black" fill="none"/><polyline points="1675,4795 1675,4805" stroke="black" fill="none"/><polyline points="1725,4795 1725,4805" stroke="black" fill="none"/><polyline points="1695,4800 1705,4800" stroke="black" fill="none"/><polyline points="1700,4795 1700,4805" stroke="black" fill="none"/>
+      <!-- M77 J3 : Darnley -->
+<!-- Junction: --> <polyline points="1700,4900 1675,4900" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1670" y="4875" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Darnley</text>
+<!-- Cell: --> <polyline points="1675,4880 1675,4875 1680,4875" stroke="black" fill="none"/><polyline points="1725,4880 1725,4875 1720,4875" stroke="black" fill="none"/><polyline points="1725,4920 1725,4925 1720,4925" stroke="black" fill="none"/><polyline points="1675,4920 1675,4925 1680,4925" stroke="black" fill="none"/><polyline points="1695,4875 1705,4875" stroke="black" fill="none"/><polyline points="1695,4925 1705,4925" stroke="black" fill="none"/><polyline points="1675,4895 1675,4905" stroke="black" fill="none"/><polyline points="1725,4895 1725,4905" stroke="black" fill="none"/><polyline points="1695,4900 1705,4900" stroke="black" fill="none"/><polyline points="1700,4895 1700,4905" stroke="black" fill="none"/>
+      <!-- M77 J4 : Newton Mearns -->
+<!-- Junction: --> <polyline points="1700,5000 1725,5000" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1730" y="4975" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Newton Mearns</text>
+<!-- Cell: --> <polyline points="1675,4980 1675,4975 1680,4975" stroke="black" fill="none"/><polyline points="1725,4980 1725,4975 1720,4975" stroke="black" fill="none"/><polyline points="1725,5020 1725,5025 1720,5025" stroke="black" fill="none"/><polyline points="1675,5020 1675,5025 1680,5025" stroke="black" fill="none"/><polyline points="1695,4975 1705,4975" stroke="black" fill="none"/><polyline points="1695,5025 1705,5025" stroke="black" fill="none"/><polyline points="1675,4995 1675,5005" stroke="black" fill="none"/><polyline points="1725,4995 1725,5005" stroke="black" fill="none"/><polyline points="1695,5000 1705,5000" stroke="black" fill="none"/><polyline points="1700,4995 1700,5005" stroke="black" fill="none"/>
+      <!-- M77 J5 : Loganswell -->
+<!-- Junction: --> <polyline points="1700,5100 1675,5100" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1670" y="5075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Loganswell</text>
+<!-- Cell: --> <polyline points="1675,5080 1675,5075 1680,5075" stroke="black" fill="none"/><polyline points="1725,5080 1725,5075 1720,5075" stroke="black" fill="none"/><polyline points="1725,5120 1725,5125 1720,5125" stroke="black" fill="none"/><polyline points="1675,5120 1675,5125 1680,5125" stroke="black" fill="none"/><polyline points="1695,5075 1705,5075" stroke="black" fill="none"/><polyline points="1695,5125 1705,5125" stroke="black" fill="none"/><polyline points="1675,5095 1675,5105" stroke="black" fill="none"/><polyline points="1725,5095 1725,5105" stroke="black" fill="none"/><polyline points="1695,5100 1705,5100" stroke="black" fill="none"/><polyline points="1700,5095 1700,5105" stroke="black" fill="none"/>
+      <!-- M77 J6 : Kingswell -->
+<!-- Junction: --> <polyline points="1700,5200 1725,5200" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1730" y="5175" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Kingswell</text>
+<!-- Cell: --> <polyline points="1675,5180 1675,5175 1680,5175" stroke="black" fill="none"/><polyline points="1725,5180 1725,5175 1720,5175" stroke="black" fill="none"/><polyline points="1725,5220 1725,5225 1720,5225" stroke="black" fill="none"/><polyline points="1675,5220 1675,5225 1680,5225" stroke="black" fill="none"/><polyline points="1695,5175 1705,5175" stroke="black" fill="none"/><polyline points="1695,5225 1705,5225" stroke="black" fill="none"/><polyline points="1675,5195 1675,5205" stroke="black" fill="none"/><polyline points="1725,5195 1725,5205" stroke="black" fill="none"/><polyline points="1695,5200 1705,5200" stroke="black" fill="none"/><polyline points="1700,5195 1700,5205" stroke="black" fill="none"/>
+      <!-- M77 J7 : Fenwick -->
+<!-- Junction: --> <polyline points="1700,5300 1675,5300" stroke="mediumorchid" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1670" y="5275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Fenwick</text>
+<!-- Cell: --> <polyline points="1675,5280 1675,5275 1680,5275" stroke="black" fill="none"/><polyline points="1725,5280 1725,5275 1720,5275" stroke="black" fill="none"/><polyline points="1725,5320 1725,5325 1720,5325" stroke="black" fill="none"/><polyline points="1675,5320 1675,5325 1680,5325" stroke="black" fill="none"/><polyline points="1695,5275 1705,5275" stroke="black" fill="none"/><polyline points="1695,5325 1705,5325" stroke="black" fill="none"/><polyline points="1675,5295 1675,5305" stroke="black" fill="none"/><polyline points="1725,5295 1725,5305" stroke="black" fill="none"/><polyline points="1695,5300 1705,5300" stroke="black" fill="none"/><polyline points="1700,5295 1700,5305" stroke="black" fill="none"/>
+      <!-- M77 J8 :  -->
+<!-- Terminator: --> <rect x="1675" y="5390" width="50" height="20" fill="mediumorchid" /><text x="1700" y="5425" text-anchor="middle" dominant-baseline="hanging" font-family="Fira Sans Condensed" font-size="50px">M77</text>
+<!-- Cell: --> <polyline points="1675,5380 1675,5375 1680,5375" stroke="black" fill="none"/><polyline points="1725,5380 1725,5375 1720,5375" stroke="black" fill="none"/><polyline points="1725,5420 1725,5425 1720,5425" stroke="black" fill="none"/><polyline points="1675,5420 1675,5425 1680,5425" stroke="black" fill="none"/><polyline points="1695,5375 1705,5375" stroke="black" fill="none"/><polyline points="1695,5425 1705,5425" stroke="black" fill="none"/><polyline points="1675,5395 1675,5405" stroke="black" fill="none"/><polyline points="1725,5395 1725,5405" stroke="black" fill="none"/><polyline points="1695,5400 1705,5400" stroke="black" fill="none"/><polyline points="1700,5395 1700,5405" stroke="black" fill="none"/>
       <!-- Legend for M80 : Provan - Stirling -->
       <rect x="10" y="1100" fill="green" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
