@@ -17,12 +17,20 @@ module.exports = function (plop) {
           path.push({ x: junction.x, y: junction.y - standard.cellHalfSize });
           break;
         }
+        case "ne": {
+          path.push({ x: junction.x + (standard.cellHalfSize * standard.cos45), y: junction.y - (standard.cellHalfSize * standard.sin45) });
+          break;
+        }
         case "e": {
           path.push({ x: junction.x + standard.cellHalfSize, y: junction.y });
           break;
         }
         case "s": {
           path.push({ x: junction.x, y: junction.y + standard.cellHalfSize });
+          break;
+        }
+        case "sw": {
+          path.push({ x: junction.x - (standard.cellHalfSize * standard.cos45), y: junction.y + (standard.cellHalfSize * standard.sin45) });
           break;
         }
         case "w": {
