@@ -662,22 +662,22 @@
       <!-- Connector: --> 
       <!-- M80 J2 : Robroyston -->
       <!-- Connector: --> <path d="M3400,4000 L3400,3800" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M80 J3 : Lenzie -->
+      <!-- M80 J3 : Hornshill -->
       <!-- Connector: --> <path d="M3400,3800 L3400,3775 L3400,3625 A150 150 0 0 1 3443.9339828220177,3518.9339828220177 L3518.9339828220177,3443.9339828220177 A150 150 0 0 1 3625,3400 L3975,3400 L4000,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J4 : M73 -->
       <!-- Connector: --> <path d="M4000,3400 L4800,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M80 J4A : Condorrat -->
+      <!-- M80 J4A : Low Wood -->
       <!-- Connector: --> <path d="M4800,3400 L4825,3400 L4864.644660940672,3400 A50 50 0 0 0 4899.999999999999,3385.3553390593274 L4982.322330470336,3317.6776695296635 L5000,3300" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M80 J5 : Eastfield -->
-      <!-- Connector: --> <path d="M5000,3300 L5100,3200" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M80 J6 : Carrickstone -->
-      <!-- Connector: --> <path d="M5100,3200 L5200,3100" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M80 J5 : Auchenkilns -->
+      <!-- Connector: --> <path d="M5000,3300 L5075,3225" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M80 J6 : Old Inns -->
+      <!-- Connector: --> <path d="M5075,3225 L5150,3150" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J6A : Castlecary -->
-      <!-- Connector: --> <path d="M5200,3100 L5300,3000" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5150,3150 L5210.355339059327,3089.6446609406726 A50 50 0 0 0 5225,3060.3553390593274 L5225,3000 L5225,2975" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J7 : Haggs -->
-      <!-- Connector: --> <path d="M5300,3000 L5300,2975 L5300,2950 A50 50 0 0 1 5350,2900 L5400,2900" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M80 J8 : Bankhead Interchange -->
-      <!-- Connector: --> <path d="M5400,2900 L5500,2900" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M5225,2975 L5225,2950 L5225,2950 A50 50 0 0 1 5275,2900 L5375,2900" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M80 J8 : Bankhead -->
+      <!-- Connector: --> <path d="M5375,2900 L5500,2900" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J9 :  -->
       <!-- Connector: --> <path d="M5500,2900 L5525,2900 L5550,2900 A50 50 0 0 0 5600,2850 L5600,2400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
@@ -688,37 +688,37 @@
 <!-- Junction: --> <polyline points="3400,3800 3425,3800" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="3430" y="3775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Robroyston</text>
 <!-- Cell: --> <circle cx="3400" cy="3800" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="3375,3780 3375,3775 3380,3775" stroke="black" fill="none"/><polyline points="3425,3780 3425,3775 3420,3775" stroke="black" fill="none"/><polyline points="3425,3820 3425,3825 3420,3825" stroke="black" fill="none"/><polyline points="3375,3820 3375,3825 3380,3825" stroke="black" fill="none"/><polyline points="3395,3775 3405,3775" stroke="black" fill="none"/><polyline points="3395,3825 3405,3825" stroke="black" fill="none"/><polyline points="3375,3795 3375,3805" stroke="black" fill="none"/><polyline points="3425,3795 3425,3805" stroke="black" fill="none"/><polyline points="3395,3800 3405,3800" stroke="black" fill="none"/><polyline points="3400,3795 3400,3805" stroke="black" fill="none"/>
-      <!-- M80 J3 : Lenzie -->
+      <!-- M80 J3 : Hornshill -->
 <!-- Junction: --> <polyline points="4000,3400 4000,3375" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4000" y="3320" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Lenzie</text>
+<!-- Label: --> <text x="4000" y="3320" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Hornshill</text>
 <!-- Cell: --> <circle cx="4000" cy="3400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="3975,3375 4025,3375 4025,3425 3975,3425 3975,3375" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3975,3375 4025,3425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4025,3375 3975,3425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3975,3380 3975,3375 3980,3375" stroke="black" fill="none"/><polyline points="4025,3380 4025,3375 4020,3375" stroke="black" fill="none"/><polyline points="4025,3420 4025,3425 4020,3425" stroke="black" fill="none"/><polyline points="3975,3420 3975,3425 3980,3425" stroke="black" fill="none"/><polyline points="3995,3375 4005,3375" stroke="black" fill="none"/><polyline points="3995,3425 4005,3425" stroke="black" fill="none"/><polyline points="3975,3395 3975,3405" stroke="black" fill="none"/><polyline points="4025,3395 4025,3405" stroke="black" fill="none"/><polyline points="3995,3400 4005,3400" stroke="black" fill="none"/><polyline points="4000,3395 4000,3405" stroke="black" fill="none"/>
       <!-- M80 J4 : M73 -->
 <!-- Interchange: --> <circle cx="4800" cy="3400" r="25" fill="white" stroke="black" stroke-width="6.25" />
 <!-- Label: --> <text x="4800" y="3320" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">M73</text>
 <!-- Cell: --> <circle cx="4800" cy="3400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4775,3375 4825,3375 4825,3425 4775,3425 4775,3375" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,3375 4825,3425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4825,3375 4775,3425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,3380 4775,3375 4780,3375" stroke="black" fill="none"/><polyline points="4825,3380 4825,3375 4820,3375" stroke="black" fill="none"/><polyline points="4825,3420 4825,3425 4820,3425" stroke="black" fill="none"/><polyline points="4775,3420 4775,3425 4780,3425" stroke="black" fill="none"/><polyline points="4795,3375 4805,3375" stroke="black" fill="none"/><polyline points="4795,3425 4805,3425" stroke="black" fill="none"/><polyline points="4775,3395 4775,3405" stroke="black" fill="none"/><polyline points="4825,3395 4825,3405" stroke="black" fill="none"/><polyline points="4795,3400 4805,3400" stroke="black" fill="none"/><polyline points="4800,3395 4800,3405" stroke="black" fill="none"/>
-      <!-- M80 J4A : Condorrat -->
+      <!-- M80 J4A : Low Wood -->
 <!-- Junction: --> <polyline points="5000,3300 5025,3325" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5030" y="3330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Condorrat</text>
+<!-- Label: --> <text x="5030" y="3330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Low Wood</text>
 <!-- Cell: --> <circle cx="5000" cy="3300" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
-      <!-- M80 J5 : Eastfield -->
-<!-- Junction: --> <polyline points="5100,3200 5075,3175" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5070" y="3120" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Eastfield</text>
-<!-- Cell: --> <circle cx="5100" cy="3200" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
-      <!-- M80 J6 : Carrickstone -->
-<!-- Junction: --> <polyline points="5200,3100 5225,3125" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5230" y="3130" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Carrickstone</text>
-<!-- Cell: --> <circle cx="5200" cy="3100" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
+      <!-- M80 J5 : Auchenkilns -->
+<!-- Junction: --> <polyline points="5075,3225 5050,3200" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="5045" y="3145" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Auchenkilns</text>
+<!-- Cell: --> <circle cx="5075" cy="3225" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
+      <!-- M80 J6 : Old Inns -->
+<!-- Junction: --> <polyline points="5150,3150 5175,3175" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="5180" y="3180" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Old Inns</text>
+<!-- Cell: --> <circle cx="5150" cy="3150" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
       <!-- M80 J6A : Castlecary -->
-<!-- Junction: --> <polyline points="5300,3000 5275,3000" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5270" y="2975" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Castlecary</text>
-<!-- Cell: --> <circle cx="5300" cy="3000" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5275,2980 5275,2975 5280,2975" stroke="black" fill="none"/><polyline points="5325,2980 5325,2975 5320,2975" stroke="black" fill="none"/><polyline points="5325,3020 5325,3025 5320,3025" stroke="black" fill="none"/><polyline points="5275,3020 5275,3025 5280,3025" stroke="black" fill="none"/><polyline points="5295,2975 5305,2975" stroke="black" fill="none"/><polyline points="5295,3025 5305,3025" stroke="black" fill="none"/><polyline points="5275,2995 5275,3005" stroke="black" fill="none"/><polyline points="5325,2995 5325,3005" stroke="black" fill="none"/><polyline points="5295,3000 5305,3000" stroke="black" fill="none"/><polyline points="5300,2995 5300,3005" stroke="black" fill="none"/>
+<!-- Junction: --> <polyline points="5225,2975 5200,2975" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="5195" y="2950" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Castlecary</text>
+<!-- Cell: --> <circle cx="5225" cy="2975" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5200,2955 5200,2950 5205,2950" stroke="black" fill="none"/><polyline points="5250,2955 5250,2950 5245,2950" stroke="black" fill="none"/><polyline points="5250,2995 5250,3000 5245,3000" stroke="black" fill="none"/><polyline points="5200,2995 5200,3000 5205,3000" stroke="black" fill="none"/><polyline points="5220,2950 5230,2950" stroke="black" fill="none"/><polyline points="5220,3000 5230,3000" stroke="black" fill="none"/><polyline points="5200,2970 5200,2980" stroke="black" fill="none"/><polyline points="5250,2970 5250,2980" stroke="black" fill="none"/><polyline points="5220,2975 5230,2975" stroke="black" fill="none"/><polyline points="5225,2970 5225,2980" stroke="black" fill="none"/>
       <!-- M80 J7 : Haggs -->
-<!-- Junction: --> <polyline points="5400,2900 5400,2925" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5400" y="2930" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Haggs</text>
-<!-- Cell: --> <circle cx="5400" cy="2900" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5375,2875 5425,2875 5425,2925 5375,2925 5375,2875" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5375,2875 5425,2925" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5425,2875 5375,2925" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5375,2880 5375,2875 5380,2875" stroke="black" fill="none"/><polyline points="5425,2880 5425,2875 5420,2875" stroke="black" fill="none"/><polyline points="5425,2920 5425,2925 5420,2925" stroke="black" fill="none"/><polyline points="5375,2920 5375,2925 5380,2925" stroke="black" fill="none"/><polyline points="5395,2875 5405,2875" stroke="black" fill="none"/><polyline points="5395,2925 5405,2925" stroke="black" fill="none"/><polyline points="5375,2895 5375,2905" stroke="black" fill="none"/><polyline points="5425,2895 5425,2905" stroke="black" fill="none"/><polyline points="5395,2900 5405,2900" stroke="black" fill="none"/><polyline points="5400,2895 5400,2905" stroke="black" fill="none"/>
-      <!-- M80 J8 : Bankhead Interchange -->
+<!-- Junction: --> <polyline points="5375,2900 5375,2925" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="5375" y="2930" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Haggs</text>
+<!-- Cell: --> <circle cx="5375" cy="2900" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5350,2875 5400,2875 5400,2925 5350,2925 5350,2875" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5350,2875 5400,2925" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5400,2875 5350,2925" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5350,2880 5350,2875 5355,2875" stroke="black" fill="none"/><polyline points="5400,2880 5400,2875 5395,2875" stroke="black" fill="none"/><polyline points="5400,2920 5400,2925 5395,2925" stroke="black" fill="none"/><polyline points="5350,2920 5350,2925 5355,2925" stroke="black" fill="none"/><polyline points="5370,2875 5380,2875" stroke="black" fill="none"/><polyline points="5370,2925 5380,2925" stroke="black" fill="none"/><polyline points="5350,2895 5350,2905" stroke="black" fill="none"/><polyline points="5400,2895 5400,2905" stroke="black" fill="none"/><polyline points="5370,2900 5380,2900" stroke="black" fill="none"/><polyline points="5375,2895 5375,2905" stroke="black" fill="none"/>
+      <!-- M80 J8 : Bankhead -->
 <!-- Interchange: --> <circle cx="5500" cy="2900" r="25" fill="white" stroke="black" stroke-width="6.25" />
-<!-- Label: --> <text x="5520" y="2820" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Bankhead Interchange</text>
+<!-- Label: --> <text x="5520" y="2820" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Bankhead</text>
 <!-- Cell: --> <circle cx="5500" cy="2900" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5475,2875 5525,2875 5525,2925 5475,2925 5475,2875" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5475,2875 5525,2925" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5525,2875 5475,2925" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5475,2880 5475,2875 5480,2875" stroke="black" fill="none"/><polyline points="5525,2880 5525,2875 5520,2875" stroke="black" fill="none"/><polyline points="5525,2920 5525,2925 5520,2925" stroke="black" fill="none"/><polyline points="5475,2920 5475,2925 5480,2925" stroke="black" fill="none"/><polyline points="5495,2875 5505,2875" stroke="black" fill="none"/><polyline points="5495,2925 5505,2925" stroke="black" fill="none"/><polyline points="5475,2895 5475,2905" stroke="black" fill="none"/><polyline points="5525,2895 5525,2905" stroke="black" fill="none"/><polyline points="5495,2900 5505,2900" stroke="black" fill="none"/><polyline points="5500,2895 5500,2905" stroke="black" fill="none"/>
       <!-- M80 J9 :  -->
 <!-- Interchange: --> <circle cx="5600" cy="2400" r="25" fill="white" stroke="black" stroke-width="6.25" />

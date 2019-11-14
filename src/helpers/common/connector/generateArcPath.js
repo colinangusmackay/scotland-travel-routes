@@ -17,5 +17,11 @@ module.exports = function generateArcPath (x, y, radius, startAngle, endAngle) {
 
   const path = { command: "A", rx: radius, ry: radius, angle: 0, largeArc: largeArcFlag, sweep: sweep, x: end.x, y: end.y };
 
-  return { path, start, end };
+  return {
+    path,
+    start,
+    end,
+    width: Math.abs(start.x - end.x),
+    height: Math.abs(start.y - end.y)
+  };
 }

@@ -161,6 +161,30 @@ function generatePathForEWtoSWNE(from, to, route, dir) {
   return path;
 }
 
+function generatePathForSWNEtoNS(from, to, route, dir) {
+  log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
+
+  const xDir = getXDir(dir);
+  const yDir = getYDir(dir);
+  const path = initPath(from, dir, route);
+  const fromExit = lastItemIn(path);
+  const toEntry = getCellEntryPoint(to, dir, route);
+  const transformX = getTransformX(xDir);
+  const transformY = getTransformY(yDir);
+
+  const arc = generateArcPath(0, 0, standard.cellSize, 45, 0);
+  const diagnonal = Math.min(Math.abs(fromExit.x - toEntry.x), Math.abs(fromExit.y - toEntry.y)) - arc.height;
+  const straightY = Math.abs(fromExit.y - toEntry.y) - (arc.height*2) - diagnonal;
+  path.push({x: fromExit.x + (diagnonal * transformX), y: fromExit.y + (diagnonal * transformY)});
+
+  arc.path.x = toEntry.x; // arc.path.x + last.x;
+  arc.path.y = toEntry.y + straightY; // .path.y + last.y;
+  path.push(arc.path);
+
+  path.push({ x: toEntry.x, y: toEntry.y });
+  terminatePath(path, to, dir, route);
+  return path;
+}
 
 module.exports = function generateRoundedPath (from, to, route) {
   const dir = getDirection(from, to);
@@ -188,6 +212,8 @@ module.exports = function generateRoundedPath (from, to, route) {
     case "ns;ew;sw":
     case "ns;ew;nw":
       return getPathForNStoEW(from, to, route, dir);
+    case "sw-ne;ns;ne":
+      return generatePathForSWNEtoNS(from, to, route, dir, path);
     default:
       log(`Unexpected Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
       break;
