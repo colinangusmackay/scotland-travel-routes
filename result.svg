@@ -667,7 +667,7 @@
       <!-- M80 J4 : M73 -->
       <!-- Connector: --> <path d="M4000,3400 L4800,3400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J4A : Condorrat -->
-      <!-- Connector: --> <path d="M4800,3400 L5000,3300" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4800,3400 L4825,3400 L4864.644660940672,3400 A50 50 0 0 0 4899.999999999999,3385.3553390593274 L4982.322330470336,3317.6776695296635 L5000,3300" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J5 : Eastfield -->
       <!-- Connector: --> <path d="M5000,3300 L5100,3200" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M80 J6 : Carrickstone -->
@@ -697,15 +697,15 @@
 <!-- Label: --> <text x="4800" y="3320" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">M73</text>
 <!-- Cell: --> <circle cx="4800" cy="3400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4775,3375 4825,3375 4825,3425 4775,3425 4775,3375" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,3375 4825,3425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4825,3375 4775,3425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,3380 4775,3375 4780,3375" stroke="black" fill="none"/><polyline points="4825,3380 4825,3375 4820,3375" stroke="black" fill="none"/><polyline points="4825,3420 4825,3425 4820,3425" stroke="black" fill="none"/><polyline points="4775,3420 4775,3425 4780,3425" stroke="black" fill="none"/><polyline points="4795,3375 4805,3375" stroke="black" fill="none"/><polyline points="4795,3425 4805,3425" stroke="black" fill="none"/><polyline points="4775,3395 4775,3405" stroke="black" fill="none"/><polyline points="4825,3395 4825,3405" stroke="black" fill="none"/><polyline points="4795,3400 4805,3400" stroke="black" fill="none"/><polyline points="4800,3395 4800,3405" stroke="black" fill="none"/>
       <!-- M80 J4A : Condorrat -->
-<!-- Junction: --> 
+<!-- Junction: --> <polyline points="5000,3300 5025,3325" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5030" y="3330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Condorrat</text>
 <!-- Cell: --> <circle cx="5000" cy="3300" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
       <!-- M80 J5 : Eastfield -->
-<!-- Junction: --> 
+<!-- Junction: --> <polyline points="5100,3200 5075,3175" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5070" y="3120" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Eastfield</text>
 <!-- Cell: --> <circle cx="5100" cy="3200" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
       <!-- M80 J6 : Carrickstone -->
-<!-- Junction: --> 
+<!-- Junction: --> <polyline points="5200,3100 5225,3125" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5230" y="3130" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Carrickstone</text>
 <!-- Cell: --> <circle cx="5200" cy="3100" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
       <!-- M80 J6A : Castlecary -->

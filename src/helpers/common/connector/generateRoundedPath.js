@@ -129,11 +129,38 @@ function generatePathForEWtoNWSE (from, to, route, dir) {
   arc.path.y = arc.path.y + last.y + (standard.cellSize * transformY);
   path.push(arc.path);
 
-  // path.push({ x: toEntry.x + (diagnonal), y: toEntry.y + (diagnonal) });
   path.push({ x: toEntry.x, y: toEntry.y });
   terminatePath(path, to, dir, route);
   return path;
 }
+
+function generatePathForEWtoSWNE(from, to, route, dir) {
+  log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
+
+  const xDir = getXDir(dir);
+  const yDir = getYDir(dir);
+  const path = initPath(from, dir, route);
+  const fromExit = lastItemIn(path);
+  const toEntry = getCellEntryPoint(to, dir, route);
+  const transformX = getTransformX(xDir);
+  const transformY = getTransformY(yDir);
+
+  const arc = generateArcPath(0, 0, standard.cellSize, 180, 135);
+  const diagnonal = Math.min(Math.abs(fromExit.x - toEntry.x), Math.abs(fromExit.y - toEntry.y)) - Math.abs(arc.path.y);
+  const straightX = Math.abs(fromExit.x - toEntry.x) - (Math.abs(arc.path.x) * 2) - diagnonal;
+  log(`StraightX = ${straightX}; transformX = ${transformX}`);
+  path.push({ x: fromExit.x + (straightX * transformX), y: fromExit.y });
+
+  const last = lastItemIn(path);
+  arc.path.x = arc.path.x + last.x;
+  arc.path.y = arc.path.y + last.y + (standard.cellSize * transformY);
+  path.push(arc.path);
+
+  path.push({ x: toEntry.x, y: toEntry.y });
+  terminatePath(path, to, dir, route);
+  return path;
+}
+
 
 module.exports = function generateRoundedPath (from, to, route) {
   const dir = getDirection(from, to);
@@ -151,6 +178,8 @@ module.exports = function generateRoundedPath (from, to, route) {
       return getPathForEWtoNS(from, to, route, dir);
     case "ew;nw-se;nw":
       return generatePathForEWtoNWSE(from, to, route, dir, path);
+    case "ew;sw-ne;ne":
+      return generatePathForEWtoSWNE(from, to, route, dir, path);
     case "ns;ns;n":
     case "ns;ns;s":
       return generateStraightPath(from, to);

@@ -25,6 +25,10 @@ module.exports = function (plop) {
           path.push({ x: junction.x + standard.cellHalfSize, y: junction.y });
           break;
         }
+        case "se": {
+          path.push({ x: junction.x + standard.cellHalfSize, y: junction.y + standard.cellHalfSize });
+          break;
+        }
         case "s": {
           path.push({ x: junction.x, y: junction.y + standard.cellHalfSize });
           break;
@@ -35,6 +39,10 @@ module.exports = function (plop) {
         }
         case "w": {
           path.push({ x: junction.x - standard.cellHalfSize, y: junction.y });
+          break;
+        }
+        case "nw": {
+          path.push({ x: junction.x - standard.cellHalfSize, y: junction.y - standard.cellHalfSize });
           break;
         }
         default: {

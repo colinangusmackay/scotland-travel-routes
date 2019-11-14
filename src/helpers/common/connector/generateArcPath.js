@@ -13,7 +13,7 @@ module.exports = function generateArcPath (x, y, radius, startAngle, endAngle) {
   const end = polarToCartesian(x, y, radius, endAngle);
 
   const largeArcFlag = endAngle - startAngle <= 180 ? 0 : 1;
-  const sweep = 1;
+  const sweep = startAngle < endAngle ? 1 : 0;
 
   const path = { command: "A", rx: radius, ry: radius, angle: 0, largeArc: largeArcFlag, sweep: sweep, x: end.x, y: end.y };
 

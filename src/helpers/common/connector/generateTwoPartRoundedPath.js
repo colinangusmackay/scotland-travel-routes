@@ -104,7 +104,7 @@ module.exports = function generateTwoPartRoundedPath (from, to, route) {
       const firstTurn = generateArcPath(fromExit.x + turnSize, fromExit.y - yDist, turnSize, 270, 315);
       path.push(firstTurn.path);
 
-      const secondTurn = generateArcPath(toEntry.x - xDist, toEntry.y + turnSize, turnSize, 315, 0);
+      const secondTurn = generateArcPath(toEntry.x - xDist, toEntry.y + turnSize, turnSize, 315, 360);
       path.push({ x: secondTurn.start.x, y: secondTurn.start.y });
       path.push(secondTurn.path);
 
