@@ -224,10 +224,60 @@
         "type": "standard", "angle": "ns",
         "x":7400, "y": 3850
       },
-      "J2": {
-        "number": "J2", "name": "Kirkliston", "labelOffset": "w",
+      "J1A": {
+        "number": "J1A", "name": "Kirkliston", "labelOffset": "w",
         "type": "interchange", "angle": "ns",
         "x":7400, "y": 3700
+      },
+      "J2": {
+        "number": "J2", "name": "Philipstoun", "labelOffset": "s",
+        "type": "standard", "angle": "ew", "connectionToPrevious": "rounded",
+        "x":7200, "y": 3500
+      },
+      "J3": {
+        "number": "J3", "name": "Linlithgow", "labelOffset": "n",
+        "type": "standard", "angle": "ew",
+        "x":7000, "y": 3500
+      },
+      "J4": {
+        "number": "J4", "name": "Polmont", "labelOffset": "s",
+        "type": "standard", "angle": "ew",
+        "x":6800, "y": 3500
+      },
+      "J5": {
+        "number": "J5", "name": "Grangemouth", "labelOffset": "ne",
+        "type": "standard", "angle": "nw-se", "connectionToPrevious": "rounded",
+        "x":6600, "y": 3400
+      },
+      "J6": {
+        "number": "J6", "name": "Falkirk", "labelOffset": "sw",
+        "type": "standard", "angle": "nw-se",
+        "x":6500, "y": 3300
+      },
+      "J7": {
+        "number": "J7", "name": "", "labelOffset": "w",
+        "type": "standard", "angle": "nw-se",
+        "x":6300, "y": 3100
+      },
+      "J8": {
+        "number": "J8", "name": "Hill of Kinnaird Interchange", "labelOffset": "e",
+        "type": "interchange", "angle": "nw-se",
+        "x":6100, "y": 2900
+      },
+      "J9": {
+        "number": "J9", "name": "Auchenbowie", "labelOffset": "e", "connectionToPrevious": "rounded",
+        "type": "interchange", "angle": "nw-se",
+        "x":5600, "y": 2400
+      },
+      "J10": {
+        "number": "J10", "name": "Raploch", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":5600, "y": 2300
+      },
+      "J11": {
+        "number": "J11", "name": "Bridge of Allan", "labelOffset": "e",
+        "type": "terminator", "angle": "ns", "terminatorLabelOffset": "n",
+        "x":5600, "y": 2200
       }
     }
   },
@@ -528,6 +578,41 @@
         "number": "J4", "name": "M73", "labelOffset": "n",
         "type": "interchange", "angle": "ew",
         "x":4800, "y": 3400
+      },
+      "J4A": {
+        "number": "J4A", "name": "Condorrat", "labelOffset": "se",
+        "type": "standard", "angle": "sw-ne",
+        "x":5000, "y": 3300
+      },
+      "J5": {
+        "number": "J5", "name": "Eastfield", "labelOffset": "nw",
+        "type": "standard", "angle": "sw-ne",
+        "x":5100, "y": 3200
+      },
+      "J6": {
+        "number": "J6", "name": "Carrickstone", "labelOffset": "se",
+        "type": "standard", "angle": "sw-ne",
+        "x":5200, "y": 3100
+      },
+      "J6A": {
+        "number": "J6A", "name": "Castlecary", "labelOffset": "w",
+        "type": "standard", "angle": "ns",
+        "x":5300, "y": 3000
+      },
+      "J7": {
+        "number": "J7", "name": "Haggs", "labelOffset": "s",
+        "type": "standard", "angle": "ew",  "connectionToPrevious": "rounded",
+        "x":5400, "y": 2900
+      },
+      "J8": {
+        "number": "J8", "name": "Bankhead Interchange", "labelOffset": "nw", "labelOffsetX": 50,
+        "type": "interchange", "angle": "ew",
+        "x":5500, "y": 2900
+      },
+      "J9": {
+        "number": "J9", "name": "", "labelOffset": "nw",
+        "type": "interchange", "angle": "ns", "connectionToPrevious": "rounded",
+        "x":5600, "y": 2400
       }
     }
   },
@@ -646,9 +731,42 @@
      }
   },
   "M876":{
-    "colour":"pink", "contrastColour": "black",
+    "colour":"hotpink", "contrastColour": "black",
     "name":"M876", "route":"Denny - Kincardine",
-    "dx":10, "dy":1500},
+    "dx":10, "dy":1500,
+    "junctions": {
+      "J0": {
+        "number": "J0", "name": "", "labelOffset": "nw",
+        "type": "interchange", "angle": "ew", "stretchY": -20,
+        "x":5500, "y": 2920
+      },
+      "J1": {
+        "number": "J1", "name": "Bonnybridge", "labelOffset": "n", "labelOffsetX": 75,
+        "type": "standard", "angle": "ew",
+        "x":5700, "y": 2920
+      },
+      "J2": {
+        "number": "J2", "name": "Stenhousemuir", "labelOffset": "s",
+        "type": "standard", "angle": "ew",
+        "x":5900, "y": 2920
+      },
+      "J2A": {
+        "number": "J2A", "name": "", "labelOffset": "e",
+        "type": "interchange", "angle": "ew", "stretchY": -20,
+        "x":6100, "y": 2920
+      },
+      "J2B": {
+        "number": "J2B", "name": "Kinnaird House Interchange", "labelOffset": "w",
+        "type": "interchange", "angle": "ew", "stretchX": 20,
+        "x":6280, "y": 3100
+      },
+      "J3": {
+        "number": "J3", "name": "Bowtrees", "labelOffset": "n",
+        "type": "terminator", "angle": "ew", "terminatorLabelOffset": "e",
+        "x":6480, "y": 3100
+      }
+    }
+  },
   "M898":{
     "colour":"silver", "contrastColour": "black",
     "name":"M898", "route":"Bishopton - Erskine Bridge",
