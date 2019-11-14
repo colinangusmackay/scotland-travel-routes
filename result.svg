@@ -383,23 +383,23 @@
       <!-- Connector: --> 
       <!-- M74 M8 : M74 -->
       <!-- Connector: --> <path d="M2150,4420 L2500,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J1 : Tradeston -->
+      <!-- M74 J1 : Kingston -->
       <!-- Connector: --> <path d="M2500,4420 L2800,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J1A : Polmadie -->
+      <!-- M74 J1A : Polmadie Road -->
       <!-- Connector: --> <path d="M2800,4420 L3100,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J2 : Rutherglen -->
+      <!-- M74 J2 : Cambusland Road -->
       <!-- Connector: --> <path d="M3100,4420 L3400,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J2A : Tollcross -->
+      <!-- M74 J2A : Fullarton Road -->
       <!-- Connector: --> <path d="M3400,4420 L3750,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J3 : Carmyle -->
+      <!-- M74 J3 : Carmyle Avenue -->
       <!-- Connector: --> <path d="M3750,4420 L4100,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J3A : Broomhouse -->
+      <!-- M74 J3A : Daldowdie -->
       <!-- Connector: --> <path d="M4100,4420 L4450,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J4 : M73 -->
+      <!-- M74 J4 : Maryville -->
       <!-- Connector: --> <path d="M4450,4420 L4800,4420" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 Services : Bothwell (SB) Services -->
       <!-- Connector: --> <path d="M4800,4420 L4825,4420 L4950,4420 A50 50 0 0 1 5000,4470 L5000,4600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J5 : Orbiston -->
+      <!-- M74 J5 : Raith -->
       <!-- Connector: --> <path d="M5000,4600 L5000,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 Services : Hamilton (NB) Services -->
       <!-- Connector: --> <path d="M5000,4700 L5000,4800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -407,44 +407,44 @@
       <!-- Connector: --> <path d="M5000,4800 L5000,4900" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J7 : Larkhall -->
       <!-- Connector: --> <path d="M5000,4900 L5000,5000" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J8 : Stonehouse -->
+      <!-- M74 J8 : Canderside Toll -->
       <!-- Connector: --> <path d="M5000,5000 L5000,5100" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J9 : Kirkmuirhill -->
       <!-- Connector: --> <path d="M5000,5100 L5000,5200" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J10 : Lesmahagow -->
+      <!-- M74 J10 : Wellburn -->
       <!-- Connector: --> <path d="M5000,5200 L5000,5300" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J11 : Coalburn -->
+      <!-- M74 J11 : Poneil -->
       <!-- Connector: --> <path d="M5000,5300 L5000,5400" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J12 : Uddington -->
+      <!-- M74 J12 : Millbank -->
       <!-- Connector: --> <path d="M5000,5400 L5000,5600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J13 : Abbington -->
+      <!-- M74 J13 : Abington -->
       <!-- Connector: --> <path d="M5000,5600 L5000,5700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J13S : Services -->
       <!-- Connector: --> <path d="M5000,5700 L5000,5700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J14 : Elvanfoot -->
+      <!-- M74 J14 : Crawford / Elvanfoot -->
       <!-- Connector: --> <path d="M5000,5700 L5000,5800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J15 : Moffat -->
+      <!-- M74 J15 : Beattock -->
       <!-- Connector: --> <path d="M5000,5800 L5000,5900" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J16 : Johnstonebridge -->
       <!-- Connector: --> <path d="M5000,5900 L5000,6000" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J16S : Annandalewater Services -->
       <!-- Connector: --> <path d="M5000,6000 L5000,6000" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J17 : Lockerbie -->
+      <!-- M74 J17 : Lockerbie North -->
       <!-- Connector: --> <path d="M5000,6000 L5000,6100" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J18 : Kettleholm -->
+      <!-- M74 J18 : Lockerbie South -->
       <!-- Connector: --> <path d="M5000,6100 L5000,6200" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J19 : Ecclefechan -->
       <!-- Connector: --> <path d="M5000,6200 L5000,6300" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- M74 J20 : Eaglesfield -->
       <!-- Connector: --> <path d="M5000,6300 L5000,6400" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J20 : Eaglesfield -->
-      <!-- Connector: --> <path d="M5000,6400 L5000,6400" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 Services : Gretna Green Services -->
+      <!-- M74 J20 : Kirkpatrick Fleming -->
       <!-- Connector: --> <path d="M5000,6400 L5000,6500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 J22 : Gretna -->
+      <!-- M74 Services : Gretna Green Services -->
       <!-- Connector: --> <path d="M5000,6500 L5000,6600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- M74 ENG : Scotland - England Border -->
+      <!-- M74 J22 : Gretna -->
       <!-- Connector: --> <path d="M5000,6600 L5000,6700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- M74 ENG : Scotland - England Border -->
+      <!-- Connector: --> <path d="M5000,6700 L5000,6800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
       <!-- M74 M8 :  -->
 <!-- Interchange: --> <line x1="2150" y1="4420" x2="2150" y2="4400" stroke="black" stroke-width="62.5" stroke-linecap="round" /><line x1="2150" y1="4420" x2="2150" y2="4400" stroke="white" stroke-width="50" stroke-linecap="round" />
@@ -453,41 +453,41 @@
 <!-- Interchange: --> <line x1="2500" y1="4420" x2="2500" y2="4400" stroke="black" stroke-width="62.5" stroke-linecap="round" /><line x1="2500" y1="4420" x2="2500" y2="4400" stroke="white" stroke-width="50" stroke-linecap="round" />
 <!-- Label: --> <text x="2470" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">M74</text>
 <!-- Cell: --> <circle cx="2500" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="2475,4395 2525,4395 2525,4445 2475,4445 2475,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="2475,4395 2525,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="2525,4395 2475,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="2475,4400 2475,4395 2480,4395" stroke="black" fill="none"/><polyline points="2525,4400 2525,4395 2520,4395" stroke="black" fill="none"/><polyline points="2525,4440 2525,4445 2520,4445" stroke="black" fill="none"/><polyline points="2475,4440 2475,4445 2480,4445" stroke="black" fill="none"/><polyline points="2495,4395 2505,4395" stroke="black" fill="none"/><polyline points="2495,4445 2505,4445" stroke="black" fill="none"/><polyline points="2475,4415 2475,4425" stroke="black" fill="none"/><polyline points="2525,4415 2525,4425" stroke="black" fill="none"/><polyline points="2495,4420 2505,4420" stroke="black" fill="none"/><polyline points="2500,4415 2500,4425" stroke="black" fill="none"/>
-      <!-- M74 J1 : Tradeston -->
+      <!-- M74 J1 : Kingston -->
 <!-- Junction: --> <polyline points="2800,4420 2800,4445" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="2800" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Tradeston</text>
+<!-- Label: --> <text x="2800" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Kingston</text>
 <!-- Cell: --> <circle cx="2800" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="2775,4395 2825,4395 2825,4445 2775,4445 2775,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="2775,4395 2825,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="2825,4395 2775,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="2775,4400 2775,4395 2780,4395" stroke="black" fill="none"/><polyline points="2825,4400 2825,4395 2820,4395" stroke="black" fill="none"/><polyline points="2825,4440 2825,4445 2820,4445" stroke="black" fill="none"/><polyline points="2775,4440 2775,4445 2780,4445" stroke="black" fill="none"/><polyline points="2795,4395 2805,4395" stroke="black" fill="none"/><polyline points="2795,4445 2805,4445" stroke="black" fill="none"/><polyline points="2775,4415 2775,4425" stroke="black" fill="none"/><polyline points="2825,4415 2825,4425" stroke="black" fill="none"/><polyline points="2795,4420 2805,4420" stroke="black" fill="none"/><polyline points="2800,4415 2800,4425" stroke="black" fill="none"/>
-      <!-- M74 J1A : Polmadie -->
+      <!-- M74 J1A : Polmadie Road -->
 <!-- Junction: --> <polyline points="3100,4420 3100,4395" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="3100" y="4340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Polmadie</text>
+<!-- Label: --> <text x="3100" y="4340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Polmadie Road</text>
 <!-- Cell: --> <circle cx="3100" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="3075,4395 3125,4395 3125,4445 3075,4445 3075,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3075,4395 3125,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3125,4395 3075,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3075,4400 3075,4395 3080,4395" stroke="black" fill="none"/><polyline points="3125,4400 3125,4395 3120,4395" stroke="black" fill="none"/><polyline points="3125,4440 3125,4445 3120,4445" stroke="black" fill="none"/><polyline points="3075,4440 3075,4445 3080,4445" stroke="black" fill="none"/><polyline points="3095,4395 3105,4395" stroke="black" fill="none"/><polyline points="3095,4445 3105,4445" stroke="black" fill="none"/><polyline points="3075,4415 3075,4425" stroke="black" fill="none"/><polyline points="3125,4415 3125,4425" stroke="black" fill="none"/><polyline points="3095,4420 3105,4420" stroke="black" fill="none"/><polyline points="3100,4415 3100,4425" stroke="black" fill="none"/>
-      <!-- M74 J2 : Rutherglen -->
+      <!-- M74 J2 : Cambusland Road -->
 <!-- Junction: --> <polyline points="3400,4420 3400,4445" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="3400" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Rutherglen</text>
+<!-- Label: --> <text x="3400" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Cambusland Road</text>
 <!-- Cell: --> <circle cx="3400" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="3375,4395 3425,4395 3425,4445 3375,4445 3375,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3375,4395 3425,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3425,4395 3375,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3375,4400 3375,4395 3380,4395" stroke="black" fill="none"/><polyline points="3425,4400 3425,4395 3420,4395" stroke="black" fill="none"/><polyline points="3425,4440 3425,4445 3420,4445" stroke="black" fill="none"/><polyline points="3375,4440 3375,4445 3380,4445" stroke="black" fill="none"/><polyline points="3395,4395 3405,4395" stroke="black" fill="none"/><polyline points="3395,4445 3405,4445" stroke="black" fill="none"/><polyline points="3375,4415 3375,4425" stroke="black" fill="none"/><polyline points="3425,4415 3425,4425" stroke="black" fill="none"/><polyline points="3395,4420 3405,4420" stroke="black" fill="none"/><polyline points="3400,4415 3400,4425" stroke="black" fill="none"/>
-      <!-- M74 J2A : Tollcross -->
+      <!-- M74 J2A : Fullarton Road -->
 <!-- Junction: --> <polyline points="3750,4420 3750,4395" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="3750" y="4340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Tollcross</text>
+<!-- Label: --> <text x="3750" y="4340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Fullarton Road</text>
 <!-- Cell: --> <circle cx="3750" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="3725,4395 3775,4395 3775,4445 3725,4445 3725,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3725,4395 3775,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3775,4395 3725,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3725,4400 3725,4395 3730,4395" stroke="black" fill="none"/><polyline points="3775,4400 3775,4395 3770,4395" stroke="black" fill="none"/><polyline points="3775,4440 3775,4445 3770,4445" stroke="black" fill="none"/><polyline points="3725,4440 3725,4445 3730,4445" stroke="black" fill="none"/><polyline points="3745,4395 3755,4395" stroke="black" fill="none"/><polyline points="3745,4445 3755,4445" stroke="black" fill="none"/><polyline points="3725,4415 3725,4425" stroke="black" fill="none"/><polyline points="3775,4415 3775,4425" stroke="black" fill="none"/><polyline points="3745,4420 3755,4420" stroke="black" fill="none"/><polyline points="3750,4415 3750,4425" stroke="black" fill="none"/>
-      <!-- M74 J3 : Carmyle -->
+      <!-- M74 J3 : Carmyle Avenue -->
 <!-- Junction: --> <polyline points="4100,4420 4100,4445" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4100" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Carmyle</text>
+<!-- Label: --> <text x="4100" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Carmyle Avenue</text>
 <!-- Cell: --> <circle cx="4100" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4075,4395 4125,4395 4125,4445 4075,4445 4075,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4075,4395 4125,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4125,4395 4075,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4075,4400 4075,4395 4080,4395" stroke="black" fill="none"/><polyline points="4125,4400 4125,4395 4120,4395" stroke="black" fill="none"/><polyline points="4125,4440 4125,4445 4120,4445" stroke="black" fill="none"/><polyline points="4075,4440 4075,4445 4080,4445" stroke="black" fill="none"/><polyline points="4095,4395 4105,4395" stroke="black" fill="none"/><polyline points="4095,4445 4105,4445" stroke="black" fill="none"/><polyline points="4075,4415 4075,4425" stroke="black" fill="none"/><polyline points="4125,4415 4125,4425" stroke="black" fill="none"/><polyline points="4095,4420 4105,4420" stroke="black" fill="none"/><polyline points="4100,4415 4100,4425" stroke="black" fill="none"/>
-      <!-- M74 J3A : Broomhouse -->
+      <!-- M74 J3A : Daldowdie -->
 <!-- Junction: --> <polyline points="4450,4420 4450,4395" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4450" y="4340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Broomhouse</text>
+<!-- Label: --> <text x="4450" y="4340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Daldowdie</text>
 <!-- Cell: --> <circle cx="4450" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4425,4395 4475,4395 4475,4445 4425,4445 4425,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4425,4395 4475,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4475,4395 4425,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4425,4400 4425,4395 4430,4395" stroke="black" fill="none"/><polyline points="4475,4400 4475,4395 4470,4395" stroke="black" fill="none"/><polyline points="4475,4440 4475,4445 4470,4445" stroke="black" fill="none"/><polyline points="4425,4440 4425,4445 4430,4445" stroke="black" fill="none"/><polyline points="4445,4395 4455,4395" stroke="black" fill="none"/><polyline points="4445,4445 4455,4445" stroke="black" fill="none"/><polyline points="4425,4415 4425,4425" stroke="black" fill="none"/><polyline points="4475,4415 4475,4425" stroke="black" fill="none"/><polyline points="4445,4420 4455,4420" stroke="black" fill="none"/><polyline points="4450,4415 4450,4425" stroke="black" fill="none"/>
-      <!-- M74 J4 : M73 -->
+      <!-- M74 J4 : Maryville -->
 <!-- Interchange: --> <circle cx="4800" cy="4420" r="25" fill="white" stroke="black" stroke-width="6.25" />
-<!-- Label: --> <text x="4800" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">M73</text>
+<!-- Label: --> <text x="4800" y="4450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Maryville</text>
 <!-- Cell: --> <circle cx="4800" cy="4420" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4775,4395 4825,4395 4825,4445 4775,4445 4775,4395" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,4395 4825,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4825,4395 4775,4445" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4775,4400 4775,4395 4780,4395" stroke="black" fill="none"/><polyline points="4825,4400 4825,4395 4820,4395" stroke="black" fill="none"/><polyline points="4825,4440 4825,4445 4820,4445" stroke="black" fill="none"/><polyline points="4775,4440 4775,4445 4780,4445" stroke="black" fill="none"/><polyline points="4795,4395 4805,4395" stroke="black" fill="none"/><polyline points="4795,4445 4805,4445" stroke="black" fill="none"/><polyline points="4775,4415 4775,4425" stroke="black" fill="none"/><polyline points="4825,4415 4825,4425" stroke="black" fill="none"/><polyline points="4795,4420 4805,4420" stroke="black" fill="none"/><polyline points="4800,4415 4800,4425" stroke="black" fill="none"/>
       <!-- M74 Services : Bothwell (SB) Services -->
 <!-- Services: --> <polygon points="5000,4575 5025,4600 5000,4625 5000,4575" fill="blue"/>
 <!-- Label: --> <text x="5030" y="4575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Bothwell (SB) Services</text>
 <!-- Cell: --> <circle cx="5000" cy="4600" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,4580 4975,4575 4980,4575" stroke="black" fill="none"/><polyline points="5025,4580 5025,4575 5020,4575" stroke="black" fill="none"/><polyline points="5025,4620 5025,4625 5020,4625" stroke="black" fill="none"/><polyline points="4975,4620 4975,4625 4980,4625" stroke="black" fill="none"/><polyline points="4995,4575 5005,4575" stroke="black" fill="none"/><polyline points="4995,4625 5005,4625" stroke="black" fill="none"/><polyline points="4975,4595 4975,4605" stroke="black" fill="none"/><polyline points="5025,4595 5025,4605" stroke="black" fill="none"/><polyline points="4995,4600 5005,4600" stroke="black" fill="none"/><polyline points="5000,4595 5000,4605" stroke="black" fill="none"/>
-      <!-- M74 J5 : Orbiston -->
+      <!-- M74 J5 : Raith -->
 <!-- Junction: --> <polyline points="5000,4700 5025,4700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5030" y="4675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Orbiston</text>
+<!-- Label: --> <text x="5030" y="4675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Raith</text>
 <!-- Cell: --> <circle cx="5000" cy="4700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,4680 4975,4675 4980,4675" stroke="black" fill="none"/><polyline points="5025,4680 5025,4675 5020,4675" stroke="black" fill="none"/><polyline points="5025,4720 5025,4725 5020,4725" stroke="black" fill="none"/><polyline points="4975,4720 4975,4725 4980,4725" stroke="black" fill="none"/><polyline points="4995,4675 5005,4675" stroke="black" fill="none"/><polyline points="4995,4725 5005,4725" stroke="black" fill="none"/><polyline points="4975,4695 4975,4705" stroke="black" fill="none"/><polyline points="5025,4695 5025,4705" stroke="black" fill="none"/><polyline points="4995,4700 5005,4700" stroke="black" fill="none"/><polyline points="5000,4695 5000,4705" stroke="black" fill="none"/>
       <!-- M74 Services : Hamilton (NB) Services -->
 <!-- Services: --> <polygon points="5000,4775 4975,4800 5000,4825 5000,4775" fill="blue"/>
@@ -501,41 +501,41 @@
 <!-- Junction: --> <polyline points="5000,5000 5025,5000" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5030" y="4975" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Larkhall</text>
 <!-- Cell: --> <circle cx="5000" cy="5000" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,4980 4975,4975 4980,4975" stroke="black" fill="none"/><polyline points="5025,4980 5025,4975 5020,4975" stroke="black" fill="none"/><polyline points="5025,5020 5025,5025 5020,5025" stroke="black" fill="none"/><polyline points="4975,5020 4975,5025 4980,5025" stroke="black" fill="none"/><polyline points="4995,4975 5005,4975" stroke="black" fill="none"/><polyline points="4995,5025 5005,5025" stroke="black" fill="none"/><polyline points="4975,4995 4975,5005" stroke="black" fill="none"/><polyline points="5025,4995 5025,5005" stroke="black" fill="none"/><polyline points="4995,5000 5005,5000" stroke="black" fill="none"/><polyline points="5000,4995 5000,5005" stroke="black" fill="none"/>
-      <!-- M74 J8 : Stonehouse -->
+      <!-- M74 J8 : Canderside Toll -->
 <!-- Junction: --> <polyline points="5000,5100 4975,5100" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4970" y="5075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Stonehouse</text>
+<!-- Label: --> <text x="4970" y="5075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Canderside Toll</text>
 <!-- Cell: --> <circle cx="5000" cy="5100" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5080 4975,5075 4980,5075" stroke="black" fill="none"/><polyline points="5025,5080 5025,5075 5020,5075" stroke="black" fill="none"/><polyline points="5025,5120 5025,5125 5020,5125" stroke="black" fill="none"/><polyline points="4975,5120 4975,5125 4980,5125" stroke="black" fill="none"/><polyline points="4995,5075 5005,5075" stroke="black" fill="none"/><polyline points="4995,5125 5005,5125" stroke="black" fill="none"/><polyline points="4975,5095 4975,5105" stroke="black" fill="none"/><polyline points="5025,5095 5025,5105" stroke="black" fill="none"/><polyline points="4995,5100 5005,5100" stroke="black" fill="none"/><polyline points="5000,5095 5000,5105" stroke="black" fill="none"/>
       <!-- M74 J9 : Kirkmuirhill -->
 <!-- Junction: --> <polyline points="5000,5200 5025,5200" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5030" y="5175" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Kirkmuirhill</text>
 <!-- Cell: --> <circle cx="5000" cy="5200" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5180 4975,5175 4980,5175" stroke="black" fill="none"/><polyline points="5025,5180 5025,5175 5020,5175" stroke="black" fill="none"/><polyline points="5025,5220 5025,5225 5020,5225" stroke="black" fill="none"/><polyline points="4975,5220 4975,5225 4980,5225" stroke="black" fill="none"/><polyline points="4995,5175 5005,5175" stroke="black" fill="none"/><polyline points="4995,5225 5005,5225" stroke="black" fill="none"/><polyline points="4975,5195 4975,5205" stroke="black" fill="none"/><polyline points="5025,5195 5025,5205" stroke="black" fill="none"/><polyline points="4995,5200 5005,5200" stroke="black" fill="none"/><polyline points="5000,5195 5000,5205" stroke="black" fill="none"/>
-      <!-- M74 J10 : Lesmahagow -->
+      <!-- M74 J10 : Wellburn -->
 <!-- Junction: --> <polyline points="5000,5300 4975,5300" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4970" y="5275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Lesmahagow</text>
+<!-- Label: --> <text x="4970" y="5275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Wellburn</text>
 <!-- Cell: --> <circle cx="5000" cy="5300" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5280 4975,5275 4980,5275" stroke="black" fill="none"/><polyline points="5025,5280 5025,5275 5020,5275" stroke="black" fill="none"/><polyline points="5025,5320 5025,5325 5020,5325" stroke="black" fill="none"/><polyline points="4975,5320 4975,5325 4980,5325" stroke="black" fill="none"/><polyline points="4995,5275 5005,5275" stroke="black" fill="none"/><polyline points="4995,5325 5005,5325" stroke="black" fill="none"/><polyline points="4975,5295 4975,5305" stroke="black" fill="none"/><polyline points="5025,5295 5025,5305" stroke="black" fill="none"/><polyline points="4995,5300 5005,5300" stroke="black" fill="none"/><polyline points="5000,5295 5000,5305" stroke="black" fill="none"/>
-      <!-- M74 J11 : Coalburn -->
+      <!-- M74 J11 : Poneil -->
 <!-- Interchange: --> <circle cx="5000" cy="5400" r="25" fill="white" stroke="black" stroke-width="6.25" />
-<!-- Label: --> <text x="4970" y="5375" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Coalburn</text>
+<!-- Label: --> <text x="4970" y="5375" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Poneil</text>
 <!-- Cell: --> <circle cx="5000" cy="5400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5380 4975,5375 4980,5375" stroke="black" fill="none"/><polyline points="5025,5380 5025,5375 5020,5375" stroke="black" fill="none"/><polyline points="5025,5420 5025,5425 5020,5425" stroke="black" fill="none"/><polyline points="4975,5420 4975,5425 4980,5425" stroke="black" fill="none"/><polyline points="4995,5375 5005,5375" stroke="black" fill="none"/><polyline points="4995,5425 5005,5425" stroke="black" fill="none"/><polyline points="4975,5395 4975,5405" stroke="black" fill="none"/><polyline points="5025,5395 5025,5405" stroke="black" fill="none"/><polyline points="4995,5400 5005,5400" stroke="black" fill="none"/><polyline points="5000,5395 5000,5405" stroke="black" fill="none"/>
-      <!-- M74 J12 : Uddington -->
+      <!-- M74 J12 : Millbank -->
 <!-- Interchange: --> <circle cx="5000" cy="5600" r="25" fill="white" stroke="black" stroke-width="6.25" />
-<!-- Label: --> <text x="4970" y="5575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Uddington</text>
+<!-- Label: --> <text x="4970" y="5575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Millbank</text>
 <!-- Cell: --> <circle cx="5000" cy="5600" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5580 4975,5575 4980,5575" stroke="black" fill="none"/><polyline points="5025,5580 5025,5575 5020,5575" stroke="black" fill="none"/><polyline points="5025,5620 5025,5625 5020,5625" stroke="black" fill="none"/><polyline points="4975,5620 4975,5625 4980,5625" stroke="black" fill="none"/><polyline points="4995,5575 5005,5575" stroke="black" fill="none"/><polyline points="4995,5625 5005,5625" stroke="black" fill="none"/><polyline points="4975,5595 4975,5605" stroke="black" fill="none"/><polyline points="5025,5595 5025,5605" stroke="black" fill="none"/><polyline points="4995,5600 5005,5600" stroke="black" fill="none"/><polyline points="5000,5595 5000,5605" stroke="black" fill="none"/>
-      <!-- M74 J13 : Abbington -->
+      <!-- M74 J13 : Abington -->
 <!-- Junction: --> <polyline points="5000,5700 4975,5700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4970" y="5675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Abbington</text>
+<!-- Label: --> <text x="4970" y="5675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Abington</text>
 <!-- Cell: --> <circle cx="5000" cy="5700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5680 4975,5675 4980,5675" stroke="black" fill="none"/><polyline points="5025,5680 5025,5675 5020,5675" stroke="black" fill="none"/><polyline points="5025,5720 5025,5725 5020,5725" stroke="black" fill="none"/><polyline points="4975,5720 4975,5725 4980,5725" stroke="black" fill="none"/><polyline points="4995,5675 5005,5675" stroke="black" fill="none"/><polyline points="4995,5725 5005,5725" stroke="black" fill="none"/><polyline points="4975,5695 4975,5705" stroke="black" fill="none"/><polyline points="5025,5695 5025,5705" stroke="black" fill="none"/><polyline points="4995,5700 5005,5700" stroke="black" fill="none"/><polyline points="5000,5695 5000,5705" stroke="black" fill="none"/>
       <!-- M74 J13S : Services -->
 <!-- Services: --> <polygon points="5000,5675 5025,5700 5000,5725 5000,5675" fill="blue"/>
 <!-- Label: --> <text x="5030" y="5675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Services</text>
 <!-- Cell: --> <circle cx="5000" cy="5700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5680 4975,5675 4980,5675" stroke="black" fill="none"/><polyline points="5025,5680 5025,5675 5020,5675" stroke="black" fill="none"/><polyline points="5025,5720 5025,5725 5020,5725" stroke="black" fill="none"/><polyline points="4975,5720 4975,5725 4980,5725" stroke="black" fill="none"/><polyline points="4995,5675 5005,5675" stroke="black" fill="none"/><polyline points="4995,5725 5005,5725" stroke="black" fill="none"/><polyline points="4975,5695 4975,5705" stroke="black" fill="none"/><polyline points="5025,5695 5025,5705" stroke="black" fill="none"/><polyline points="4995,5700 5005,5700" stroke="black" fill="none"/><polyline points="5000,5695 5000,5705" stroke="black" fill="none"/>
-      <!-- M74 J14 : Elvanfoot -->
+      <!-- M74 J14 : Crawford / Elvanfoot -->
 <!-- Junction: --> <polyline points="5000,5800 5025,5800" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5030" y="5775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Elvanfoot</text>
+<!-- Label: --> <text x="5030" y="5775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Crawford / Elvanfoot</text>
 <!-- Cell: --> <circle cx="5000" cy="5800" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5780 4975,5775 4980,5775" stroke="black" fill="none"/><polyline points="5025,5780 5025,5775 5020,5775" stroke="black" fill="none"/><polyline points="5025,5820 5025,5825 5020,5825" stroke="black" fill="none"/><polyline points="4975,5820 4975,5825 4980,5825" stroke="black" fill="none"/><polyline points="4995,5775 5005,5775" stroke="black" fill="none"/><polyline points="4995,5825 5005,5825" stroke="black" fill="none"/><polyline points="4975,5795 4975,5805" stroke="black" fill="none"/><polyline points="5025,5795 5025,5805" stroke="black" fill="none"/><polyline points="4995,5800 5005,5800" stroke="black" fill="none"/><polyline points="5000,5795 5000,5805" stroke="black" fill="none"/>
-      <!-- M74 J15 : Moffat -->
+      <!-- M74 J15 : Beattock -->
 <!-- Junction: --> <polyline points="5000,5900 4975,5900" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4970" y="5875" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Moffat</text>
+<!-- Label: --> <text x="4970" y="5875" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Beattock</text>
 <!-- Cell: --> <circle cx="5000" cy="5900" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5880 4975,5875 4980,5875" stroke="black" fill="none"/><polyline points="5025,5880 5025,5875 5020,5875" stroke="black" fill="none"/><polyline points="5025,5920 5025,5925 5020,5925" stroke="black" fill="none"/><polyline points="4975,5920 4975,5925 4980,5925" stroke="black" fill="none"/><polyline points="4995,5875 5005,5875" stroke="black" fill="none"/><polyline points="4995,5925 5005,5925" stroke="black" fill="none"/><polyline points="4975,5895 4975,5905" stroke="black" fill="none"/><polyline points="5025,5895 5025,5905" stroke="black" fill="none"/><polyline points="4995,5900 5005,5900" stroke="black" fill="none"/><polyline points="5000,5895 5000,5905" stroke="black" fill="none"/>
       <!-- M74 J16 : Johnstonebridge -->
 <!-- Junction: --> <polyline points="5000,6000 4975,6000" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
@@ -545,13 +545,13 @@
 <!-- Services: --> <polygon points="5000,5975 5025,6000 5000,6025 5000,5975" fill="blue"/>
 <!-- Label: --> <text x="5030" y="5975" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Annandalewater Services</text>
 <!-- Cell: --> <circle cx="5000" cy="6000" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,5980 4975,5975 4980,5975" stroke="black" fill="none"/><polyline points="5025,5980 5025,5975 5020,5975" stroke="black" fill="none"/><polyline points="5025,6020 5025,6025 5020,6025" stroke="black" fill="none"/><polyline points="4975,6020 4975,6025 4980,6025" stroke="black" fill="none"/><polyline points="4995,5975 5005,5975" stroke="black" fill="none"/><polyline points="4995,6025 5005,6025" stroke="black" fill="none"/><polyline points="4975,5995 4975,6005" stroke="black" fill="none"/><polyline points="5025,5995 5025,6005" stroke="black" fill="none"/><polyline points="4995,6000 5005,6000" stroke="black" fill="none"/><polyline points="5000,5995 5000,6005" stroke="black" fill="none"/>
-      <!-- M74 J17 : Lockerbie -->
+      <!-- M74 J17 : Lockerbie North -->
 <!-- Junction: --> <polyline points="5000,6100 4975,6100" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="4970" y="6075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Lockerbie</text>
+<!-- Label: --> <text x="4970" y="6075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Lockerbie North</text>
 <!-- Cell: --> <circle cx="5000" cy="6100" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6080 4975,6075 4980,6075" stroke="black" fill="none"/><polyline points="5025,6080 5025,6075 5020,6075" stroke="black" fill="none"/><polyline points="5025,6120 5025,6125 5020,6125" stroke="black" fill="none"/><polyline points="4975,6120 4975,6125 4980,6125" stroke="black" fill="none"/><polyline points="4995,6075 5005,6075" stroke="black" fill="none"/><polyline points="4995,6125 5005,6125" stroke="black" fill="none"/><polyline points="4975,6095 4975,6105" stroke="black" fill="none"/><polyline points="5025,6095 5025,6105" stroke="black" fill="none"/><polyline points="4995,6100 5005,6100" stroke="black" fill="none"/><polyline points="5000,6095 5000,6105" stroke="black" fill="none"/>
-      <!-- M74 J18 : Kettleholm -->
+      <!-- M74 J18 : Lockerbie South -->
 <!-- Junction: --> <polyline points="5000,6200 5025,6200" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5030" y="6175" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Kettleholm</text>
+<!-- Label: --> <text x="5030" y="6175" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Lockerbie South</text>
 <!-- Cell: --> <circle cx="5000" cy="6200" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6180 4975,6175 4980,6175" stroke="black" fill="none"/><polyline points="5025,6180 5025,6175 5020,6175" stroke="black" fill="none"/><polyline points="5025,6220 5025,6225 5020,6225" stroke="black" fill="none"/><polyline points="4975,6220 4975,6225 4980,6225" stroke="black" fill="none"/><polyline points="4995,6175 5005,6175" stroke="black" fill="none"/><polyline points="4995,6225 5005,6225" stroke="black" fill="none"/><polyline points="4975,6195 4975,6205" stroke="black" fill="none"/><polyline points="5025,6195 5025,6205" stroke="black" fill="none"/><polyline points="4995,6200 5005,6200" stroke="black" fill="none"/><polyline points="5000,6195 5000,6205" stroke="black" fill="none"/>
       <!-- M74 J19 : Ecclefechan -->
 <!-- Junction: --> <polyline points="5000,6300 4975,6300" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
@@ -561,22 +561,22 @@
 <!-- Junction: --> <polyline points="5000,6400 5025,6400" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
 <!-- Label: --> <text x="5030" y="6375" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Eaglesfield</text>
 <!-- Cell: --> <circle cx="5000" cy="6400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6380 4975,6375 4980,6375" stroke="black" fill="none"/><polyline points="5025,6380 5025,6375 5020,6375" stroke="black" fill="none"/><polyline points="5025,6420 5025,6425 5020,6425" stroke="black" fill="none"/><polyline points="4975,6420 4975,6425 4980,6425" stroke="black" fill="none"/><polyline points="4995,6375 5005,6375" stroke="black" fill="none"/><polyline points="4995,6425 5005,6425" stroke="black" fill="none"/><polyline points="4975,6395 4975,6405" stroke="black" fill="none"/><polyline points="5025,6395 5025,6405" stroke="black" fill="none"/><polyline points="4995,6400 5005,6400" stroke="black" fill="none"/><polyline points="5000,6395 5000,6405" stroke="black" fill="none"/>
-      <!-- M74 J20 : Eaglesfield -->
-<!-- Junction: --> <polyline points="5000,6400 5025,6400" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5030" y="6375" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Eaglesfield</text>
-<!-- Cell: --> <circle cx="5000" cy="6400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6380 4975,6375 4980,6375" stroke="black" fill="none"/><polyline points="5025,6380 5025,6375 5020,6375" stroke="black" fill="none"/><polyline points="5025,6420 5025,6425 5020,6425" stroke="black" fill="none"/><polyline points="4975,6420 4975,6425 4980,6425" stroke="black" fill="none"/><polyline points="4995,6375 5005,6375" stroke="black" fill="none"/><polyline points="4995,6425 5005,6425" stroke="black" fill="none"/><polyline points="4975,6395 4975,6405" stroke="black" fill="none"/><polyline points="5025,6395 5025,6405" stroke="black" fill="none"/><polyline points="4995,6400 5005,6400" stroke="black" fill="none"/><polyline points="5000,6395 5000,6405" stroke="black" fill="none"/>
-      <!-- M74 Services : Gretna Green Services -->
-<!-- Services: --> <polygon points="5000,6475 5025,6500 5000,6525 5000,6475" fill="blue"/><polygon points="5000,6475 4975,6500 5000,6525 5000,6475" fill="blue"/>
-<!-- Label: --> <text x="4970" y="6475" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Gretna Green Services</text>
+      <!-- M74 J20 : Kirkpatrick Fleming -->
+<!-- Junction: --> <polyline points="5000,6500 4975,6500" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="4970" y="6475" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Kirkpatrick Fleming</text>
 <!-- Cell: --> <circle cx="5000" cy="6500" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6480 4975,6475 4980,6475" stroke="black" fill="none"/><polyline points="5025,6480 5025,6475 5020,6475" stroke="black" fill="none"/><polyline points="5025,6520 5025,6525 5020,6525" stroke="black" fill="none"/><polyline points="4975,6520 4975,6525 4980,6525" stroke="black" fill="none"/><polyline points="4995,6475 5005,6475" stroke="black" fill="none"/><polyline points="4995,6525 5005,6525" stroke="black" fill="none"/><polyline points="4975,6495 4975,6505" stroke="black" fill="none"/><polyline points="5025,6495 5025,6505" stroke="black" fill="none"/><polyline points="4995,6500 5005,6500" stroke="black" fill="none"/><polyline points="5000,6495 5000,6505" stroke="black" fill="none"/>
-      <!-- M74 J22 : Gretna -->
-<!-- Junction: --> <polyline points="5000,6600 5025,6600" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
-<!-- Label: --> <text x="5030" y="6575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Gretna</text>
+      <!-- M74 Services : Gretna Green Services -->
+<!-- Services: --> <polygon points="5000,6575 5025,6600 5000,6625 5000,6575" fill="blue"/><polygon points="5000,6575 4975,6600 5000,6625 5000,6575" fill="blue"/>
+<!-- Label: --> <text x="5030" y="6575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Gretna Green Services</text>
 <!-- Cell: --> <circle cx="5000" cy="6600" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6580 4975,6575 4980,6575" stroke="black" fill="none"/><polyline points="5025,6580 5025,6575 5020,6575" stroke="black" fill="none"/><polyline points="5025,6620 5025,6625 5020,6625" stroke="black" fill="none"/><polyline points="4975,6620 4975,6625 4980,6625" stroke="black" fill="none"/><polyline points="4995,6575 5005,6575" stroke="black" fill="none"/><polyline points="4995,6625 5005,6625" stroke="black" fill="none"/><polyline points="4975,6595 4975,6605" stroke="black" fill="none"/><polyline points="5025,6595 5025,6605" stroke="black" fill="none"/><polyline points="4995,6600 5005,6600" stroke="black" fill="none"/><polyline points="5000,6595 5000,6605" stroke="black" fill="none"/>
-      <!-- M74 ENG : Scotland - England Border -->
-<!-- Terminator: --> <rect x="4975" y="6690" width="50" height="20" fill="blue" /><text x="5000" y="6725" text-anchor="middle" dominant-baseline="hanging" font-family="Fira Sans Condensed" font-size="50px">M74</text>
-<!-- Label: --> <text x="4970" y="6675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Scotland - England Border</text>
+      <!-- M74 J22 : Gretna -->
+<!-- Junction: --> <polyline points="5000,6700 4975,6700" stroke="blue" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="4970" y="6675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Gretna</text>
 <!-- Cell: --> <circle cx="5000" cy="6700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6680 4975,6675 4980,6675" stroke="black" fill="none"/><polyline points="5025,6680 5025,6675 5020,6675" stroke="black" fill="none"/><polyline points="5025,6720 5025,6725 5020,6725" stroke="black" fill="none"/><polyline points="4975,6720 4975,6725 4980,6725" stroke="black" fill="none"/><polyline points="4995,6675 5005,6675" stroke="black" fill="none"/><polyline points="4995,6725 5005,6725" stroke="black" fill="none"/><polyline points="4975,6695 4975,6705" stroke="black" fill="none"/><polyline points="5025,6695 5025,6705" stroke="black" fill="none"/><polyline points="4995,6700 5005,6700" stroke="black" fill="none"/><polyline points="5000,6695 5000,6705" stroke="black" fill="none"/>
+      <!-- M74 ENG : Scotland - England Border -->
+<!-- Terminator: --> <rect x="4975" y="6790" width="50" height="20" fill="blue" /><text x="5000" y="6825" text-anchor="middle" dominant-baseline="hanging" font-family="Fira Sans Condensed" font-size="50px">M74</text>
+<!-- Label: --> <text x="5030" y="6775" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Scotland - England Border</text>
+<!-- Cell: --> <circle cx="5000" cy="6800" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4975,6780 4975,6775 4980,6775" stroke="black" fill="none"/><polyline points="5025,6780 5025,6775 5020,6775" stroke="black" fill="none"/><polyline points="5025,6820 5025,6825 5020,6825" stroke="black" fill="none"/><polyline points="4975,6820 4975,6825 4980,6825" stroke="black" fill="none"/><polyline points="4995,6775 5005,6775" stroke="black" fill="none"/><polyline points="4995,6825 5005,6825" stroke="black" fill="none"/><polyline points="4975,6795 4975,6805" stroke="black" fill="none"/><polyline points="5025,6795 5025,6805" stroke="black" fill="none"/><polyline points="4995,6800 5005,6800" stroke="black" fill="none"/><polyline points="5000,6795 5000,6805" stroke="black" fill="none"/>
       <!-- Legend for M74 : Seaward St. - Gretna -->
       <rect x="10" y="700" fill="blue" height="200" width="3500" stroke="white" stroke-width="1"/>
       <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="white" font-family="Fira Sans Condensed">
