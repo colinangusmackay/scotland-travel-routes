@@ -9,12 +9,23 @@
     }
   </style>
     <!-- Background -->
-    <rect width="100%" height="100%" fill="white" stroke="#dddddd"/>
+    <defs>
+      <linearGradient id="BackgroundGradient" x1="0" y1="0" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="white"/>
+        <stop offset="100%" stop-color="cornsilk"/>
+      </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#BackgroundGradient)"/>
+    <g font-family="Fira Sans Condensed" font-size="20px">
+      <text x="20" y="1930">Version 1.0</text>
+      <text x="20" y="1955">© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE</text>
+      <text x="20" y="1980">Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues</text>
+    </g>
     {{#setData "routes"}}
 {
   "M8":{
     "colour":"red", "contrastColour":"white",
-    "name":"M8", "route":"Edinburgh City Bypass - Greenock",
+    "name":"M8", "route":"Hermiston - West Ferry",
     "dx":10, "dy":100,
     "junctions": {
       "J1": {
@@ -211,7 +222,7 @@
   },
   "M9":{
     "colour":"purple", "contrastColour": "white",
-    "name":"M9", "route":"Newbridge - Dunblane",
+    "name":"M9", "route":"Claylands - Dunblane",
     "dx":10, "dy":300,
     "junctions": {
       "J0": {
@@ -533,17 +544,17 @@
         "x":1700, "y": 4800
       },
       "J3": {
-        "number": "J3", "name": "Darnley", "labelOffset": "w",
+        "number": "J3", "name": "Nitshill", "labelOffset": "w",
         "type": "standard", "angle": "ns",
         "x":1700, "y": 4900
       },
       "J4": {
-        "number": "J4", "name": "Newton Mearns", "labelOffset": "e",
+        "number": "J4", "name": "Cookfur", "labelOffset": "e",
         "type": "standard", "angle": "ns",
         "x":1700, "y": 5000
       },
       "J5": {
-        "number": "J5", "name": "Loganswell", "labelOffset": "w",
+        "number": "J5", "name": "Malletsheugh", "labelOffset": "w",
         "type": "standard", "angle": "ns",
         "x":1700, "y": 5100
       },
@@ -783,24 +794,19 @@
     }
   },
   "M898":{
-    "colour":"silver", "contrastColour": "black",
-    "name":"M898", "route":"Bishopton - Erskine Bridge",
+    "colour":"saddlebrown", "contrastColour": "white",
+    "name":"M898", "route":"Craigton - Erskine",
     "dx":10, "dy":1700,
     "junctions":{
       "S": {
-        "number": "", "name": "Bishopton",
+        "number": "", "name": "Craigton",
         "type": "interchange", "angle": "ns",
         "x":400, "y": 4400
       },
       "J1": {
         "number": "J1", "name": "Erskine", "labelOffset": "e",
-        "type": "standard", "angle": "ns",
-        "x":400, "y": 4200
-      },
-      "T": {
-        "number": "", "name": "Erskine Bridge", "labelOffset": "e",
         "type": "terminator", "angle": "ns", "terminatorLabelOffset": "n",
-        "x":400, "y": 4000
+        "x":400, "y": 4200
       }
     }
   }
