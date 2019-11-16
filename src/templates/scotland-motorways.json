@@ -6,6 +6,10 @@
     "route": "Hermiston - West Ferry",
     "dx": 10,
     "dy": 100,
+    "buffer": {
+      "west": 200,
+      "east": 200
+    },
     "junctions": {
       "J1": {
         "number": "J1",
@@ -555,6 +559,9 @@
     "route": "Seaward St. - Gretna",
     "dx": 10,
     "dy": 700,
+    "buffer": {
+      "south": 100
+    },
     "junctions": {
       "J0": {
         "number": "M8",
