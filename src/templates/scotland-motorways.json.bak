@@ -15,7 +15,7 @@
         "angle": "ew",
         "terminatorLabelOffset": "e",
         "x": 7700,
-        "y": 2600
+        "y": 2400
       },
       "J2": {
         "number": "J2",
@@ -25,7 +25,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded-s",
         "x": 7400,
-        "y": 2500
+        "y": 2300
       },
       "J3": {
         "number": "J3",
@@ -34,7 +34,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 7200,
-        "y": 2500
+        "y": 2300
       },
       "J3A": {
         "number": "J3A",
@@ -43,7 +43,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 7000,
-        "y": 2500
+        "y": 2300
       },
       "J4": {
         "number": "J4",
@@ -52,7 +52,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 6800,
-        "y": 2500
+        "y": 2300
       },
       "J4A": {
         "number": "J4A",
@@ -61,7 +61,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 6600,
-        "y": 2500
+        "y": 2300
       },
       "S_4A_5": {
         "number": "Services",
@@ -71,7 +71,7 @@
         "angle": "ew",
         "serviceSides": "n,s",
         "x": 6300,
-        "y": 2500
+        "y": 2300
       },
       "J5": {
         "number": "J5",
@@ -80,7 +80,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 6000,
-        "y": 2500
+        "y": 2300
       },
       "J6": {
         "number": "J6",
@@ -89,7 +89,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 5800,
-        "y": 2500
+        "y": 2300
       },
       "J6A": {
         "number": "J6A",
@@ -98,7 +98,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 5600,
-        "y": 2500
+        "y": 2300
       },
       "J7": {
         "number": "J7",
@@ -107,7 +107,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 5400,
-        "y": 2500
+        "y": 2300
       },
       "J7A": {
         "number": "J7A",
@@ -116,7 +116,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 5200,
-        "y": 2500
+        "y": 2300
       },
       "J8": {
         "number": "J8",
@@ -125,7 +125,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 4800,
-        "y": 2500
+        "y": 2300
       },
       "J9": {
         "number": "J9",
@@ -134,7 +134,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4600,
-        "y": 2500
+        "y": 2300
       },
       "J10": {
         "number": "J10",
@@ -143,7 +143,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4400,
-        "y": 2500
+        "y": 2300
       },
       "J11": {
         "number": "J11",
@@ -152,7 +152,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4200,
-        "y": 2500
+        "y": 2300
       },
       "J12": {
         "number": "J12",
@@ -161,7 +161,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4000,
-        "y": 2500
+        "y": 2300
       },
       "J13": {
         "number": "J13",
@@ -170,7 +170,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 3800,
-        "y": 2500
+        "y": 2300
       },
       "J14": {
         "number": "J14",
@@ -179,7 +179,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3600,
-        "y": 2500
+        "y": 2300
       },
       "J15": {
         "number": "J15",
@@ -188,7 +188,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3400,
-        "y": 2500
+        "y": 2300
       },
       "J16": {
         "number": "J16",
@@ -197,7 +197,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3200,
-        "y": 2500
+        "y": 2300
       },
       "J17": {
         "number": "J17",
@@ -206,7 +206,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3000,
-        "y": 2500
+        "y": 2300
       },
       "J18": {
         "number": "J18",
@@ -215,7 +215,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 2800,
-        "y": 2500
+        "y": 2300
       },
       "J19": {
         "number": "J19",
@@ -225,7 +225,7 @@
         "angle": "ns",
         "connectionToPrevious": "rounded",
         "x": 2700,
-        "y": 2650
+        "y": 2450
       },
       "J20": {
         "number": "J20",
@@ -234,7 +234,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 2700,
-        "y": 2750
+        "y": 2550
       },
       "J21": {
         "number": "J21",
@@ -244,7 +244,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded",
         "x": 2500,
-        "y": 2900
+        "y": 2700
       },
       "J22": {
         "number": "J22",
@@ -253,7 +253,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 2150,
-        "y": 2900
+        "y": 2700
       },
       "J23": {
         "number": "J23",
@@ -262,7 +262,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 1900,
-        "y": 2900
+        "y": 2700
       },
       "J24": {
         "number": "J24",
@@ -271,7 +271,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 1700,
-        "y": 2900
+        "y": 2700
       },
       "J25": {
         "number": "J25",
@@ -280,7 +280,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 1500,
-        "y": 2900
+        "y": 2700
       },
       "J25A": {
         "number": "J25A",
@@ -289,7 +289,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 1350,
-        "y": 2900
+        "y": 2700
       },
       "J26": {
         "number": "J26",
@@ -298,7 +298,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 1200,
-        "y": 2900
+        "y": 2700
       },
       "J27": {
         "number": "J27",
@@ -307,7 +307,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 1050,
-        "y": 2900
+        "y": 2700
       },
       "J28": {
         "number": "J28",
@@ -316,7 +316,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 850,
-        "y": 2900
+        "y": 2700
       },
       "J28A": {
         "number": "J28A",
@@ -325,7 +325,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 725,
-        "y": 2900
+        "y": 2700
       },
       "J29": {
         "number": "J29",
@@ -334,7 +334,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 550,
-        "y": 2900
+        "y": 2700
       },
       "J30": {
         "number": "J30",
@@ -343,7 +343,7 @@
         "angle": "ew",
         "labelOffset": "s",
         "x": 400,
-        "y": 2900
+        "y": 2700
       },
       "J31": {
         "number": "J31",
@@ -353,7 +353,7 @@
         "angle": "ew",
         "terminatorLabelOffset": "w",
         "x": 150,
-        "y": 2900
+        "y": 2700
       }
     }
   },
@@ -372,7 +372,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 7400,
-        "y": 2500
+        "y": 2300
       },
       "J1": {
         "number": "J1",
@@ -381,7 +381,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 2350
+        "y": 2150
       },
       "J1A": {
         "number": "J1A",
@@ -390,7 +390,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 7400,
-        "y": 2200
+        "y": 2000
       },
       "J2": {
         "number": "J2",
@@ -400,7 +400,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded",
         "x": 7200,
-        "y": 2000
+        "y": 1800
       },
       "J3": {
         "number": "J3",
@@ -409,7 +409,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 7000,
-        "y": 2000
+        "y": 1800
       },
       "J4": {
         "number": "J4",
@@ -418,7 +418,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 6800,
-        "y": 2000
+        "y": 1800
       },
       "J5": {
         "number": "J5",
@@ -428,7 +428,7 @@
         "angle": "nw-se",
         "connectionToPrevious": "rounded",
         "x": 6600,
-        "y": 1900
+        "y": 1700
       },
       "J6": {
         "number": "J6",
@@ -437,7 +437,7 @@
         "type": "standard",
         "angle": "nw-se",
         "x": 6500,
-        "y": 1800
+        "y": 1600
       },
       "J7": {
         "number": "J7",
@@ -446,7 +446,7 @@
         "type": "standard",
         "angle": "nw-se",
         "x": 6300,
-        "y": 1600
+        "y": 1400
       },
       "J8": {
         "number": "J8",
@@ -455,7 +455,7 @@
         "type": "interchange",
         "angle": "nw-se",
         "x": 6100,
-        "y": 1400
+        "y": 1200
       },
       "J9S": {
         "number": "J9S",
@@ -464,7 +464,7 @@
         "type": "interchange",
         "angle": "nw-se",
         "x": 5620,
-        "y": 920
+        "y": 720
       },
       "J9": {
         "number": "J9",
@@ -473,7 +473,7 @@
         "type": "interchange",
         "angle": "nw-se",
         "x": 5620,
-        "y": 820
+        "y": 620
       },
       "J10": {
         "number": "J10",
@@ -482,7 +482,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5620,
-        "y": 700
+        "y": 500
       },
       "J11": {
         "number": "J11",
@@ -492,7 +492,7 @@
         "angle": "ns",
         "terminatorLabelOffset": "n",
         "x": 5620,
-        "y": 600
+        "y": 400
       }
     }
   },
@@ -510,7 +510,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 4800,
-        "y": 2920
+        "y": 2720
       },
       "J2": {
         "number": "J2",
@@ -518,7 +518,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 4800,
-        "y": 2500
+        "y": 2300
       },
       "J2A": {
         "number": "J2A",
@@ -527,7 +527,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 4800,
-        "y": 2300
+        "y": 2100
       },
       "J3": {
         "number": "J3",
@@ -536,7 +536,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 4800,
-        "y": 2100
+        "y": 1900
       },
       "J3-": {
         "number": "J3",
@@ -544,7 +544,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 4800,
-        "y": 1900
+        "y": 1700
       }
     }
   },
@@ -564,7 +564,7 @@
         "angle": "ew",
         "stretchY": -20,
         "x": 2150,
-        "y": 2920
+        "y": 2720
       },
       "J0A": {
         "number": "M8",
@@ -574,7 +574,7 @@
         "angle": "ew",
         "stretchY": -20,
         "x": 2500,
-        "y": 2920
+        "y": 2720
       },
       "J1": {
         "number": "J1",
@@ -583,7 +583,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 2800,
-        "y": 2920
+        "y": 2720
       },
       "J1A": {
         "number": "J1A",
@@ -592,7 +592,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3100,
-        "y": 2920
+        "y": 2720
       },
       "J2": {
         "number": "J2",
@@ -601,7 +601,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3400,
-        "y": 2920
+        "y": 2720
       },
       "J2A": {
         "number": "J2A",
@@ -610,7 +610,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 3750,
-        "y": 2920
+        "y": 2720
       },
       "J3": {
         "number": "J3",
@@ -619,7 +619,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4100,
-        "y": 2920
+        "y": 2720
       },
       "J3A": {
         "number": "J3A",
@@ -628,7 +628,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4450,
-        "y": 2920
+        "y": 2720
       },
       "J4": {
         "number": "J4",
@@ -637,7 +637,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 4800,
-        "y": 2920
+        "y": 2720
       },
       "S_J4_5_SB": {
         "number": "Services",
@@ -648,7 +648,7 @@
         "angle": "ns",
         "serviceSides": "e",
         "x": 5000,
-        "y": 3100
+        "y": 2900
       },
       "J5": {
         "number": "J5",
@@ -657,7 +657,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 3200
+        "y": 3000
       },
       "S_J5_6_NB": {
         "number": "Services",
@@ -667,7 +667,7 @@
         "angle": "ns",
         "serviceSides": "w",
         "x": 5000,
-        "y": 3300
+        "y": 3100
       },
       "J6": {
         "number": "J6",
@@ -676,7 +676,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 3400
+        "y": 3200
       },
       "J7": {
         "number": "J7",
@@ -685,7 +685,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 3500
+        "y": 3300
       },
       "J8": {
         "number": "J8",
@@ -694,7 +694,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 3600
+        "y": 3400
       },
       "J9": {
         "number": "J9",
@@ -703,7 +703,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 3700
+        "y": 3500
       },
       "J10": {
         "number": "J10",
@@ -712,7 +712,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 3800
+        "y": 3600
       },
       "J11": {
         "number": "J11",
@@ -721,7 +721,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 5000,
-        "y": 3900
+        "y": 3700
       },
       "J12": {
         "number": "J12",
@@ -730,7 +730,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 5000,
-        "y": 4100
+        "y": 3900
       },
       "J13": {
         "number": "J13",
@@ -739,7 +739,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4200
+        "y": 4000
       },
       "J13S": {
         "number": "J13S",
@@ -749,7 +749,7 @@
         "angle": "ns",
         "serviceSides": "e",
         "x": 5000,
-        "y": 4200
+        "y": 4000
       },
       "J14": {
         "number": "J14",
@@ -758,7 +758,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4300
+        "y": 4100
       },
       "J15": {
         "number": "J15",
@@ -767,7 +767,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4400
+        "y": 4200
       },
       "J16": {
         "number": "J16",
@@ -776,7 +776,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4500
+        "y": 4300
       },
       "J16S": {
         "number": "J16S",
@@ -786,7 +786,7 @@
         "angle": "ns",
         "serviceSides": "e",
         "x": 5000,
-        "y": 4500
+        "y": 4300
       },
       "J17": {
         "number": "J17",
@@ -795,7 +795,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4600
+        "y": 4400
       },
       "J18": {
         "number": "J18",
@@ -804,7 +804,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4700
+        "y": 4500
       },
       "J19": {
         "number": "J19",
@@ -813,7 +813,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4800
+        "y": 4600
       },
       "J20": {
         "number": "J20",
@@ -822,7 +822,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 4900
+        "y": 4700
       },
       "J21": {
         "number": "J20",
@@ -831,7 +831,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 5000
+        "y": 4800
       },
       "J_21_22_S": {
         "number": "Services",
@@ -841,7 +841,7 @@
         "angle": "ns",
         "serviceSides": "e,w",
         "x": 5000,
-        "y": 5100
+        "y": 4900
       },
       "J22": {
         "number": "J22",
@@ -850,7 +850,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 5000,
-        "y": 5200
+        "y": 5000
       },
       "ENG": {
         "number": "ENG",
@@ -860,7 +860,7 @@
         "angle": "ns",
         "terminatorLabelOffset": "s",
         "x": 5000,
-        "y": 5300
+        "y": 5100
       }
     }
   },
@@ -879,7 +879,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 5000,
-        "y": 3900
+        "y": 3700
       },
       "Services": {
         "number": "J11",
@@ -890,7 +890,7 @@
         "angle": "ns",
         "serviceSides": "e,w",
         "x": 5100,
-        "y": 4000
+        "y": 3800
       },
       "J12": {
         "number": "",
@@ -900,7 +900,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 5000,
-        "y": 4100
+        "y": 3900
       }
     }
   },
@@ -921,7 +921,7 @@
         "angle": "ns",
         "stretchY": 20,
         "x": 2150,
-        "y": 2900
+        "y": 2700
       },
       "J1": {
         "number": "J1",
@@ -931,7 +931,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded",
         "x": 1900,
-        "y": 3100
+        "y": 2900
       },
       "J2": {
         "number": "J2",
@@ -941,7 +941,7 @@
         "angle": "ns",
         "connectionToPrevious": "rounded",
         "x": 1700,
-        "y": 3300
+        "y": 3100
       },
       "J3": {
         "number": "J3",
@@ -950,7 +950,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 1700,
-        "y": 3400
+        "y": 3200
       },
       "J4": {
         "number": "J4",
@@ -959,7 +959,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 1700,
-        "y": 3500
+        "y": 3300
       },
       "J5": {
         "number": "J5",
@@ -968,7 +968,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 1700,
-        "y": 3600
+        "y": 3400
       },
       "J6": {
         "number": "J6",
@@ -977,7 +977,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 1700,
-        "y": 3700
+        "y": 3500
       },
       "J7": {
         "number": "J7",
@@ -986,7 +986,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 1700,
-        "y": 3800
+        "y": 3600
       },
       "J8": {
         "number": "J8",
@@ -996,7 +996,7 @@
         "angle": "ns",
         "terminatorLabelOffset": "s",
         "x": 1700,
-        "y": 3900
+        "y": 3700
       }
     }
   },
@@ -1014,7 +1014,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 3400,
-        "y": 2500
+        "y": 2300
       },
       "J2": {
         "number": "J2",
@@ -1023,7 +1023,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 3400,
-        "y": 2300
+        "y": 2100
       },
       "J3": {
         "number": "J3",
@@ -1033,7 +1033,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 4000,
-        "y": 1900
+        "y": 1700
       },
       "J4": {
         "number": "J4",
@@ -1042,7 +1042,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 4800,
-        "y": 1900
+        "y": 1700
       },
       "J4A": {
         "number": "J4A",
@@ -1052,7 +1052,7 @@
         "angle": "sw-ne",
         "connectionToPrevious": "rounded",
         "x": 5000,
-        "y": 1800
+        "y": 1600
       },
       "J5": {
         "number": "J5",
@@ -1061,7 +1061,7 @@
         "type": "standard",
         "angle": "sw-ne",
         "x": 5075,
-        "y": 1725
+        "y": 1525
       },
       "J6": {
         "number": "J6",
@@ -1070,7 +1070,7 @@
         "type": "standard",
         "angle": "sw-ne",
         "x": 5150,
-        "y": 1650
+        "y": 1450
       },
       "J6A": {
         "number": "J6A",
@@ -1080,7 +1080,7 @@
         "angle": "ns",
         "connectionToPrevious": "rounded",
         "x": 5225,
-        "y": 1475
+        "y": 1275
       },
       "J7": {
         "number": "J7",
@@ -1090,7 +1090,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded",
         "x": 5375,
-        "y": 1400
+        "y": 1200
       },
       "J8": {
         "number": "J8",
@@ -1100,7 +1100,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 5500,
-        "y": 1400
+        "y": 1200
       },
       "J9-S": {
         "number": "J9S",
@@ -1111,7 +1111,7 @@
         "connectionToPrevious": "rounded",
         "stretchX": 20,
         "x": 5600,
-        "y": 920
+        "y": 720
       },
       "J9": {
         "number": "J9",
@@ -1122,7 +1122,7 @@
         "connectionToPrevious": "rounded",
         "stretchX": 20,
         "x": 5600,
-        "y": 820
+        "y": 620
       }
     }
   },
@@ -1141,7 +1141,7 @@
         "type": "interchange",
         "angle": "ew",
         "x": 7400,
-        "y": 2200
+        "y": 2000
       },
       "pre-J1": {
         "number": "pre-J1",
@@ -1151,7 +1151,7 @@
         "angle": "ns",
         "connectionToPrevious": "rounded",
         "x": 7700,
-        "y": 2000
+        "y": 1800
       },
       "J1": {
         "number": "J1",
@@ -1161,7 +1161,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded",
         "x": 7600,
-        "y": 1900
+        "y": 1700
       },
       "J1A": {
         "number": "J1A",
@@ -1171,7 +1171,7 @@
         "angle": "ns",
         "connectionToPrevious": "rounded",
         "x": 7400,
-        "y": 1800
+        "y": 1600
       },
       "J1B": {
         "number": "J1B",
@@ -1180,7 +1180,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1600
+        "y": 1400
       },
       "J1C": {
         "number": "J1C",
@@ -1189,7 +1189,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1500
+        "y": 1300
       },
       "J2": {
         "number": "J2",
@@ -1198,7 +1198,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1400
+        "y": 1200
       },
       "J2A": {
         "number": "J2A",
@@ -1207,7 +1207,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1300
+        "y": 1100
       },
       "J3": {
         "number": "J3",
@@ -1216,7 +1216,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1200
+        "y": 1000
       },
       "J4": {
         "number": "J4",
@@ -1225,7 +1225,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1100
+        "y": 900
       },
       "J5": {
         "number": "J5",
@@ -1234,7 +1234,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 1000
+        "y": 800
       },
       "J6": {
         "number": "J6",
@@ -1243,7 +1243,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 900
+        "y": 700
       },
       "J6S": {
         "number": "J6S",
@@ -1253,7 +1253,7 @@
         "angle": "ns",
         "serviceSides": "e",
         "x": 7400,
-        "y": 900
+        "y": 700
       },
       "J7": {
         "number": "J7",
@@ -1262,7 +1262,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 800
+        "y": 600
       },
       "J8": {
         "number": "J8",
@@ -1271,7 +1271,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 700
+        "y": 500
       },
       "J9": {
         "number": "J9",
@@ -1280,7 +1280,7 @@
         "type": "standard",
         "angle": "ns",
         "x": 7400,
-        "y": 600
+        "y": 400
       },
       "J10": {
         "number": "J10",
@@ -1290,7 +1290,7 @@
         "angle": "ew",
         "connectionToPrevious": "rounded",
         "x": 7200,
-        "y": 400
+        "y": 200
       },
       "J12": {
         "number": "J12",
@@ -1300,7 +1300,7 @@
         "angle": "ew",
         "terminatorLabelOffset": "w",
         "x": 6800,
-        "y": 400
+        "y": 200
       }
     }
   },
@@ -1319,7 +1319,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 7200,
-        "y": 400
+        "y": 200
       },
       "J11": {
         "number": "J11",
@@ -1330,7 +1330,7 @@
         "connectionToPrevious": "rounded",
         "terminatorLabelOffset": "n",
         "x": 7100,
-        "y": 200
+        "y": 0
       }
     }
   },
@@ -1350,7 +1350,7 @@
         "angle": "ew",
         "stretchY": -20,
         "x": 5500,
-        "y": 1420
+        "y": 1220
       },
       "J1": {
         "number": "J1",
@@ -1360,7 +1360,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 5700,
-        "y": 1420
+        "y": 1220
       },
       "J2": {
         "number": "J2",
@@ -1369,7 +1369,7 @@
         "type": "standard",
         "angle": "ew",
         "x": 5900,
-        "y": 1420
+        "y": 1220
       },
       "J2A": {
         "number": "J2A",
@@ -1379,7 +1379,7 @@
         "angle": "ew",
         "stretchY": -20,
         "x": 6100,
-        "y": 1420
+        "y": 1220
       },
       "J2B": {
         "number": "J2B",
@@ -1389,7 +1389,7 @@
         "angle": "ew",
         "stretchX": 20,
         "x": 6280,
-        "y": 1600
+        "y": 1400
       },
       "J3": {
         "number": "J3",
@@ -1399,7 +1399,7 @@
         "angle": "ew",
         "terminatorLabelOffset": "e",
         "x": 6480,
-        "y": 1600
+        "y": 1400
       }
     }
   },
@@ -1417,7 +1417,7 @@
         "type": "interchange",
         "angle": "ns",
         "x": 400,
-        "y": 2900
+        "y": 2700
       },
       "J1": {
         "number": "J1",
@@ -1427,7 +1427,7 @@
         "angle": "ns",
         "terminatorLabelOffset": "n",
         "x": 400,
-        "y": 2700
+        "y": 2500
       }
     }
   }

@@ -1,3 +1,4 @@
+{{#setData "routes" "./templates/scotland-motorways.json"}}{{/setData}}
 <svg version="1.1"
      baseProfile="full"
      width="8000" height="7000"
@@ -21,7 +22,6 @@
       <text x="20" y="1955">© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE</text>
       <text x="20" y="1980">Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues</text>
     </g>
-    {{#setData "routes" "./templates/scotland-motorways.json"}}{{/setData}}
 
   {{#each routes}}
       <!-- Legend for {{name}} : {{route}} -->

@@ -10,13 +10,15 @@
     "plop:motorway": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --source ./templates/scotland-motorway-network.svg.hbs --destination ../result.svg",
     "plop:motorway:final": "plop --plopfile ./index.js -- esvg --displayDiagnostics N --displayDebugGuides N --source ./templates/scotland-motorway-network.svg.hbs --destination ../result.svg",
     "plop:ew-ew-2prc": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --source templates/ew-ew-2prc.svg.hbs --destination ../ew-ew-2prc.svg",
-    "plop:ns-ew-2prc": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --source templates/ns-ew-2prc.svg.hbs --destination ../ns-ew-2prc.svg"
+    "plop:ns-ew-2prc": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --source templates/ns-ew-2prc.svg.hbs --destination ../ns-ew-2prc.svg",
+    "shift-map": "node ./scripts/shift-map.js"
   },
   "author": "Colin Mackay",
   "license": "MIT",
   "devDependencies": {
     "ava": "^2.4.0",
     "colors": "^1.4.0",
+    "commander": "^4.0.1",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
@@ -25,5 +27,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "moment": "^2.24.0",
     "plop": "^2.5.2"
-  }
+  },
+  "dependencies": {}
 }
