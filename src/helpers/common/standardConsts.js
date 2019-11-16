@@ -1,6 +1,11 @@
 const cellSize = 50;
 
 module.exports = {
+  fontSize: {
+    legend: 180,
+    map: cellSize,
+    information: cellSize * (2 / 5)
+  },
   cellSize: cellSize,
   cellHalfSize: cellSize / 2,
   cellQuarterSize: cellSize / 4,

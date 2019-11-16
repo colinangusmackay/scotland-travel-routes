@@ -13,6 +13,10 @@ module.exports = function (plop) {
       text = fs.readFileSync(absoluteLocation, "utf8");
     }
     const obj = JSON.parse(text);
-    options.data.root[name] = obj;
+    if (Object.prototype.hasOwnProperty.call(obj, name)) {
+      options.data.root[name] = obj[name];
+    } else {
+      options.data.root[name] = obj;
+    }
   });
 };
