@@ -1,10 +1,9 @@
 {
   "information": {
     "x": 20,
-    "y": 530,
+    "y": 1930,
     "lines": [
       "Version 1.0-preview",
-      "This is not meant to represent an accurate route map of Lothian Country.",
       "© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE",
       "Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues"
     ]
@@ -31,8 +30,8 @@
           "type": "terminator",
           "angle": "ew",
           "terminatorLabelOffset": "e",
-          "x": 1500,
-          "y": 1000
+          "x": 1000,
+          "y": 700
         },
         "B": {
           "number": "B",
@@ -40,8 +39,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 1200,
-          "y": 1000
+          "x": 700,
+          "y": 700
         },
         "C": {
           "number": "C",
@@ -50,8 +49,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 900,
-          "y": 850
+          "x": 400,
+          "y": 550
         },
         "D": {
           "number": "D",
@@ -60,8 +59,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 1300,
-          "y": 700
+          "x": 800,
+          "y": 400
         },
         "E": {
           "number": "E",
@@ -69,8 +68,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 1700,
-          "y": 700
+          "x": 1200,
+          "y": 400
         },
         "F": {
           "number": "F",
@@ -79,8 +78,8 @@
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 2000,
-          "y": 900
+          "x": 1500,
+          "y": 600
         },
         "G": {
           "number": "G",
@@ -88,8 +87,8 @@
           "labelOffset": "ne",
           "type": "standard",
           "angle": "nw-se",
-          "x": 2100,
-          "y": 1000
+          "x": 1600,
+          "y": 700
         },
         "H": {
           "number": "H",
@@ -97,8 +96,8 @@
           "labelOffset": "ne",
           "type": "standard",
           "angle": "nw-se",
-          "x": 2200,
-          "y": 1100
+          "x": 1700,
+          "y": 800
         },
         "I": {
           "number": "I",
@@ -107,8 +106,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 2400,
-          "y": 1200
+          "x": 1900,
+          "y": 900
         },
         "J": {
           "number": "J",
@@ -116,8 +115,8 @@
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 2600,
-          "y": 1200
+          "x": 2100,
+          "y": 900
         },
         "K": {
           "number": "K",
@@ -125,8 +124,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 2800,
-          "y": 1200
+          "x": 2300,
+          "y": 900
         },
         "L": {
           "number": "L",
@@ -135,8 +134,8 @@
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 3000,
-          "y": 1300
+          "x": 2500,
+          "y": 1000
         },
         "M": {
           "number": "M",
@@ -145,8 +144,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3300,
-          "y": 1400
+          "x": 2800,
+          "y": 1100
         },
         "N": {
           "number": "N",
@@ -155,8 +154,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 3400,
-          "y": 1500
+          "x": 2900,
+          "y": 1200
         },
         "O": {
           "number": "O",
@@ -165,8 +164,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3550,
-          "y": 1700
+          "x": 3050,
+          "y": 1400
         },
         "Oa": {
           "number": "Oa",
@@ -175,8 +174,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 3700,
-          "y": 1625
+          "x": 3200,
+          "y": 1325
         },
         "P": {
           "number": "P",
@@ -185,8 +184,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3800,
-          "y": 1550
+          "x": 3300,
+          "y": 1250
         },
         "Q": {
           "number": "Q",
@@ -195,8 +194,8 @@
           "labelOffsetX": -50,
           "type": "terminator",
           "angle": "ew",
-          "x": 4000,
-          "y": 1550
+          "x": 3500,
+          "y": 1250
         }
       }
     },
@@ -220,8 +219,8 @@
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 1700,
-          "y": 1720
+          "x": 1200,
+          "y": 1420
         },
         "L": {
           "number": "L",
@@ -229,8 +228,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 2000,
-          "y": 1720
+          "x": 1500,
+          "y": 1420
         },
         "M": {
           "number": "M",
@@ -238,8 +237,8 @@
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 2300,
-          "y": 1720
+          "x": 1800,
+          "y": 1420
         },
         "N": {
           "number": "N",
@@ -247,8 +246,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 2800,
-          "y": 1720
+          "x": 2300,
+          "y": 1420
         },
         "O": {
           "number": "O",
@@ -256,8 +255,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 3200,
-          "y": 1720
+          "x": 2700,
+          "y": 1420
         },
         "Oa": {
           "number": "Oa",
@@ -266,8 +265,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 3720,
-          "y": 1645
+          "x": 3220,
+          "y": 1345
         },
         "P": {
           "number": "P",
@@ -276,8 +275,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3800,
-          "y": 1570
+          "x": 3300,
+          "y": 1270
         },
         "Q": {
           "number": "Q",
@@ -285,8 +284,8 @@
           "labelOffset": "ne",
           "type": "terminator",
           "angle": "ew",
-          "x": 4000,
-          "y": 1570
+          "x": 3500,
+          "y": 1270
         }
       }
     }

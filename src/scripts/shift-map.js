@@ -41,6 +41,12 @@ Object.getOwnPropertyNames(routes).forEach((routeId, index) => {
   });
 });
 
-const result = JSON.stringify(routes, null, 2);
+let result = "";
+if (data.routes) {
+  data.routes = routes;
+  result = JSON.stringify(data, null, 2);
+} else {
+  result = JSON.stringify(routes, null, 2);
+}
 
 fs.writeFileSync(program.file, result, "utf8");
