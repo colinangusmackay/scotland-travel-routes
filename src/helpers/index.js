@@ -9,6 +9,7 @@ module.exports = function (plop) {
   require("./renderInterchange")(plop);
   require("./renderJunction")(plop);
   require("./renderLabel")(plop);
+  require("./renderLegendEntry")(plop);
   require("./renderServices")(plop);
   require("./renderTerminator")(plop);
 };

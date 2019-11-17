@@ -23,12 +23,7 @@
   {{renderInformation information}}
 
   {{#each routes}}
-      <!-- Legend for {{name}} : {{route}} -->
-      <rect x="{{offset dx 0}}" y="{{offset dy 0}}" fill="{{colour}}" height="200" width="3500" stroke="white" stroke-width="1"/>
-      <g text-anchor="start" font-size="180px" dominant-baseline="middle" fill="{{contrastColour}}" font-family="Fira Sans Condensed">
-          <text x="{{offset dx 50}}" y="{{offset dy 100}}" font-weight="bold">{{name}}</text>
-          <text x="{{offset dx 600}}" y="{{offset dy 100}}">{{route}}</text>
-      </g>
+    {{renderLegendEntry this}}
 
     {{#each junctions}}
       <!-- {{../name}} {{number}} : {{name}} -->
