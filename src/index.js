@@ -24,7 +24,7 @@ module.exports = function (plop) {
         type: "add",
         force: true,
         path: "{{destination}}",
-        templateFile: "{{source}}"
+        templateFile: "{{template}}"
       });
 
       actions.push({

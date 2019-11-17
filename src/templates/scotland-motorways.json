@@ -239,7 +239,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 2700,
-          "y": 2650
+          "y": 2625
         },
         "J20": {
           "number": "J20",
@@ -248,7 +248,7 @@
           "type": "standard",
           "angle": "ns",
           "x": 2700,
-          "y": 2750
+          "y": 2800
         },
         "J21": {
           "number": "J21",

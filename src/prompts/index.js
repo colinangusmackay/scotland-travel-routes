@@ -1,6 +1,6 @@
 module.exports = [
   require("./displayDiagnostics"),
-  require("./source"),
+  require("./template"),
   require("./destination"),
   require("./displayDebugGuides")
 ];

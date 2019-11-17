@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   type: "input",
-  name: "source",
+  name: "template",
   filter: function (input) {
     // This runs before the validate, so empty input is just passed through
     if (input === "") { return ""; }
