@@ -200,10 +200,10 @@
         }
       }
     },
-    "X2": {
+    "EX2": {
       "colour": "green",
       "contrastColour": "white",
-      "name": "X2",
+      "name": "EX2",
       "route": "Green Arrow Express",
       "dx": 10,
       "dy": 300,
@@ -214,12 +214,62 @@
         "south": 200
       },
       "junctions": {
+        "F": {
+          "number": "F",
+          "name": "Linlithgow Bridge",
+          "labelOffset": "n",
+          "type": "terminator",
+          "angle": "ew",
+          "terminatorLabelOffset": "w",
+          "x": 100,
+          "y": 1300
+        },
+        "G": {
+          "number": "G",
+          "name": "Linlithgow Cross",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 300,
+          "y": 1300
+        },
+        "H": {
+          "number": "H",
+          "name": "Springfield",
+          "labelOffset": "w",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 400,
+          "y": 1100
+        },
+        "I": {
+          "number": "I",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 500,
+          "y": 1000
+        },
+        "J": {
+          "number": "J",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "nw-se",
+          "connectionToPrevious": "rounded",
+          "x": 900,
+          "y": 1300
+        },
         "K": {
           "number": "K",
           "name": "Ratho Station",
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
+          "connectionToPrevious": "rounded",
           "x": 1700,
           "y": 1720
         },
