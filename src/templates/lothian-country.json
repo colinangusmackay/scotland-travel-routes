@@ -201,7 +201,44 @@
         }
       }
     },
-    "EX2": {
+    "N43": {
+      "colour": "crimson",
+      "contrastColour": "white",
+      "name": "43",
+      "route": "Queensferry - Edinburgh",
+      "dx": 10,
+      "dy": 100,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "NO": {
+          "number": "O",
+          "name": "",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 3750,
+          "y": 1700
+        },
+        "NP": {
+          "number": "NP",
+          "name": "Leith Street",
+          "labelOffset": "e",
+          "type": "terminator",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 4400,
+          "y": 1600
+        }
+
+      }
+    },
+      "EX2": {
       "colour": "green",
       "contrastColour": "white",
       "name": "EX2",

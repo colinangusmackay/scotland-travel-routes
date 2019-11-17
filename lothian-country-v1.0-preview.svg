@@ -2,7 +2,7 @@
 
 <svg version="1.1"
      baseProfile="full"
-     width="4600" height="1920"
+     width="4800" height="1920"
      xmlns="http://www.w3.org/2000/svg">
   <style>
     @font-face {
@@ -143,6 +143,25 @@
 <!-- Terminator: --> <rect x="4190" y="1525" width="20" height="50" fill="crimson" />
 <!-- Label: --> <text x="4180" y="1470" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">St. Andrew Sq</text>
 <!-- Cell: --> <circle cx="4200" cy="1550" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4175,1525 4225,1525 4225,1575 4175,1575 4175,1525" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4175,1525 4225,1575" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4225,1525 4175,1575" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="4175,1530 4175,1525 4180,1525" stroke="black" fill="none"/><polyline points="4225,1530 4225,1525 4220,1525" stroke="black" fill="none"/><polyline points="4225,1570 4225,1575 4220,1575" stroke="black" fill="none"/><polyline points="4175,1570 4175,1575 4180,1575" stroke="black" fill="none"/><polyline points="4195,1525 4205,1525" stroke="black" fill="none"/><polyline points="4195,1575 4205,1575" stroke="black" fill="none"/><polyline points="4175,1545 4175,1555" stroke="black" fill="none"/><polyline points="4225,1545 4225,1555" stroke="black" fill="none"/><polyline points="4195,1550 4205,1550" stroke="black" fill="none"/><polyline points="4200,1545 4200,1555" stroke="black" fill="none"/>
+    <!-- Legend for 43 : Queensferry - Edinburgh -->
+<rect x="10" y="100" fill="crimson" height="200" width="3500" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="110" font-weight="bold">43</text>
+<text x="610" y="110">Queensferry - Edinburgh</text>
+</g>
+
+      <!-- 43 O :  -->
+      <!-- Connector: --> 
+      <!-- 43 NP : Leith Street -->
+      <!-- Connector: --> <path d="M3750,1700 L3775,1700 L4350,1700 A50 50 0 0 0 4400,1650 L4400,1600" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- 43 O :  -->
+<!-- Junction: --> <polyline points="3750,1700 3750,1675" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Cell: --> <circle cx="3750" cy="1700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="3725,1675 3775,1675 3775,1725 3725,1725 3725,1675" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3725,1675 3775,1725" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3775,1675 3725,1725" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="3725,1680 3725,1675 3730,1675" stroke="black" fill="none"/><polyline points="3775,1680 3775,1675 3770,1675" stroke="black" fill="none"/><polyline points="3775,1720 3775,1725 3770,1725" stroke="black" fill="none"/><polyline points="3725,1720 3725,1725 3730,1725" stroke="black" fill="none"/><polyline points="3745,1675 3755,1675" stroke="black" fill="none"/><polyline points="3745,1725 3755,1725" stroke="black" fill="none"/><polyline points="3725,1695 3725,1705" stroke="black" fill="none"/><polyline points="3775,1695 3775,1705" stroke="black" fill="none"/><polyline points="3745,1700 3755,1700" stroke="black" fill="none"/><polyline points="3750,1695 3750,1705" stroke="black" fill="none"/>
+      <!-- 43 NP : Leith Street -->
+<!-- Terminator: --> <rect x="4375" y="1590" width="50" height="20" fill="crimson" />
+<!-- Label: --> <text x="4430" y="1575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Leith Street</text>
+<!-- Cell: --> <circle cx="4400" cy="1600" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="4375,1580 4375,1575 4380,1575" stroke="black" fill="none"/><polyline points="4425,1580 4425,1575 4420,1575" stroke="black" fill="none"/><polyline points="4425,1620 4425,1625 4420,1625" stroke="black" fill="none"/><polyline points="4375,1620 4375,1625 4380,1625" stroke="black" fill="none"/><polyline points="4395,1575 4405,1575" stroke="black" fill="none"/><polyline points="4395,1625 4405,1625" stroke="black" fill="none"/><polyline points="4375,1595 4375,1605" stroke="black" fill="none"/><polyline points="4425,1595 4425,1605" stroke="black" fill="none"/><polyline points="4395,1600 4405,1600" stroke="black" fill="none"/><polyline points="4400,1595 4400,1605" stroke="black" fill="none"/>
     <!-- Legend for EX2 : Green Arrow Express -->
 <rect x="10" y="300" fill="green" height="200" width="3500" stroke="white" stroke-width="1"/>
 <g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
