@@ -32,8 +32,8 @@
           "type": "terminator",
           "angle": "ew",
           "terminatorLabelOffset": "e",
-          "x": 1700,
-          "y": 1000
+          "x": 2200,
+          "y": 1100
         },
         "B": {
           "number": "B",
@@ -41,8 +41,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 1400,
-          "y": 1000
+          "x": 1900,
+          "y": 1100
         },
         "C": {
           "number": "C",
@@ -51,8 +51,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 1100,
-          "y": 850
+          "x": 1600,
+          "y": 950
         },
         "D": {
           "number": "D",
@@ -61,8 +61,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 1500,
-          "y": 700
+          "x": 2000,
+          "y": 800
         },
         "E": {
           "number": "E",
@@ -70,8 +70,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 1900,
-          "y": 700
+          "x": 2300,
+          "y": 800
         },
         "F": {
           "number": "F",
@@ -80,7 +80,7 @@
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 2200,
+          "x": 2500,
           "y": 900
         },
         "G": {
@@ -89,8 +89,8 @@
           "labelOffset": "ne",
           "type": "standard",
           "angle": "nw-se",
-          "x": 2300,
-          "y": 1000
+          "x": 2700,
+          "y": 1100
         },
         "H": {
           "number": "H",
@@ -98,8 +98,8 @@
           "labelOffset": "ne",
           "type": "standard",
           "angle": "nw-se",
-          "x": 2400,
-          "y": 1100
+          "x": 2900,
+          "y": 1300
         },
         "I": {
           "number": "I",
@@ -108,8 +108,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 2600,
-          "y": 1200
+          "x": 3100,
+          "y": 1400
         },
         "J": {
           "number": "J",
@@ -117,8 +117,8 @@
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 2800,
-          "y": 1200
+          "x": 3300,
+          "y": 1400
         },
         "K": {
           "number": "K",
@@ -126,8 +126,8 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 3000,
-          "y": 1200
+          "x": 3500,
+          "y": 1400
         },
         "L": {
           "number": "L",
@@ -136,8 +136,8 @@
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 3200,
-          "y": 1300
+          "x": 3700,
+          "y": 1500
         },
         "M": {
           "number": "M",
@@ -146,8 +146,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3500,
-          "y": 1400
+          "x": 4000,
+          "y": 1600
         },
         "N": {
           "number": "N",
@@ -156,8 +156,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 3600,
-          "y": 1500
+          "x": 4100,
+          "y": 1700
         },
         "O": {
           "number": "O",
@@ -166,8 +166,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3750,
-          "y": 1700
+          "x": 4250,
+          "y": 1900
         },
         "Oa": {
           "number": "Oa",
@@ -176,8 +176,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 3900,
-          "y": 1625
+          "x": 4400,
+          "y": 1825
         },
         "P": {
           "number": "P",
@@ -186,8 +186,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 4000,
-          "y": 1550
+          "x": 4500,
+          "y": 1750
         },
         "Q": {
           "number": "Q",
@@ -196,8 +196,8 @@
           "labelOffsetX": -50,
           "type": "terminator",
           "angle": "ew",
-          "x": 4200,
-          "y": 1550
+          "x": 4700,
+          "y": 1750
         }
       }
     },
@@ -222,8 +222,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3750,
-          "y": 1700
+          "x": 4250,
+          "y": 1900
         },
         "NP": {
           "number": "NP",
@@ -232,10 +232,9 @@
           "type": "terminator",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 4400,
-          "y": 1600
+          "x": 4900,
+          "y": 1800
         }
-
       }
     },
     "EX2": {
@@ -259,8 +258,8 @@
           "type": "terminator",
           "angle": "ew",
           "terminatorLabelOffset": "w",
-          "x": 300,
-          "y": 1300
+          "x": 800,
+          "y": 1500
         },
         "G": {
           "number": "G",
@@ -269,8 +268,8 @@
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 500,
-          "y": 1300
+          "x": 1000,
+          "y": 1500
         },
         "H": {
           "number": "H",
@@ -279,8 +278,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 600,
-          "y": 1100
+          "x": 1100,
+          "y": 1300
         },
         "I": {
           "number": "I",
@@ -289,8 +288,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 700,
-          "y": 1000
+          "x": 1200,
+          "y": 1200
         },
         "J": {
           "number": "J",
@@ -299,8 +298,8 @@
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 1100,
-          "y": 1300
+          "x": 1900,
+          "y": 1500
         },
         "K": {
           "number": "K",
@@ -309,17 +308,17 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 1900,
-          "y": 1740
+          "x": 2400,
+          "y": 1940
         },
         "L": {
           "number": "L",
-          "name": "Gogarburn",
+          "comment": "Gogarburn",
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 2200,
-          "y": 1740
+          "x": 2700,
+          "y": 1940
         },
         "M": {
           "number": "M",
@@ -327,26 +326,26 @@
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 2500,
-          "y": 1740
+          "x": 2850,
+          "y": 1940
         },
         "N": {
           "number": "N",
-          "name": "Edinburgh Zoo",
+          "comment": "Edinburgh Zoo",
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 3000,
-          "y": 1740
+          "x": 3500,
+          "y": 1940
         },
         "O": {
           "number": "O",
-          "name": "Haymarket",
+          "comment": "Haymarket",
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 3400,
-          "y": 1740
+          "x": 3900,
+          "y": 1940
         },
         "Oa": {
           "number": "Oa",
@@ -355,8 +354,8 @@
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 3920,
-          "y": 1645
+          "x": 4420,
+          "y": 1845
         },
         "P": {
           "number": "P",
@@ -365,8 +364,8 @@
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 4000,
-          "y": 1570
+          "x": 4500,
+          "y": 1770
         },
         "Q": {
           "number": "Q",
@@ -374,8 +373,8 @@
           "labelOffset": "ne",
           "type": "terminator",
           "angle": "ew",
-          "x": 4200,
-          "y": 1570
+          "x": 4700,
+          "y": 1770
         }
       }
     },
@@ -393,90 +392,128 @@
         "south": 200
       },
       "junctions": {
-        "F": {
-          "number": "F",
+        "A": {
+          "number": "A",
           "name": "Linlithgow Bridge",
           "labelOffset": "",
           "type": "terminator",
           "angle": "ew",
           "terminatorLabelOffset": "w",
-          "x": 300,
-          "y": 1320
+          "x": 800,
+          "y": 1520
         },
-        "G": {
-          "number": "G",
+        "B": {
+          "number": "B",
           "name": "Linlithgow Cross",
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 500,
-          "y": 1320
+          "x": 1000,
+          "y": 1520
         },
-        "H": {
-          "number": "H",
+        "C": {
+          "number": "C",
           "name": "Bridgend",
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 700,
-          "y": 1320
+          "x": 1250,
+          "y": 1520
         },
-        "I": {
-          "number": "I",
-          "name": "",
-          "labelOffset": "",
-          "type": "standard",
-          "angle": "ew",
-          "connectionToPrevious": "rounded",
-          "x": 700,
-          "y": 1000
-        },
-        "J": {
-          "number": "J",
-          "name": "",
-          "labelOffset": "",
+        "D": {
+          "number": "D",
+          "name": "Winchburgh",
+          "labelOffset": "ne",
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 1100,
-          "y": 1300
+          "x": 1400,
+          "y": 1600
         },
-        "K": {
-          "number": "K",
-          "name": "Ratho Station",
+        "E": {
+          "number": "E",
+          "name": "Kirkliston",
+          "labelOffset": "ne",
+          "type": "standard",
+          "angle": "nw-se",
+          "x": 1600,
+          "y": 1800
+        },
+        "F": {
+          "number": "F",
+          "name": "Newbridge",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 2000,
+          "y": 1920
+        },
+        "G": {
+          "number": "G",
+          "comment": "Ratho Station",
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 1900,
-          "y": 1740
+          "x": 2400,
+          "y": 1920
         },
-        "L": {
-          "number": "L",
+        "H": {
+          "number": "H",
           "name": "Gogarburn",
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 2200,
-          "y": 1740
+          "x": 2700,
+          "y": 1920
         },
-        "M": {
-          "number": "M",
-          "name": "Maybury",
+        "I": {
+          "number": "I",
+          "comment": "Maybury",
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
-          "x": 2500,
-          "y": 1740
+          "x": 2850,
+          "y": 1920
         },
-        "N": {
-          "number": "N",
+        "J": {
+          "number": "J",
+          "name": "Drum Brae South",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3100,
+          "y": 1920
+        },
+        "K": {
+          "number": "K",
+          "name": "Kirk Loan",
+          "labelOffset": "s",
+          "labelOffsetY": 20,
+          "type": "standard",
+          "angle": "ew",
+          "x": 3300,
+          "y": 1920
+        },
+        "L": {
+          "number": "L",
           "name": "Edinburgh Zoo",
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 3000,
-          "y": 1740
+          "x": 3500,
+          "y": 1920
+        },
+        "M": {
+          "number": "M",
+          "name": "Murrayfield",
+          "labelOffset": "s",
+          "labelOffsetY": 20,
+          "type": "standard",
+          "angle": "ew",
+          "x": 3700,
+          "y": 1920
         },
         "O": {
           "number": "O",
@@ -484,37 +521,17 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
-          "x": 3400,
-          "y": 1740
-        },
-        "Oa": {
-          "number": "Oa",
-          "name": "",
-          "labelOffset": "",
-          "type": "standard",
-          "angle": "ns",
-          "connectionToPrevious": "rounded",
-          "x": 3920,
-          "y": 1645
-        },
-        "P": {
-          "number": "P",
-          "name": "",
-          "labelOffset": "n",
-          "type": "standard",
-          "angle": "ew",
-          "connectionToPrevious": "rounded",
-          "x": 4000,
-          "y": 1570
+          "x": 3900,
+          "y": 1920
         },
         "Q": {
           "number": "Q",
-          "name": "",
+          "name": "Regent Road",
           "labelOffset": "ne",
           "type": "terminator",
           "angle": "ew",
-          "x": 4200,
-          "y": 1570
+          "x": 5100,
+          "y": 1920
         }
       }
     }

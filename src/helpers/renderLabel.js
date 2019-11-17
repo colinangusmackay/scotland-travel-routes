@@ -4,7 +4,7 @@ const log = require("./common/log");
 
 module.exports = function (plop) {
   plop.addHelper("renderLabel", function (junction, context) {
-    if (junction.name === "" || !junction.labelOffset) {
+    if (!junction.name || junction.name === "" || !junction.labelOffset) {
       return new Handlebars.SafeString("");
     }
     const labelOffsetX = junction.labelOffsetX ? junction.labelOffsetX : 0;
