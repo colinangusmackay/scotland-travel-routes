@@ -1,0 +1,87 @@
+{
+  "information": {
+    "x": 20,
+    "y": 1930,
+    "lines": [
+      "Version 1.0-preview",
+      "© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE",
+      "Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues"
+    ]
+  },
+  "routes": {
+    "43": {
+      "colour": "green",
+      "contrastColour": "white",
+      "name": "43",
+      "route": "Queensferry - Edinburgh",
+      "dx": 10,
+      "dy": 100,
+      "buffer": {
+        "west": 200,
+        "east": 200,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "A": {
+          "number": "A",
+          "name": "Queensferry",
+          "labelOffset": "s",
+          "type": "terminator",
+          "angle": "ew",
+          "terminatorLabelOffset": "e",
+          "x": 1000,
+          "y": 700
+        },
+        "B": {
+          "number": "B",
+          "name": "Ferrymuir Retail Park",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 700,
+          "y": 700
+        },
+        "C": {
+          "number": "C",
+          "name": "Echline Corner",
+          "labelOffset": "w",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 400,
+          "y": 550
+        },
+        "D": {
+          "number": "D",
+          "name": "Queensferry Police Station",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 800,
+          "y": 400
+        },
+        "E": {
+          "number": "E",
+          "name": "Dalmany",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1200,
+          "y": 400
+        },
+        "F": {
+          "number": "F",
+          "name": "Barnbougle Gate Lodge",
+          "labelOffset": "ne",
+          "type": "standard",
+          "angle": "nw-se",
+          "connectionToPrevious": "rounded",
+          "x": 1500,
+          "y": 600
+        }
+      }
+    }
+  }
+}

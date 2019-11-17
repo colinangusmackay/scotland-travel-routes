@@ -29,7 +29,8 @@ console.log(program.opts());
 
 const jsonString = fs.readFileSync(program.file, "utf8");
 fs.writeFileSync(program.file + ".bak", jsonString, "utf8");
-const routes = JSON.parse(jsonString);
+const data = JSON.parse(jsonString);
+const routes = data.routes ? data.routes : data;
 
 Object.getOwnPropertyNames(routes).forEach((routeId, index) => {
   const route = routes[routeId];

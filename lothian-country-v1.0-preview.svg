@@ -1,0 +1,75 @@
+
+
+<svg version="1.1"
+     baseProfile="full"
+     width="1700" height="900"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+        font-family: "Fira Sans Condensed";
+        src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
+    }
+  </style>
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="BackgroundGradient" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="cornsilk"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#BackgroundGradient)"/>
+
+  <!-- Information -->
+<g font-family="Fira Sans Condensed" font-size="20px">
+<text x="20" y="1930">Version 1.0-preview</text>
+<text x="20" y="1955">© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE</text>
+<text x="20" y="1980">Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues</text>
+</g>
+
+    <!-- Legend for 43 : Queensferry - Edinburgh -->
+<rect x="10" y="100" fill="green" height="200" width="3500" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="110" font-weight="bold">43</text>
+<text x="610" y="110">Queensferry - Edinburgh</text>
+</g>
+
+      <!-- 43 A : Queensferry -->
+      <!-- Connector: --> 
+      <!-- 43 B : Ferrymuir Retail Park -->
+      <!-- Connector: --> <path d="M1000,700 L700,700" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 C : Echline Corner -->
+      <!-- Connector: --> <path d="M700,700 L675,700 L450,700 A50 50 0 0 1 400,650 L400,550" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 D : Queensferry Police Station -->
+      <!-- Connector: --> <path d="M400,550 L400,525 L400,450 A50 50 0 0 1 450,400 L800,400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 E : Dalmany -->
+      <!-- Connector: --> <path d="M800,400 L1200,400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 F : Barnbougle Gate Lodge -->
+      <!-- Connector: --> <path d="M1200,400 L1225,400 L1300,400 A50 50 0 0 1 1264.6446609406726,485.3553390593274 L1517.6776695296637,582.3223304703363 L1500,600" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- 43 A : Queensferry -->
+<!-- Terminator: --> <rect x="990" y="675" width="20" height="50" fill="green" /><text x="1020" y="700" dominant-baseline="middle" font-family="Fira Sans Condensed" font-size="50px">43</text>
+<!-- Label: --> <text x="1000" y="730" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Queensferry</text>
+<!-- Cell: --> <circle cx="1000" cy="700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="975,675 1025,675 1025,725 975,725 975,675" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="975,675 1025,725" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1025,675 975,725" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="975,680 975,675 980,675" stroke="black" fill="none"/><polyline points="1025,680 1025,675 1020,675" stroke="black" fill="none"/><polyline points="1025,720 1025,725 1020,725" stroke="black" fill="none"/><polyline points="975,720 975,725 980,725" stroke="black" fill="none"/><polyline points="995,675 1005,675" stroke="black" fill="none"/><polyline points="995,725 1005,725" stroke="black" fill="none"/><polyline points="975,695 975,705" stroke="black" fill="none"/><polyline points="1025,695 1025,705" stroke="black" fill="none"/><polyline points="995,700 1005,700" stroke="black" fill="none"/><polyline points="1000,695 1000,705" stroke="black" fill="none"/>
+      <!-- 43 B : Ferrymuir Retail Park -->
+<!-- Junction: --> <polyline points="700,700 700,675" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="700" y="620" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ferrymuir Retail Park</text>
+<!-- Cell: --> <circle cx="700" cy="700" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="675,675 725,675 725,725 675,725 675,675" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="675,675 725,725" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="725,675 675,725" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="675,680 675,675 680,675" stroke="black" fill="none"/><polyline points="725,680 725,675 720,675" stroke="black" fill="none"/><polyline points="725,720 725,725 720,725" stroke="black" fill="none"/><polyline points="675,720 675,725 680,725" stroke="black" fill="none"/><polyline points="695,675 705,675" stroke="black" fill="none"/><polyline points="695,725 705,725" stroke="black" fill="none"/><polyline points="675,695 675,705" stroke="black" fill="none"/><polyline points="725,695 725,705" stroke="black" fill="none"/><polyline points="695,700 705,700" stroke="black" fill="none"/><polyline points="700,695 700,705" stroke="black" fill="none"/>
+      <!-- 43 C : Echline Corner -->
+<!-- Junction: --> <polyline points="400,550 375,550" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="370" y="525" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Echline Corner</text>
+<!-- Cell: --> <circle cx="400" cy="550" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="375,530 375,525 380,525" stroke="black" fill="none"/><polyline points="425,530 425,525 420,525" stroke="black" fill="none"/><polyline points="425,570 425,575 420,575" stroke="black" fill="none"/><polyline points="375,570 375,575 380,575" stroke="black" fill="none"/><polyline points="395,525 405,525" stroke="black" fill="none"/><polyline points="395,575 405,575" stroke="black" fill="none"/><polyline points="375,545 375,555" stroke="black" fill="none"/><polyline points="425,545 425,555" stroke="black" fill="none"/><polyline points="395,550 405,550" stroke="black" fill="none"/><polyline points="400,545 400,555" stroke="black" fill="none"/>
+      <!-- 43 D : Queensferry Police Station -->
+<!-- Junction: --> <polyline points="800,400 800,425" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="800" y="430" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Queensferry Police Station</text>
+<!-- Cell: --> <circle cx="800" cy="400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="775,375 825,375 825,425 775,425 775,375" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="775,375 825,425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="825,375 775,425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="775,380 775,375 780,375" stroke="black" fill="none"/><polyline points="825,380 825,375 820,375" stroke="black" fill="none"/><polyline points="825,420 825,425 820,425" stroke="black" fill="none"/><polyline points="775,420 775,425 780,425" stroke="black" fill="none"/><polyline points="795,375 805,375" stroke="black" fill="none"/><polyline points="795,425 805,425" stroke="black" fill="none"/><polyline points="775,395 775,405" stroke="black" fill="none"/><polyline points="825,395 825,405" stroke="black" fill="none"/><polyline points="795,400 805,400" stroke="black" fill="none"/><polyline points="800,395 800,405" stroke="black" fill="none"/>
+      <!-- 43 E : Dalmany -->
+<!-- Junction: --> <polyline points="1200,400 1200,375" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1200" y="320" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dalmany</text>
+<!-- Cell: --> <circle cx="1200" cy="400" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="1175,375 1225,375 1225,425 1175,425 1175,375" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1175,375 1225,425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1225,375 1175,425" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="1175,380 1175,375 1180,375" stroke="black" fill="none"/><polyline points="1225,380 1225,375 1220,375" stroke="black" fill="none"/><polyline points="1225,420 1225,425 1220,425" stroke="black" fill="none"/><polyline points="1175,420 1175,425 1180,425" stroke="black" fill="none"/><polyline points="1195,375 1205,375" stroke="black" fill="none"/><polyline points="1195,425 1205,425" stroke="black" fill="none"/><polyline points="1175,395 1175,405" stroke="black" fill="none"/><polyline points="1225,395 1225,405" stroke="black" fill="none"/><polyline points="1195,400 1205,400" stroke="black" fill="none"/><polyline points="1200,395 1200,405" stroke="black" fill="none"/>
+      <!-- 43 F : Barnbougle Gate Lodge -->
+<!-- Junction: --> <polyline points="1500,600 1517.6776695296637,582.3223304703363" stroke="green" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="1530" y="520" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Barnbougle Gate Lodge</text>
+<!-- Cell: --> <circle cx="1500" cy="600" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
+
+</svg>

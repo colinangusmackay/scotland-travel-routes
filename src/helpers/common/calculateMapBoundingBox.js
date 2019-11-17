@@ -30,5 +30,12 @@ module.exports = function calculateMapBoundingBox (routes) {
     });
   });
 
-  return { north, west, south, east };
+  return {
+    north,
+    west,
+    south,
+    east,
+    width: west - east,
+    height: south - north
+  };
 };

@@ -201,6 +201,7 @@ module.exports = function generateRoundedPath (from, to, route) {
     case "ew;ns;nw":
       return getPathForEWtoNS(from, to, route, dir);
     case "ew;nw-se;nw":
+    case "ew;nw-se;se":
       return generatePathForEWtoNWSE(from, to, route, dir, path);
     case "ew;sw-ne;ne":
       return generatePathForEWtoSWNE(from, to, route, dir, path);
