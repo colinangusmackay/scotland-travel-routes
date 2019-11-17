@@ -33,7 +33,7 @@
           "angle": "ew",
           "terminatorLabelOffset": "e",
           "x": 2200,
-          "y": 1100
+          "y": 1250
         },
         "B": {
           "number": "B",
@@ -42,7 +42,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 1900,
-          "y": 1100
+          "y": 1250
         },
         "C": {
           "number": "C",
@@ -52,7 +52,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 1600,
-          "y": 950
+          "y": 1100
         },
         "D": {
           "number": "D",
@@ -62,7 +62,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 2000,
-          "y": 800
+          "y": 950
         },
         "E": {
           "number": "E",
@@ -71,7 +71,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2300,
-          "y": 800
+          "y": 950
         },
         "F": {
           "number": "F",
@@ -81,7 +81,7 @@
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
           "x": 2500,
-          "y": 900
+          "y": 1050
         },
         "G": {
           "number": "G",
@@ -90,7 +90,7 @@
           "type": "standard",
           "angle": "nw-se",
           "x": 2700,
-          "y": 1100
+          "y": 1250
         },
         "H": {
           "number": "H",
@@ -99,7 +99,7 @@
           "type": "standard",
           "angle": "nw-se",
           "x": 2900,
-          "y": 1300
+          "y": 1450
         },
         "I": {
           "number": "I",
@@ -109,7 +109,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 3100,
-          "y": 1400
+          "y": 1550
         },
         "J": {
           "number": "J",
@@ -118,7 +118,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3300,
-          "y": 1400
+          "y": 1550
         },
         "K": {
           "number": "K",
@@ -127,7 +127,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3500,
-          "y": 1400
+          "y": 1550
         },
         "L": {
           "number": "L",
@@ -137,7 +137,7 @@
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
           "x": 3700,
-          "y": 1500
+          "y": 1650
         },
         "M": {
           "number": "M",
@@ -147,7 +147,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 4000,
-          "y": 1600
+          "y": 1750
         },
         "N": {
           "number": "N",
@@ -157,7 +157,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 4100,
-          "y": 1700
+          "y": 1850
         },
         "O": {
           "number": "O",
@@ -167,7 +167,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 4250,
-          "y": 1900
+          "y": 2050
         },
         "Oa": {
           "number": "Oa",
@@ -177,7 +177,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 4400,
-          "y": 1825
+          "y": 1975
         },
         "P": {
           "number": "P",
@@ -187,7 +187,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 4500,
-          "y": 1750
+          "y": 1900
         },
         "Q": {
           "number": "Q",
@@ -197,7 +197,7 @@
           "type": "terminator",
           "angle": "ew",
           "x": 4700,
-          "y": 1750
+          "y": 1900
         }
       }
     },
@@ -223,7 +223,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 4250,
-          "y": 1900
+          "y": 2050
         },
         "NP": {
           "number": "NP",
@@ -233,7 +233,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 4900,
-          "y": 1800
+          "y": 1950
         }
       }
     },
@@ -259,7 +259,7 @@
           "angle": "ew",
           "terminatorLabelOffset": "w",
           "x": 800,
-          "y": 1500
+          "y": 1650
         },
         "G": {
           "number": "G",
@@ -269,7 +269,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 1000,
-          "y": 1500
+          "y": 1650
         },
         "H": {
           "number": "H",
@@ -279,7 +279,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 1100,
-          "y": 1300
+          "y": 1450
         },
         "I": {
           "number": "I",
@@ -289,7 +289,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 1200,
-          "y": 1200
+          "y": 1350
         },
         "J": {
           "number": "J",
@@ -299,7 +299,7 @@
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
           "x": 1900,
-          "y": 1500
+          "y": 1650
         },
         "K": {
           "number": "K",
@@ -309,7 +309,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 2400,
-          "y": 1940
+          "y": 2090
         },
         "L": {
           "number": "L",
@@ -318,7 +318,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2700,
-          "y": 1940
+          "y": 2090
         },
         "M": {
           "number": "M",
@@ -327,7 +327,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2850,
-          "y": 1940
+          "y": 2090
         },
         "N": {
           "number": "N",
@@ -336,7 +336,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3500,
-          "y": 1940
+          "y": 2090
         },
         "O": {
           "number": "O",
@@ -345,7 +345,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3900,
-          "y": 1940
+          "y": 2090
         },
         "Oa": {
           "number": "Oa",
@@ -355,7 +355,7 @@
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 4420,
-          "y": 1845
+          "y": 1995
         },
         "P": {
           "number": "P",
@@ -365,7 +365,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 4500,
-          "y": 1770
+          "y": 1920
         },
         "Q": {
           "number": "Q",
@@ -374,7 +374,7 @@
           "type": "terminator",
           "angle": "ew",
           "x": 4700,
-          "y": 1770
+          "y": 1920
         }
       }
     },
@@ -384,7 +384,7 @@
       "name": "X38",
       "route": "Linlithgow - Regent Rd",
       "dx": 10,
-      "dy": 300,
+      "dy": 500,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -400,7 +400,7 @@
           "angle": "ew",
           "terminatorLabelOffset": "w",
           "x": 800,
-          "y": 1520
+          "y": 1670
         },
         "B": {
           "number": "B",
@@ -409,7 +409,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 1000,
-          "y": 1520
+          "y": 1670
         },
         "C": {
           "number": "C",
@@ -418,7 +418,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 1250,
-          "y": 1520
+          "y": 1670
         },
         "D": {
           "number": "D",
@@ -428,7 +428,7 @@
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
           "x": 1400,
-          "y": 1600
+          "y": 1750
         },
         "E": {
           "number": "E",
@@ -437,7 +437,7 @@
           "type": "standard",
           "angle": "nw-se",
           "x": 1600,
-          "y": 1800
+          "y": 1950
         },
         "F": {
           "number": "F",
@@ -447,7 +447,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 2000,
-          "y": 1920
+          "y": 2070
         },
         "G": {
           "number": "G",
@@ -457,7 +457,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 2400,
-          "y": 1920
+          "y": 2070
         },
         "H": {
           "number": "H",
@@ -466,7 +466,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2700,
-          "y": 1920
+          "y": 2070
         },
         "I": {
           "number": "I",
@@ -475,7 +475,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2850,
-          "y": 1920
+          "y": 2070
         },
         "J": {
           "number": "J",
@@ -484,7 +484,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3100,
-          "y": 1920
+          "y": 2070
         },
         "K": {
           "number": "K",
@@ -494,7 +494,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3300,
-          "y": 1920
+          "y": 2070
         },
         "L": {
           "number": "L",
@@ -503,7 +503,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3500,
-          "y": 1920
+          "y": 2070
         },
         "M": {
           "number": "M",
@@ -513,7 +513,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3700,
-          "y": 1920
+          "y": 2070
         },
         "O": {
           "number": "O",
@@ -522,7 +522,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3900,
-          "y": 1920
+          "y": 2070
         },
         "Q": {
           "number": "Q",
@@ -531,7 +531,7 @@
           "type": "terminator",
           "angle": "ew",
           "x": 5100,
-          "y": 1920
+          "y": 2070
         }
       }
     }
