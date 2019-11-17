@@ -9,8 +9,98 @@
     ]
   },
   "routes": {
-    "43": {
+    "X2": {
       "colour": "green",
+      "contrastColour": "white",
+      "name": "X2",
+      "route": "Green Arrow Express",
+      "dx": 10,
+      "dy": 300,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "K": {
+          "number": "K",
+          "name": "Ratho Station",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1200,
+          "y": 1420
+        },
+        "L": {
+          "number": "L",
+          "name": "Gogarburn",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1500,
+          "y": 1420
+        },
+        "M": {
+          "number": "M",
+          "name": "Maybury",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1800,
+          "y": 1420
+        },
+        "N": {
+          "number": "N",
+          "name": "Edinburgh Zoo",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2300,
+          "y": 1420
+        },
+        "O": {
+          "number": "O",
+          "name": "Haymarket",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2700,
+          "y": 1420
+        },
+        "Oa": {
+          "number": "Oa",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 3220,
+          "y": 1345
+        },
+        "P": {
+          "number": "P",
+          "name": "",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 3300,
+          "y": 1270
+        },
+        "Q": {
+          "number": "Q",
+          "name": "",
+          "labelOffset": "ne",
+          "type": "terminator",
+          "angle": "ew",
+          "x": 3500,
+          "y": 1270
+        }
+      }
+    },
+    "43": {
+      "colour": "crimson",
       "contrastColour": "white",
       "name": "43",
       "route": "Queensferry - Edinburgh",
@@ -18,7 +108,7 @@
       "dy": 100,
       "buffer": {
         "west": 200,
-        "east": 200,
+        "east": 400,
         "north": 200,
         "south": 200
       },
@@ -80,6 +170,122 @@
           "connectionToPrevious": "rounded",
           "x": 1500,
           "y": 600
+        },
+        "G": {
+          "number": "G",
+          "name": "Burnshot",
+          "labelOffset": "ne",
+          "type": "standard",
+          "angle": "nw-se",
+          "x": 1600,
+          "y": 700
+        },
+        "H": {
+          "number": "H",
+          "name": "Crammond Bridge",
+          "labelOffset": "ne",
+          "type": "standard",
+          "angle": "nw-se",
+          "x": 1700,
+          "y": 800
+        },
+        "I": {
+          "number": "I",
+          "name": "Barnton",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1900,
+          "y": 900
+        },
+        "J": {
+          "number": "J",
+          "name": "Clermiston Rd N",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2100,
+          "y": 900
+        },
+        "K": {
+          "number": "K",
+          "name": "Blackhall",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2300,
+          "y": 900
+        },
+        "L": {
+          "number": "L",
+          "name": "Craigleith",
+          "labelOffset": "ne",
+          "type": "standard",
+          "angle": "nw-se",
+          "connectionToPrevious": "rounded",
+          "x": 2500,
+          "y": 1000
+        },
+        "M": {
+          "number": "M",
+          "name": "Stewart's Melville",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 2800,
+          "y": 1100
+        },
+        "N": {
+          "number": "N",
+          "name": "Dean Bridge",
+          "labelOffset": "w",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 2900,
+          "y": 1200
+        },
+        "O": {
+          "number": "O",
+          "name": "West End",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 3050,
+          "y": 1400
+        },
+        "Oa": {
+          "number": "Oa",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 3200,
+          "y": 1325
+        },
+        "P": {
+          "number": "P",
+          "name": "George Street",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 3300,
+          "y": 1250
+        },
+        "Q": {
+          "number": "Q",
+          "name": "St. Andrew Sq",
+          "labelOffset": "ne",
+          "labelOffsetX": -50,
+          "type": "terminator",
+          "angle": "ew",
+          "x": 3500,
+          "y": 1250
         }
       }
     }

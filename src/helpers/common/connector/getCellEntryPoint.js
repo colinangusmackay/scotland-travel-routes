@@ -48,7 +48,7 @@ module.exports = function getCellEntryPoint (junction, dir, route) {
         case "nw":
           return { x: junction.x + (standard.cellHalfSize * standard.cos45), y: junction.y + (standard.cellHalfSize * standard.sin45) };
         case "se":
-          return { x: junction.x + (standard.cellHalfSize * standard.cos45), y: junction.y - (standard.cellHalfSize * standard.sin45) };
+          return { x: junction.x - (standard.cellHalfSize * standard.cos45), y: junction.y - (standard.cellHalfSize * standard.sin45) };
         default: {
           log(`invalid exit direction ("${dir}") for a "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
           break;
