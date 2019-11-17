@@ -238,7 +238,7 @@
 
       }
     },
-      "EX2": {
+    "EX2": {
       "colour": "green",
       "contrastColour": "white",
       "name": "EX2",
@@ -264,7 +264,8 @@
         },
         "G": {
           "number": "G",
-          "name": "Linlithgow Cross",
+          "comment": "Linlithgow Cross",
+          "name": "",
           "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
@@ -309,7 +310,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 1900,
-          "y": 1720
+          "y": 1740
         },
         "L": {
           "number": "L",
@@ -318,7 +319,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2200,
-          "y": 1720
+          "y": 1740
         },
         "M": {
           "number": "M",
@@ -327,7 +328,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2500,
-          "y": 1720
+          "y": 1740
         },
         "N": {
           "number": "N",
@@ -336,7 +337,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3000,
-          "y": 1720
+          "y": 1740
         },
         "O": {
           "number": "O",
@@ -345,7 +346,146 @@
           "type": "standard",
           "angle": "ew",
           "x": 3400,
-          "y": 1720
+          "y": 1740
+        },
+        "Oa": {
+          "number": "Oa",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 3920,
+          "y": 1645
+        },
+        "P": {
+          "number": "P",
+          "name": "",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 4000,
+          "y": 1570
+        },
+        "Q": {
+          "number": "Q",
+          "name": "",
+          "labelOffset": "ne",
+          "type": "terminator",
+          "angle": "ew",
+          "x": 4200,
+          "y": 1570
+        }
+      }
+    },
+    "X38": {
+      "colour": "darkslateblue",
+      "contrastColour": "white",
+      "name": "X38",
+      "route": "Linlithgow - Regent Rd",
+      "dx": 10,
+      "dy": 300,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "F": {
+          "number": "F",
+          "name": "Linlithgow Bridge",
+          "labelOffset": "",
+          "type": "terminator",
+          "angle": "ew",
+          "terminatorLabelOffset": "w",
+          "x": 300,
+          "y": 1320
+        },
+        "G": {
+          "number": "G",
+          "name": "Linlithgow Cross",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 500,
+          "y": 1320
+        },
+        "H": {
+          "number": "H",
+          "name": "Bridgend",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 700,
+          "y": 1320
+        },
+        "I": {
+          "number": "I",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 700,
+          "y": 1000
+        },
+        "J": {
+          "number": "J",
+          "name": "",
+          "labelOffset": "",
+          "type": "standard",
+          "angle": "nw-se",
+          "connectionToPrevious": "rounded",
+          "x": 1100,
+          "y": 1300
+        },
+        "K": {
+          "number": "K",
+          "name": "Ratho Station",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1900,
+          "y": 1740
+        },
+        "L": {
+          "number": "L",
+          "name": "Gogarburn",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2200,
+          "y": 1740
+        },
+        "M": {
+          "number": "M",
+          "name": "Maybury",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2500,
+          "y": 1740
+        },
+        "N": {
+          "number": "N",
+          "name": "Edinburgh Zoo",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3000,
+          "y": 1740
+        },
+        "O": {
+          "number": "O",
+          "name": "Haymarket",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3400,
+          "y": 1740
         },
         "Oa": {
           "number": "Oa",
