@@ -7,8 +7,8 @@
     "test": "ava",
     "eslint": "eslint .",
     "plop": "plop --plopfile ./index.js",
-    "plop:motorway": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --template templates/metrolike-map.svg.hbs --destination ../scotland-motorways-v1.1-preview.svg",
-    "plop:motorway:final": "plop --plopfile ./index.js -- esvg --displayDiagnostics N --displayDebugGuides N --template templates/metrolike-map.svg.hbs --destination ../scotland-motorways-v1.1-preview.svg",
+    "plop:motorway": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --template templates/metrolike-map.svg.hbs --dataFile ./templates/scotland-motorways.json --destination ../scotland-motorways-v1.1-preview.svg",
+    "plop:motorway:final": "plop --plopfile ./index.js -- esvg --displayDiagnostics N --displayDebugGuides N --template templates/metrolike-map.svg.hbs --dataFile ./templates/scotland-motorways.json --destination ../scotland-motorways-v1.1-preview.svg",
     "plop:ew-ew-2prc": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --template templates/ew-ew-2prc.svg.hbs --destination ../ew-ew-2prc.svg",
     "plop:ns-ew-2prc": "plop --plopfile ./index.js -- esvg --displayDiagnostics Y --displayDebugGuides Y --template templates/ns-ew-2prc.svg.hbs --destination ../ns-ew-2prc.svg",
     "shift-map": "node ./scripts/shift-map.js"
