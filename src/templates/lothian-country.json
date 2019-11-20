@@ -309,7 +309,7 @@
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 2400,
-          "y": 2090
+          "y": 2110
         },
         "L": {
           "number": "L",
@@ -318,7 +318,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2700,
-          "y": 2090
+          "y": 2110
         },
         "M": {
           "number": "M",
@@ -327,7 +327,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 2850,
-          "y": 2090
+          "y": 2110
         },
         "N": {
           "number": "N",
@@ -336,7 +336,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3500,
-          "y": 2090
+          "y": 2110
         },
         "O": {
           "number": "O",
@@ -345,7 +345,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 3900,
-          "y": 2090
+          "y": 2110
         },
         "Oa": {
           "number": "Oa",
@@ -378,8 +378,192 @@
         }
       }
     },
+    "X18": {
+      "colour": "mediumblue",
+      "contrastColour": "white",
+      "name": "X18",
+      "route": "Whitburn - Regent Rd (via Bathgate)",
+      "dx": 10,
+      "dy": 700,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "Ax": {
+          "number": "Ax",
+          "name": "Whitburn",
+          "labelOffset": "n",
+          "type": "terminator",
+          "angle": "ew",
+          "x": 500,
+          "y": 2700
+        },
+        "Ay": {
+          "number": "Ay",
+          "name": "Bathville",
+          "labelOffset": "w",
+          "type": "standard",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 800,
+          "y": 2400
+        },
+        "Az": {
+          "number": "Az",
+          "name": "Armadale",
+          "labelOffset": "e",
+          "type": "standard",
+          "angle": "ns",
+          "x": 800,
+          "y": 2300
+        },
+        "A": {
+          "number": "A",
+          "name": "Bathgate",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1000,
+          "y": 2090
+        },
+        "B": {
+          "number": "B",
+          "name": "Boghall",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1200,
+          "y": 2090
+        },
+        "C": {
+          "number": "C",
+          "name": "Dechmont",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1400,
+          "y": 2090
+        },
+        "D": {
+          "number": "D",
+          "name": "Uphall",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1600,
+          "y": 2090
+        },
+        "E": {
+          "number": "E",
+          "name": "Broxburn",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 1800,
+          "y": 2090
+        },
+        "F": {
+          "number": "F",
+          "comment": "Newbridge",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 2000,
+          "y": 2090
+        },
+        "G": {
+          "number": "G",
+          "comment": "Ratho Station",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 2400,
+          "y": 2090
+        },
+        "H": {
+          "number": "H",
+          "comment": "Gogarburn",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2700,
+          "y": 2090
+        },
+        "I": {
+          "number": "I",
+          "comment": "Maybury",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 2850,
+          "y": 2090
+        },
+        "J": {
+          "number": "J",
+          "comment": "Drum Brae South",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3100,
+          "y": 2090
+        },
+        "K": {
+          "number": "K",
+          "comment": "Kirk Loan",
+          "labelOffset": "s",
+          "labelOffsetY": 20,
+          "type": "standard",
+          "angle": "ew",
+          "x": 3300,
+          "y": 2090
+        },
+        "L": {
+          "number": "L",
+          "comment": "Edinburgh Zoo",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3500,
+          "y": 2090
+        },
+        "M": {
+          "number": "M",
+          "comment": "Murrayfield",
+          "labelOffset": "s",
+          "labelOffsetY": 20,
+          "type": "standard",
+          "angle": "ew",
+          "x": 3700,
+          "y": 2090
+        },
+        "O": {
+          "number": "O",
+          "comment": "Haymarket",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3900,
+          "y": 2090
+        },
+        "Q": {
+          "number": "Q",
+          "comment": "Regent Road",
+          "labelOffset": "ne",
+          "type": "terminator",
+          "angle": "ew",
+          "x": 5100,
+          "y": 2090
+        }
+      }
+    },
     "X38": {
-      "colour": "darkslateblue",
+      "colour": "deepskyblue",
       "contrastColour": "white",
       "name": "X38",
       "route": "Linlithgow - Regent Rd",
@@ -427,7 +611,7 @@
           "type": "standard",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 1400,
+          "x": 1500,
           "y": 1750
         },
         "E": {
@@ -436,7 +620,7 @@
           "labelOffset": "ne",
           "type": "standard",
           "angle": "nw-se",
-          "x": 1600,
+          "x": 1700,
           "y": 1950
         },
         "F": {
@@ -490,7 +674,7 @@
           "number": "K",
           "name": "Kirk Loan",
           "labelOffset": "s",
-          "labelOffsetY": 20,
+          "labelOffsetY": 40,
           "type": "standard",
           "angle": "ew",
           "x": 3300,
@@ -509,7 +693,7 @@
           "number": "M",
           "name": "Murrayfield",
           "labelOffset": "s",
-          "labelOffsetY": 20,
+          "labelOffsetY": 40,
           "type": "standard",
           "angle": "ew",
           "x": 3700,
