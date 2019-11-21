@@ -17,7 +17,7 @@ module.exports = function getCellExitPoint (junction, dir, route) {
           return { x: junction.x - standard.cellHalfSize, y: junction.y };
         }
         default: {
-          log(`invalid exit direction ("${dir}") for an "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
+          log(`invalid exit direction ("${dir}") for a "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
           break;
         }
       }
@@ -36,7 +36,18 @@ module.exports = function getCellExitPoint (junction, dir, route) {
           return { x: junction.x, y: junction.y + standard.cellHalfSize };
         }
         default: {
-          log(`invalid exit direction ("${dir}") for an "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
+          log(`Invalid exit direction ("${dir}") for a "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
+          break;
+        }
+      }
+      break;
+    }
+    case "sw-ne": {
+      switch (dir) {
+        case "ne":
+          return { x: junction.x + (standard.cellHalfSize * standard.cos45), y: junction.y - (standard.cellHalfSize * standard.sin45) };
+        default: {
+          log(`Invalid exit direction ("${dir}") for a "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
           break;
         }
       }
@@ -47,4 +58,4 @@ module.exports = function getCellExitPoint (junction, dir, route) {
       break;
     }
   }
-}
+};

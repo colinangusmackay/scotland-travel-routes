@@ -33,6 +33,10 @@ module.exports = function (plop) {
 
       switch (junction.terminatorLabelOffset) {
         // TODO: Add the other offsets
+        case null:
+        case undefined:
+        case "":
+          break;
         case "n": {
           const labelX = junction.x;
           const labelY = junction.y - standard.cellHalfSize;

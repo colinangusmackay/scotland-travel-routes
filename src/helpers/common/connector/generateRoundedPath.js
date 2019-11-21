@@ -204,8 +204,6 @@ function generatePathForSWNEtoNS (from, to, route, dir) {
 }
 
 function generatePathForNWSEtoEW (from, to, route, dir) {
-  log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
-
   const xDir = getXDir(dir);
   const yDir = getYDir(dir);
   const path = initPath(from, dir, route);
@@ -260,7 +258,7 @@ module.exports = function generateRoundedPath (from, to, route) {
     case "sw-ne;ns;ne":
       return generatePathForSWNEtoNS(from, to, route, dir, path);
     default:
-      log(`Unexpected Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
+      log(`Unexpected Rounded connection (style: "${style}") going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
       break;
   }
 

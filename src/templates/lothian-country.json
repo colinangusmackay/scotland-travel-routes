@@ -792,7 +792,42 @@
         }
       }
     },
-    "X38": {
+    "X28": {
+      "colour": "steelblue",
+      "contrastColour": "white",
+      "name": "X28",
+      "route": "Bathgate - Regent Rd",
+      "dx": 10,
+      "dy": 1100,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "Y": {
+          "number": "Y",
+          "name": "Fountainbridge",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4800,
+          "y": 3000
+        },
+        "Z": {
+          "number": "Z",
+          "comment": "Regent Road",
+          "labelOffset": "ne",
+          "type": "terminator",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 5700,
+          "y": 2730
+        }
+      }
+    },
+      "X38": {
       "colour": "deepskyblue",
       "contrastColour": "white",
       "name": "X38",

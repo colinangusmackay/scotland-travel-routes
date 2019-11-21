@@ -475,6 +475,25 @@
       <!-- X18 Q :  -->
 <!-- Terminator: --> <rect x="5690" y="2665" width="20" height="50" fill="mediumblue" />
 <!-- Cell: --> <circle cx="5700" cy="2690" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5675,2665 5725,2665 5725,2715 5675,2715 5675,2665" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5675,2665 5725,2715" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5725,2665 5675,2715" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5675,2670 5675,2665 5680,2665" stroke="black" fill="none"/><polyline points="5725,2670 5725,2665 5720,2665" stroke="black" fill="none"/><polyline points="5725,2710 5725,2715 5720,2715" stroke="black" fill="none"/><polyline points="5675,2710 5675,2715 5680,2715" stroke="black" fill="none"/><polyline points="5695,2665 5705,2665" stroke="black" fill="none"/><polyline points="5695,2715 5705,2715" stroke="black" fill="none"/><polyline points="5675,2685 5675,2695" stroke="black" fill="none"/><polyline points="5725,2685 5725,2695" stroke="black" fill="none"/><polyline points="5695,2690 5705,2690" stroke="black" fill="none"/><polyline points="5700,2685 5700,2695" stroke="black" fill="none"/>
+    <!-- Legend for X28 : Bathgate - Regent Rd -->
+<rect x="10" y="1100" fill="steelblue" height="200" width="3500" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="1110" font-weight="bold">X28</text>
+<text x="610" y="1110">Bathgate - Regent Rd</text>
+</g>
+
+      <!-- X28 Y : Fountainbridge -->
+      <!-- Connector: --> 
+      <!-- X28 Z :  -->
+      <!-- Connector: --> <path d="M4800,3000 L4817.677669529664,2982.3223304703365 L5700,2730" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- X28 Y : Fountainbridge -->
+<!-- Junction: --> <polyline points="4800,3000 4775,2975" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="butt"/>
+<!-- Label: --> <text x="4770" y="2920" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Fountainbridge</text>
+<!-- Cell: --> <circle cx="4800" cy="3000" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" />
+      <!-- X28 Z :  -->
+<!-- Terminator: --> <rect x="5690" y="2705" width="20" height="50" fill="steelblue" />
+<!-- Cell: --> <circle cx="5700" cy="2730" r="25" stroke="red" stroke-width="2" stroke-dasharray="3" fill="none" /><polyline points="5675,2705 5725,2705 5725,2755 5675,2755 5675,2705" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5675,2705 5725,2755" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5725,2705 5675,2755" stroke="silver" fill="none" stroke-dasharray="3"/><polyline points="5675,2710 5675,2705 5680,2705" stroke="black" fill="none"/><polyline points="5725,2710 5725,2705 5720,2705" stroke="black" fill="none"/><polyline points="5725,2750 5725,2755 5720,2755" stroke="black" fill="none"/><polyline points="5675,2750 5675,2755 5680,2755" stroke="black" fill="none"/><polyline points="5695,2705 5705,2705" stroke="black" fill="none"/><polyline points="5695,2755 5705,2755" stroke="black" fill="none"/><polyline points="5675,2725 5675,2735" stroke="black" fill="none"/><polyline points="5725,2725 5725,2735" stroke="black" fill="none"/><polyline points="5695,2730 5705,2730" stroke="black" fill="none"/><polyline points="5700,2725 5700,2735" stroke="black" fill="none"/>
     <!-- Legend for X38 : Linlithgow - Regent Rd -->
 <rect x="10" y="500" fill="deepskyblue" height="200" width="3500" stroke="white" stroke-width="1"/>
 <g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
