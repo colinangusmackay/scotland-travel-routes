@@ -53,6 +53,17 @@ module.exports = function getCellExitPoint (junction, dir, route) {
       }
       break;
     }
+    case "nw-se": {
+      switch (dir) {
+        case "se":
+          return { x: junction.x + (standard.cellHalfSize * standard.cos45), y: junction.y + (standard.cellHalfSize * standard.sin45) };
+        default: {
+          log(`Invalid exit direction ("${dir}") for a "${junction.angle}" junction. (${route.name}, ${junction.number}/${junction.name}).`);
+          break;
+        }
+      }
+      break;
+    }
     default: {
       log(`invalid angle ("${junction.angle}") for an junction. (${route.name}, ${junction.number}/${junction.name}).`);
       break;

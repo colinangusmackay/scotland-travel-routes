@@ -43,7 +43,6 @@ module.exports = function getCellEntryPoint (junction, dir, route) {
       break;
     }
     case "nw-se": {
-      log(`Direction of nw-se junction is ${dir}`);
       switch (dir) {
         case "nw":
           return { x: junction.x + (standard.cellHalfSize * standard.cos45), y: junction.y + (standard.cellHalfSize * standard.sin45) };
@@ -57,7 +56,6 @@ module.exports = function getCellEntryPoint (junction, dir, route) {
       break;
     }
     case "sw-ne": {
-      log(`Direction of sw-ne junction is ${dir}`);
       switch (dir) {
         case "ne":
           return { x: junction.x - (standard.cellHalfSize * standard.cos45), y: junction.y + (standard.cellHalfSize * standard.sin45) };

@@ -137,7 +137,6 @@ function generatePathForEWtoNWSE (from, to, route, dir) {
   const arc = generateArcPath(0, 0, standard.cellSize, startAngle, endAngle);
   const diagnonal = Math.min(Math.abs(fromExit.x - toEntry.x), Math.abs(fromExit.y - toEntry.y)) - Math.abs(arc.path.y);
   const straightX = Math.abs(fromExit.x - toEntry.x) - (Math.abs(arc.path.x) * 2) - diagnonal;
-  log(`StraightX = ${straightX}; transformX = ${transformX}`);
   path.push({ x: fromExit.x + (straightX * transformX), y: fromExit.y });
 
   const isClockwise = dir === "se" || dir === "nw";

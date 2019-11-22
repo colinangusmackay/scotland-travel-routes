@@ -53,7 +53,7 @@
       <!-- 43 H : Crammond Bridge -->
       <!-- Connector: --> <path d="M3300,1850 L3500,2050" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- 43 I : Barnton -->
-      <!-- Connector: --> <path d="M3500,2050 L3585.3553390593274,2135.3553390593274 A50 50 0 0 0 3614.6446609406726,2150 L3675,2150 L3700,2150" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M3500,2050 L3517.6776695296635,2067.6776695296635 L3585.3553390593274,2135.3553390593274 A50 50 0 0 0 3614.6446609406726,2150 L3675,2150 L3700,2150" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- 43 J : Clermiston Rd N -->
       <!-- Connector: --> <path d="M3700,2150 L3900,2150" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- 43 K : Blackhall -->
@@ -61,7 +61,7 @@
       <!-- 43 L : Craigleith -->
       <!-- Connector: --> <path d="M4100,2150 L4125,2150 L4164.644660940672,2150 A50 50 0 0 1 4199.999999999999,2164.6446609406726 L4282.322330470336,2232.3223304703365 L4300,2250" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- 43 M : Stewart&#x27;s Melville -->
-      <!-- Connector: --> <path d="M4300,2250 L4385.355339059327,2335.3553390593274 A50 50 0 0 0 4414.644660940673,2350 L4575,2350 L4600,2350" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M4300,2250 L4317.677669529664,2267.6776695296635 L4385.355339059328,2335.3553390593274 A50 50 0 0 0 4414.644660940673,2350 L4575,2350 L4600,2350" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- 43 N : Dean Bridge -->
       <!-- Connector: --> <path d="M4600,2350 L4625,2350 L4650,2350 A50 50 0 0 1 4700,2400 L4700,2450" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- 43 O : West End -->
@@ -512,7 +512,7 @@
       <!-- X38 E : Kirkliston -->
       <!-- Connector: --> <path d="M2100,2350 L2300,2550" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- X38 F : Newbridge -->
-      <!-- Connector: --> <path d="M2300,2550 L2405.3553390593274,2655.3553390593274 A50 50 0 0 0 2434.6446609406726,2670 L2575,2670 L2600,2670" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Connector: --> <path d="M2300,2550 L2317.6776695296635,2567.6776695296635 L2405.3553390593274,2655.3553390593274 A50 50 0 0 0 2434.6446609406726,2670 L2575,2670 L2600,2670" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- X38 G :  -->
       <!-- Connector: --> <path d="M2600,2670 L3000,2670" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- X38 H : Gogarburn -->
