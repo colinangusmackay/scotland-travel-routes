@@ -400,7 +400,7 @@
           "terminatorLabelOffset": "w",
           "angle": "ew",
           "x": 200,
-          "y": 3500
+          "y": 3900
         },
         "AS": {
           "number": "AS",
@@ -409,7 +409,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 600,
-          "y": 3500
+          "y": 3900
         },
         "AT": {
           "number": "AT",
@@ -418,7 +418,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 800,
-          "y": 3500
+          "y": 3900
         },
         "AU": {
           "number": "AU",
@@ -427,7 +427,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 1000,
-          "y": 3500
+          "y": 3900
         },
         "AV": {
           "number": "AV",
@@ -436,7 +436,7 @@
           "type": "standard",
           "angle": "ew",
           "x": 1200,
-          "y": 3500
+          "y": 3900
         },
         "AW": {
           "number": "AW",
@@ -444,43 +444,67 @@
           "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
+          "connectionToPrevious": "rounded",
           "x": 1400,
-          "y": 3500
+          "y": 3900
         },
         "AX": {
           "number": "AX",
           "name": "The Centre",
-          "labelOffset": "s",
+          "labelOffset": "w",
           "type": "standard",
-          "angle": "ew",
-          "x": 1600,
-          "y": 3500
+          "connectionToPrevious": "rounded",
+          "angle": "ns",
+          "x": 1800,
+          "y": 3700
         },
-        "AY": {
-          "number": "AY",
+        "AYA": {
+          "number": "AYA",
           "name": "Howden",
           "labelOffset": "e",
           "type": "standard",
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 1800,
-          "y": 3300
+          "y": 3500
         },
-        "AZ": {
-          "number": "AZ",
+        "AYB": {
+          "number": "AYB",
+          "name": "",
+          "labelOffset": "e",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1900,
+          "y": 3400
+        },
+        "AZA": {
+          "number": "AZA",
           "name": "Craigshill",
-          "labelOffset": "w",
+          "labelOffset": "e",
           "type": "standard",
           "angle": "ns",
-          "x": 1800,
-          "y": 3100
+          "connectionToPrevious": "rounded",
+          "x": 2000,
+          "y": 3200
+        },
+        "AZB": {
+          "number": "AZB",
+          "name": "",
+          "labelOffset": "e",
+          "type": "standard",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1900,
+          "y": 3000
         },
         "B": {
           "number": "B",
           "name": "Deer Park",
-          "labelOffset": "e",
+          "labelOffset": "w",
           "type": "standard",
           "angle": "ns",
+          "connectionToPrevious": "rounded",
           "x": 1800,
           "y": 2900
         },
@@ -792,6 +816,122 @@
         }
       }
     },
+    "X27": {
+      "colour": "violet",
+      "contrastColour": "white",
+      "name": "X27",
+      "route": "Whitburn - Regent Rd (via Livingston)",
+      "dx": 10,
+      "dy": 1300,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "junctions": {
+        "Q": {
+          "number": "Q",
+          "name": "East Calder",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3100,
+          "y": 4100
+        },
+        "QZ": {
+          "number": "QZ",
+          "name": "Calderwood",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3300,
+          "y": 4100
+        },
+        "R": {
+          "number": "R",
+          "name": "Wilkieston",
+          "labelOffset": "n",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3500,
+          "y": 4100
+        },
+        "S": {
+          "number": "S",
+          "comment": "Riccarton (Heriot Watt University)",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3600,
+          "y": 4120
+        },
+        "T": {
+          "number": "T",
+          "comment": "Sighthill",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 3800,
+          "y": 4020
+        },
+        "U": {
+          "number": "U",
+          "comment": "Saughton Mains",
+          "labelOffset": "se",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4000,
+          "y": 3820
+        },
+        "V": {
+          "number": "V",
+          "comment": "Chesser Hourse",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4200,
+          "y": 3620
+        },
+        "W": {
+          "number": "W",
+          "comment": "Balgreen Rd",
+          "labelOffset": "se",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4400,
+          "y": 3420
+        },
+        "X": {
+          "number": "X",
+          "comment": "Westfield",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4600,
+          "y": 3220
+        },
+        "Y": {
+          "number": "Y",
+          "comment": "Fountainbridge",
+          "labelOffset": "se",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4800,
+          "y": 3020
+        },
+        "Z": {
+          "number": "Z",
+          "comment": "Regent Road",
+          "labelOffset": "ne",
+          "type": "terminator",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 5700,
+          "y": 2750
+        }
+      }
+    },
     "X28": {
       "colour": "steelblue",
       "contrastColour": "white",
@@ -806,10 +946,73 @@
         "south": 200
       },
       "junctions": {
+        "R": {
+          "number": "R",
+          "name": "Kirknewton",
+          "labelOffset": "s",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3300,
+          "y": 4300
+        },
+        "S": {
+          "number": "S",
+          "name": "Riccarton (Heriot Watt University)",
+          "labelOffset": "se",
+          "type": "standard",
+          "angle": "ew",
+          "x": 3600,
+          "y": 4100
+        },
+        "T": {
+          "number": "T",
+          "name": "Sighthill",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 3800,
+          "y": 4000
+        },
+        "U": {
+          "number": "U",
+          "name": "Saughton Mains",
+          "labelOffset": "se",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4000,
+          "y": 3800
+        },
+        "V": {
+          "number": "V",
+          "name": "Chesser Hourse",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4200,
+          "y": 3600
+        },
+        "W": {
+          "number": "W",
+          "name": "Balgreen Rd",
+          "labelOffset": "se",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4400,
+          "y": 3400
+        },
+        "X": {
+          "number": "X",
+          "name": "Westfield",
+          "labelOffset": "nw",
+          "type": "standard",
+          "angle": "sw-ne",
+          "x": 4600,
+          "y": 3200
+        },
         "Y": {
           "number": "Y",
           "name": "Fountainbridge",
-          "labelOffset": "nw",
+          "labelOffset": "se",
           "type": "standard",
           "angle": "sw-ne",
           "x": 4800,
