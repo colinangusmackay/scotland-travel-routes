@@ -854,7 +854,7 @@
         "G": {
           "number": "G",
           "name": "East Whitburn",
-          "labelOffset": "n",
+          "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
           "x": 800,
@@ -863,7 +863,7 @@
         "H": {
           "number": "H",
           "name": "Blackburn",
-          "labelOffset": "s",
+          "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
           "x": 1000,
@@ -872,7 +872,7 @@
         "I": {
           "number": "I",
           "name": "Seafield",
-          "labelOffset": "n",
+          "labelOffset": "s",
           "type": "standard",
           "angle": "ew",
           "x": 1200,
@@ -881,7 +881,7 @@
         "J": {
           "number": "J",
           "name": "Eliburn",
-          "labelOffset": "s",
+          "labelOffset": "n",
           "type": "standard",
           "angle": "ew",
           "x": 1400,
@@ -1092,35 +1092,25 @@
           "x": 1000,
           "y": 2910
         },
-        "I": {
-          "number": "I",
-          "name": "",
-          "labelOffset": "",
-          "type": "standard",
-          "angle": "ns",
-          "connectionToPrevious": "rounded",
-          "x": 1200,
-          "y": 3100
-        },
         "J": {
           "number": "J",
           "name": "Deans",
-          "labelOffset": "n",
+          "labelOffset": "ne",
           "type": "standard",
-          "angle": "ew",
+          "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 1300,
-          "y": 3200
+          "x": 1250,
+          "y": 3050
         },
         "K": {
           "number": "K",
           "name": "Knightsridge",
-          "labelOffset": "w",
+          "labelOffset": "sw",
           "type": "standard",
-          "angle": "ns",
+          "angle": "nw-se",
           "connectionToPrevious": "rounded",
-          "x": 1550,
-          "y": 3300
+          "x": 1400,
+          "y": 3200
         },
         "L": {
           "number": "L",
