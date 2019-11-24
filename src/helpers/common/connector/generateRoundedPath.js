@@ -107,7 +107,7 @@ function getPathForNStoEW (from, to, route, dir) {
 }
 
 function generatePathForEWtoNWSE (from, to, route, dir) {
-  log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
+  //log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
 
   const xDir = getXDir(dir);
   const yDir = getYDir(dir);
@@ -203,7 +203,7 @@ function generatePathForSWNEtoNS (from, to, route, dir) {
 }
 
 function generatePathForSWNEtoEW (from, to, route, dir) {
-  log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
+  // log(`Rounded connection going "${dir}" from "${route.name}.${from.number}/${from.name}" (${from.angle}) to "${to.number}/${to.name}" (${to.angle}).`);
 
   const xDir = getXDir(dir);
   const yDir = getYDir(dir);
