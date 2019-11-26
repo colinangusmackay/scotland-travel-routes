@@ -1,6 +1,4 @@
-{{#setData "routes" dataFile}}{{/setData}}
-{{#setData "information" dataFile}}{{/setData}}
-<svg version="1.1"
+{{#setData "routes" dataFile}}{{/setData}}{{#setData "information" dataFile}}{{/setData}}<svg version="1.1"
      baseProfile="full"
      width="{{mapWidth routes}}" height="{{mapHeight routes}}"
      xmlns="http://www.w3.org/2000/svg">
@@ -10,8 +8,6 @@
         src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
     }
   </style>
-
-  <!-- Background -->
   <defs>
     <linearGradient id="BackgroundGradient" x1="0" y1="0" x2="100%" y2="100%">
       <stop offset="0%" stop-color="white"/>
@@ -27,7 +23,7 @@
 
     {{#each junctions}}
       <!-- {{../name}} {{number}} : {{name}} -->
-      <!-- Connector: --> {{renderConnector this}}
+      {{renderConnector this}}
     {{/each}}
 
     {{#each junctions}}

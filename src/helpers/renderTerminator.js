@@ -3,11 +3,15 @@ const standard = require("./common/standardConsts");
 const getRoute = require("./common/getRoute");
 const log = require("./common/log");
 
-function renderBlockTerminator (junction, route) {
+function getDebugGuide(displayDebugGuides){
+  return displayDebugGuides ? "\n<!-- Terminator: --> " : "";
+}
+
+function renderBlockTerminator (junction, route, displayDebugGuides) {
   const width = standard.lineWidth;
   const height = standard.cellSize;
 
-  let rendered = "\n<!-- Terminator: --> ";
+  let rendered = getDebugGuide(displayDebugGuides);
   switch (junction.angle) {
     // TODO: Diagonal offsets
     case "ew": {
@@ -70,8 +74,8 @@ function renderBlockTerminator (junction, route) {
   return rendered;
 }
 
-function renderDottedTerminator (junction, route) {
-  return `<circle cx="${junction.x}" cy="${junction.y}" r="${standard.lineWidth / 2}" fill="black" stroke="white" stroke-width="${standard.lineWidth / 10}" />`;
+function renderDottedTerminator (junction, route, displayDebugGuides) {
+  return `${getDebugGuide(displayDebugGuides)}<circle cx="${junction.x}" cy="${junction.y}" r="${standard.lineWidth / 2}" fill="black" stroke="white" stroke-width="${standard.lineWidth / 10}" />`;
 }
 
 module.exports = function (plop) {
@@ -80,10 +84,10 @@ module.exports = function (plop) {
     let rendered = "";
     switch (junction.type) {
       case "terminator":
-        rendered = renderBlockTerminator(junction, route);
+        rendered = renderBlockTerminator(junction, route, context.data.root.displayDebugGuides);
         break;
       case "dotted-terminator":
-        rendered = renderDottedTerminator(junction, route);
+        rendered = renderDottedTerminator(junction, route, context.data.root.displayDebugGuides);
         break;
     }
     return new Handlebars.SafeString(rendered);

@@ -1,0 +1,691 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="6100" height="4700"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+        font-family: "Fira Sans Condensed";
+        src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
+    }
+  </style>
+  <defs>
+    <linearGradient id="BackgroundGradient" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="cornsilk"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#BackgroundGradient)"/>
+
+  <!-- Information -->
+<g font-family="Fira Sans Condensed" font-size="20px">
+<text x="20" y="1530">Lothian Country routes that terminate in Edinburgh.</text>
+<text x="20" y="1555">NOTE: This is not meant to represent an accurate route map of Lothian Country. Do not use this for travel planning</text>
+<text x="20" y="1580">Version 1.0-preview</text>
+<text x="20" y="1605">© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE</text>
+<text x="20" y="1630">Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues</text>
+</g>
+
+    <!-- Legend for 43 : Queensferry - Edinburgh -->
+<rect x="10" y="100" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="110" font-weight="bold">43</text>
+<text x="610" y="110">Queensferry - Edinburgh</text>
+</g>
+
+      <!-- 43 A : Queensferry -->
+      
+      <!-- 43 B : Ferrymuir Retail Park -->
+      <path d="M2800,2050 L2500,2050" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 C : Echline Corner -->
+      <path d="M2500,2050 L2475,2050 L2250,2050 A50 50 0 0 1 2200,2000 L2200,1900" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 D : Queensferry Police Station -->
+      <path d="M2200,1900 L2200,1875 L2200,1800 A50 50 0 0 1 2250,1750 L2600,1750" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 E : Dalmany -->
+      <path d="M2600,1750 L2900,1750" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 F : Barnbougle Gate Lodge -->
+      <path d="M2900,1750 L2925,1750 L2964.644660940673,1750 A50 50 0 0 1 3000.0000000000005,1764.6446609406726 L3082.3223304703365,1832.3223304703363 L3100,1850" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 G : Burnshot -->
+      <path d="M3100,1850 L3300,2050" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 H : Crammond Bridge -->
+      <path d="M3300,2050 L3500,2250" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 I : Barnton -->
+      <path d="M3500,2250 L3517.6776695296635,2267.6776695296635 L3585.3553390593274,2335.3553390593274 A50 50 0 0 0 3614.6446609406726,2350 L3675,2350 L3700,2350" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 J : Clermiston Rd N -->
+      <path d="M3700,2350 L3900,2350" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 K : Blackhall -->
+      <path d="M3900,2350 L4100,2350" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 L : Craigleith -->
+      <path d="M4100,2350 L4125,2350 L4164.644660940672,2350 A50 50 0 0 1 4199.999999999999,2364.6446609406726 L4282.322330470336,2432.3223304703365 L4300,2450" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 M : Stewart&#x27;s Melville -->
+      <path d="M4300,2450 L4317.677669529664,2467.6776695296635 L4385.355339059328,2535.3553390593274 A50 50 0 0 0 4414.644660940673,2550 L4575,2550 L4600,2550" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 N : Dean Bridge -->
+      <path d="M4600,2550 L4625,2550 L4650,2550 A50 50 0 0 1 4700,2600 L4700,2650" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 O : West End -->
+      <path d="M4700,2650 L4700,2675 L4700,2800 A50 50 0 0 0 4750,2850 L4850,2850" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 Oa :  -->
+      <path d="M4850,2850 L4875,2850 L4950,2850 A50 50 0 0 0 5000,2800 L5000,2775" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 P : George Street -->
+      <path d="M5000,2775 L5000,2750 L5000,2750 A50 50 0 0 1 5050,2700 L5100,2700" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 43 Q : St. Andrew Sq -->
+      <path d="M5100,2700 L5300,2700" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- 43 A : Queensferry --><circle cx="2800" cy="2050" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="2800" y="2080" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Queensferry</text>
+      <!-- 43 B : Ferrymuir Retail Park -->
+<!-- Junction: --> <circle cx="2500" cy="2050" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2500" y="1970" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ferrymuir Retail Park</text>
+      <!-- 43 C : Echline Corner -->
+<!-- Junction: --> <circle cx="2200" cy="1900" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2170" y="1875" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Echline Corner</text>
+      <!-- 43 D : Queensferry Police Station -->
+<!-- Junction: --> <circle cx="2600" cy="1750" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2600" y="1780" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Queensferry Police Station</text>
+      <!-- 43 E : Dalmany -->
+<!-- Junction: --> <circle cx="2900" cy="1750" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2900" y="1670" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dalmany</text>
+      <!-- 43 F : Barnbougle Gate Lodge -->
+<!-- Junction: --> <circle cx="3100" cy="1850" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3130" y="1770" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Barnbougle Gate Lodge</text>
+      <!-- 43 G : Burnshot -->
+<!-- Junction: --> <circle cx="3300" cy="2050" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3330" y="1970" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Burnshot</text>
+      <!-- 43 H : Crammond Bridge -->
+<!-- Junction: --> <circle cx="3500" cy="2250" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3530" y="2170" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Crammond Bridge</text>
+      <!-- 43 I : Barnton -->
+<!-- Junction: --> <circle cx="3700" cy="2350" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3700" y="2270" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Barnton</text>
+      <!-- 43 J : Clermiston Rd N -->
+<!-- Junction: --> <circle cx="3900" cy="2350" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3900" y="2380" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Clermiston Rd N</text>
+      <!-- 43 K : Blackhall -->
+<!-- Junction: --> <circle cx="4100" cy="2350" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4100" y="2270" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Blackhall</text>
+      <!-- 43 L : Craigleith -->
+<!-- Junction: --> <circle cx="4300" cy="2450" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4330" y="2370" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Craigleith</text>
+      <!-- 43 M : Stewart&#x27;s Melville -->
+<!-- Junction: --> <circle cx="4600" cy="2550" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4600" y="2470" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Stewart's Melville</text>
+      <!-- 43 N : Dean Bridge -->
+<!-- Junction: --> <circle cx="4700" cy="2650" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4670" y="2625" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Dean Bridge</text>
+      <!-- 43 O : West End -->
+<!-- Junction: --> <circle cx="4850" cy="2850" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4850" y="2770" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">West End</text>
+      <!-- 43 Oa :  -->
+      <!-- 43 P : George Street -->
+<!-- Junction: --> <circle cx="5100" cy="2700" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="5100" y="2620" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">George Street</text>
+      <!-- 43 Q : St. Andrew Sq --><circle cx="5300" cy="2700" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="5280" y="2620" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">St. Andrew Sq</text>
+    <!-- Legend for 43 : Queensferry - Edinburgh -->
+<rect x="10" y="100" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="110" font-weight="bold">43</text>
+<text x="610" y="110">Queensferry - Edinburgh</text>
+</g>
+
+      <!-- 43 O :  -->
+      
+      <!-- 43 NP : Leith Street -->
+      <path d="M4850,2850 L4875,2850 L5450,2850 A50 50 0 0 0 5500,2800 L5500,2750" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- 43 O :  -->
+<!-- Junction: --> <circle cx="4850" cy="2850" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- 43 NP : Leith Street --><circle cx="5500" cy="2750" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="5530" y="2725" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Leith Street</text>
+    <!-- Legend for EX2 : Green Arrow Express -->
+<rect x="10" y="300" fill="green" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="310" font-weight="bold">EX2</text>
+<text x="610" y="310">Green Arrow Express</text>
+</g>
+
+      <!-- EX2 F : Linlithgow Bridge -->
+      
+      <!-- EX2 G :  -->
+      <path d="M1400,2450 L1600,2450" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 H : Springfield -->
+      <path d="M1600,2450 L1625,2450 L1650,2450 A50 50 0 0 0 1700,2400 L1700,2300" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 I :  -->
+      <path d="M1700,2300 L1700,2275 L1700,2250 A50 50 0 0 1 1750,2200 L1800,2200" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 J :  -->
+      <path d="M1800,2200 L1825,2200 L2850,2200 A50 50 0 0 1 2900,2250 L2900,2400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 K : Ratho Station -->
+      <path d="M2900,2400 L2900,2425 L2900,2880 A50 50 0 0 0 2950,2930 L3000,2930" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 L :  -->
+      <path d="M3000,2930 L3300,2930" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 M : Maybury -->
+      <path d="M3300,2930 L3450,2930" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 N :  -->
+      <path d="M3450,2930 L4100,2930" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 O :  -->
+      <path d="M4100,2930 L4500,2930" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 Oa :  -->
+      <path d="M4500,2930 L4525,2930 L4970,2930 A50 50 0 0 0 5020,2880 L5020,2795" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 P :  -->
+      <path d="M5020,2795 L5020,2770 L5020,2770 A50 50 0 0 1 5070,2720 L5100,2720" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- EX2 Q :  -->
+      <path d="M5100,2720 L5300,2720" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- EX2 F : Linlithgow Bridge --><circle cx="1400" cy="2450" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="1400" y="2370" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Linlithgow Bridge</text>
+      <!-- EX2 G :  -->
+<!-- Junction: --> <circle cx="1600" cy="2450" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- EX2 H : Springfield -->
+<!-- Junction: --> <circle cx="1700" cy="2300" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1670" y="2275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Springfield</text>
+      <!-- EX2 I :  -->
+      <!-- EX2 J :  -->
+      <!-- EX2 K : Ratho Station -->
+<!-- Junction: --> <circle cx="3000" cy="2930" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3000" y="2960" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ratho Station</text>
+      <!-- EX2 L :  -->
+<!-- Junction: --> <circle cx="3300" cy="2930" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- EX2 M : Maybury -->
+<!-- Junction: --> <circle cx="3450" cy="2930" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3450" y="2960" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Maybury</text>
+      <!-- EX2 N :  -->
+<!-- Junction: --> <circle cx="4100" cy="2930" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- EX2 O :  -->
+<!-- Junction: --> <circle cx="4500" cy="2930" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- EX2 Oa :  -->
+      <!-- EX2 P :  -->
+<!-- Junction: --> <circle cx="5100" cy="2720" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- EX2 Q :  --><circle cx="5300" cy="2720" r="10" fill="black" stroke="white" stroke-width="2" />
+    <!-- Legend for X17 : Fauldhouse - Regent Rd -->
+<rect x="10" y="700" fill="tomato" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="710" font-weight="bold">X17</text>
+<text x="610" y="710">Fauldhouse - Regent Rd</text>
+</g>
+
+      <!-- X17 AR : Fauldhouse -->
+      
+      <!-- X17 AS : Stoneyburn -->
+      <path d="M200,4100 L500,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AT : Loganlea -->
+      <path d="M500,4100 L700,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AU : Addiewell -->
+      <path d="M700,4100 L900,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AV : West Calder -->
+      <path d="M900,4100 L1100,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AWA : Polbeth -->
+      <path d="M1100,4100 L1300,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AWB : Dedridge West -->
+      <path d="M1300,4100 L1600,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AX :  -->
+      <path d="M1600,4100 L1625,4100 L1750,4100 A50 50 0 0 0 1800,4050 L1800,3900" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AYA :  -->
+      <path d="M1800,3900 L1800,3700" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AYB :  -->
+      <path d="M1800,3700 L1800,3675 L1800,3650 A50 50 0 0 1 1850,3600 L1900,3600" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AZA : Craigshill -->
+      <path d="M1900,3600 L1925,3600 L1950,3600 A50 50 0 0 0 2000,3550 L2000,3500" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 AZB :  -->
+      <path d="M2000,3500 L2000,3475 L2000,3250 A50 50 0 0 0 1950,3200 L1900,3200" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 B : Deer Park -->
+      <path d="M1900,3200 L1875,3200 L1850,3200 A50 50 0 0 1 1800,3150 L1800,3100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 C :  -->
+      <path d="M1800,3100 L1800,3075 L1800,2960 A50 50 0 0 1 1850,2910 L1900,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 D :  -->
+      <path d="M1900,2910 L2200,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 E : Broxburn -->
+      <path d="M2200,2910 L2400,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 F :  -->
+      <path d="M2400,2910 L2600,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 G :  -->
+      <path d="M2600,2910 L3000,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 H :  -->
+      <path d="M3000,2910 L3300,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 I :  -->
+      <path d="M3300,2910 L3450,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 J :  -->
+      <path d="M3450,2910 L3700,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 K :  -->
+      <path d="M3700,2910 L3900,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 L :  -->
+      <path d="M3900,2910 L4100,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 M :  -->
+      <path d="M4100,2910 L4300,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 O :  -->
+      <path d="M4300,2910 L4500,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X17 Q :  -->
+      <path d="M4500,2910 L5700,2910" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- X17 AR : Fauldhouse --><circle cx="200" cy="4100" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="200" y="4130" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Fauldhouse</text>
+      <!-- X17 AS : Stoneyburn -->
+<!-- Junction: --> <circle cx="500" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="500" y="4020" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Stoneyburn</text>
+      <!-- X17 AT : Loganlea -->
+<!-- Junction: --> <circle cx="700" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="700" y="4130" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Loganlea</text>
+      <!-- X17 AU : Addiewell -->
+<!-- Junction: --> <circle cx="900" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="900" y="4020" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Addiewell</text>
+      <!-- X17 AV : West Calder -->
+<!-- Junction: --> <circle cx="1100" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1100" y="4130" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">West Calder</text>
+      <!-- X17 AWA : Polbeth -->
+<!-- Junction: --> <circle cx="1300" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1300" y="4020" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Polbeth</text>
+      <!-- X17 AWB : Dedridge West -->
+<!-- Junction: --> <circle cx="1600" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1600" y="4130" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dedridge West</text>
+      <!-- X17 AX :  -->
+<!-- Junction: --> <circle cx="1800" cy="3900" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 AYA :  -->
+<!-- Junction: --> <circle cx="1800" cy="3700" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 AYB :  -->
+      <!-- X17 AZA : Craigshill -->
+<!-- Junction: --> <circle cx="2000" cy="3500" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2030" y="3475" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Craigshill</text>
+      <!-- X17 AZB :  -->
+      <!-- X17 B : Deer Park -->
+<!-- Junction: --> <circle cx="1800" cy="3100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1770" y="3075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Deer Park</text>
+      <!-- X17 C :  -->
+<!-- Junction: --> <circle cx="1900" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 D :  -->
+<!-- Junction: --> <circle cx="2200" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 E : Broxburn -->
+<!-- Junction: --> <circle cx="2400" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2400" y="2940" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Broxburn</text>
+      <!-- X17 F :  -->
+<!-- Junction: --> <circle cx="2600" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 G :  -->
+<!-- Junction: --> <circle cx="3000" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 H :  -->
+<!-- Junction: --> <circle cx="3300" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 I :  -->
+<!-- Junction: --> <circle cx="3450" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 J :  -->
+<!-- Junction: --> <circle cx="3700" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 K :  -->
+<!-- Junction: --> <circle cx="3900" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 L :  -->
+<!-- Junction: --> <circle cx="4100" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 M :  -->
+<!-- Junction: --> <circle cx="4300" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 O :  -->
+<!-- Junction: --> <circle cx="4500" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X17 Q :  --><circle cx="5700" cy="2910" r="10" fill="black" stroke="white" stroke-width="2" />
+    <!-- Legend for X18 : Whitburn - Regent Rd (via Bathgate) -->
+<rect x="10" y="900" fill="mediumblue" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="910" font-weight="bold">X18</text>
+<text x="610" y="910">Whitburn - Regent Rd (via Bathgate)</text>
+</g>
+
+      <!-- X18 Ax : Whitburn -->
+      
+      <!-- X18 Ay : Bathville -->
+      <path d="M400,3400 L425,3400 L550,3400 A50 50 0 0 0 600,3350 L600,3200" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 Az : Armadale -->
+      <path d="M600,3200 L600,3100" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 A : Bathgate -->
+      <path d="M600,3100 L600,3075 L600,2940 A50 50 0 0 1 650,2890 L800,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 B : Boghall -->
+      <path d="M800,2890 L1000,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 C : Dechmont -->
+      <path d="M1000,2890 L1900,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 D : Uphall -->
+      <path d="M1900,2890 L2200,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 E :  -->
+      <path d="M2200,2890 L2400,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 F :  -->
+      <path d="M2400,2890 L2600,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 G :  -->
+      <path d="M2600,2890 L3000,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 H :  -->
+      <path d="M3000,2890 L3300,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 I :  -->
+      <path d="M3300,2890 L3450,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 J :  -->
+      <path d="M3450,2890 L3700,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 K :  -->
+      <path d="M3700,2890 L3900,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 L :  -->
+      <path d="M3900,2890 L4100,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 M :  -->
+      <path d="M4100,2890 L4300,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 O :  -->
+      <path d="M4300,2890 L4500,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X18 Q :  -->
+      <path d="M4500,2890 L5700,2890" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- X18 Ax : Whitburn --><circle cx="400" cy="3400" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="400" y="3450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Whitburn</text>
+      <!-- X18 Ay : Bathville -->
+<!-- Junction: --> <circle cx="600" cy="3200" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="570" y="3175" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Bathville</text>
+      <!-- X18 Az : Armadale -->
+<!-- Junction: --> <circle cx="600" cy="3100" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="630" y="3075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Armadale</text>
+      <!-- X18 A : Bathgate -->
+<!-- Junction: --> <circle cx="800" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="800" y="2810" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Bathgate</text>
+      <!-- X18 B : Boghall -->
+<!-- Junction: --> <circle cx="1000" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1000" y="2940" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Boghall</text>
+      <!-- X18 C : Dechmont -->
+<!-- Junction: --> <circle cx="1900" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1900" y="2810" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dechmont</text>
+      <!-- X18 D : Uphall -->
+<!-- Junction: --> <circle cx="2200" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2200" y="2810" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Uphall</text>
+      <!-- X18 E :  -->
+<!-- Junction: --> <circle cx="2400" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 F :  -->
+<!-- Junction: --> <circle cx="2600" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 G :  -->
+<!-- Junction: --> <circle cx="3000" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 H :  -->
+<!-- Junction: --> <circle cx="3300" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 I :  -->
+<!-- Junction: --> <circle cx="3450" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 J :  -->
+<!-- Junction: --> <circle cx="3700" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 K :  -->
+<!-- Junction: --> <circle cx="3900" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 L :  -->
+<!-- Junction: --> <circle cx="4100" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 M :  -->
+<!-- Junction: --> <circle cx="4300" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 O :  -->
+<!-- Junction: --> <circle cx="4500" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X18 Q :  --><circle cx="5700" cy="2890" r="10" fill="black" stroke="white" stroke-width="2" />
+    <!-- Legend for X27 : Whitburn - Regent Rd (via Livingston) -->
+<rect x="10" y="1100" fill="violet" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="1110" font-weight="bold">X27</text>
+<text x="610" y="1110">Whitburn - Regent Rd (via Livingston)</text>
+</g>
+
+      <!-- X27 F :  -->
+      
+      <!-- X27 G : East Whitburn -->
+      <path d="M400,3420 L800,3420" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 H : Blackburn -->
+      <path d="M800,3420 L1000,3420" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 I : Seafield -->
+      <path d="M1000,3420 L1200,3420" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 J : Eliburn -->
+      <path d="M1200,3420 L1400,3420" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 K :  -->
+      <path d="M1400,3420 L1650,3420" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 L : Howden -->
+      <path d="M1650,3420 L1675,3420 L1730,3420 A50 50 0 0 1 1780,3470 L1780,3700" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 M : The Centre -->
+      <path d="M1780,3700 L1780,3900" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 NA :  -->
+      <path d="M1780,3900 L1780,3925 L1780,4030 A50 50 0 0 1 1730,4080 L1600,4080" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 NB :  -->
+      <path d="M1600,4080 L1575,4080 L1450,4080 A50 50 0 0 0 1400,4130 L1400,4200" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 O : Dedridge East -->
+      <path d="M1400,4200 L1400,4225 L1400,4250 A50 50 0 0 0 1450,4300 L2100,4300" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 P :  -->
+      <path d="M2100,4300 L2400,4300" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 Q : East Calder -->
+      <path d="M2400,4300 L2700,4300" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 QZ : Calderwood -->
+      <path d="M2700,4300 L3100,4300" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 R : Wilkieston -->
+      <path d="M3100,4300 L3300,4300" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 S :  -->
+      <path d="M3300,4300 L3600,4300" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 T :  -->
+      <path d="M3600,4300 L3625,4300 L3664.644660940673,4300 A50 50 0 0 0 3700.0000000000005,4285.355339059327 L3782.3223304703365,4217.677669529664 L3800,4200" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 U :  -->
+      <path d="M3800,4200 L4000,4000" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 V :  -->
+      <path d="M4000,4000 L4200,3800" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 W :  -->
+      <path d="M4200,3800 L4400,3600" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 X :  -->
+      <path d="M4400,3600 L4600,3400" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 Y :  -->
+      <path d="M4600,3400 L4800,3200" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X27 Z :  -->
+      <path d="M4800,3200 L4817.677669529664,3182.3223304703365 L5055.355339059328,2944.6446609406726 A50 50 0 0 1 5084.644660940673,2930 L5675,2930 L5700,2930" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- X27 F :  --><circle cx="400" cy="3420" r="10" fill="black" stroke="white" stroke-width="2" />
+      <!-- X27 G : East Whitburn -->
+<!-- Junction: --> <circle cx="800" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="800" y="3450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">East Whitburn</text>
+      <!-- X27 H : Blackburn -->
+<!-- Junction: --> <circle cx="1000" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1000" y="3340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Blackburn</text>
+      <!-- X27 I : Seafield -->
+<!-- Junction: --> <circle cx="1200" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1200" y="3450" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Seafield</text>
+      <!-- X27 J : Eliburn -->
+<!-- Junction: --> <circle cx="1400" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1400" y="3340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Eliburn</text>
+      <!-- X27 K :  -->
+<!-- Junction: --> <circle cx="1650" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 L : Howden -->
+<!-- Junction: --> <circle cx="1780" cy="3700" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1750" y="3675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Howden</text>
+      <!-- X27 M : The Centre -->
+<!-- Junction: --> <circle cx="1780" cy="3900" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1750" y="3875" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">The Centre</text>
+      <!-- X27 NA :  -->
+<!-- Junction: --> <circle cx="1600" cy="4080" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 NB :  -->
+<!-- Junction: --> <circle cx="1400" cy="4200" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 O : Dedridge East -->
+<!-- Junction: --> <circle cx="2100" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2100" y="4220" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dedridge East</text>
+      <!-- X27 P :  -->
+<!-- Junction: --> <circle cx="2400" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 Q : East Calder -->
+<!-- Junction: --> <circle cx="2700" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2700" y="4220" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">East Calder</text>
+      <!-- X27 QZ : Calderwood -->
+<!-- Junction: --> <circle cx="3100" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3100" y="4330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Calderwood</text>
+      <!-- X27 R : Wilkieston -->
+<!-- Junction: --> <circle cx="3300" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3300" y="4220" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Wilkieston</text>
+      <!-- X27 S :  -->
+<!-- Junction: --> <circle cx="3600" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 T :  -->
+<!-- Junction: --> <circle cx="3800" cy="4200" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 U :  -->
+<!-- Junction: --> <circle cx="4000" cy="4000" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 V :  -->
+<!-- Junction: --> <circle cx="4200" cy="3800" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 W :  -->
+<!-- Junction: --> <circle cx="4400" cy="3600" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 X :  -->
+<!-- Junction: --> <circle cx="4600" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 Y :  -->
+<!-- Junction: --> <circle cx="4800" cy="3200" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X27 Z :  --><circle cx="5700" cy="2930" r="10" fill="black" stroke="white" stroke-width="2" />
+    <!-- Legend for X28 : Bathgate - Regent Rd -->
+<rect x="10" y="1300" fill="steelblue" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="1310" font-weight="bold">X28</text>
+<text x="610" y="1310">Bathgate - Regent Rd</text>
+</g>
+
+      <!-- X28 G :  -->
+      
+      <!-- X28 H :  -->
+      <path d="M800,2910 L1000,2910" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 J : Deans -->
+      <path d="M1000,2910 L1025,2910 L1074.6446609406723,2910 A50 50 0 0 1 1109.9999999999998,2924.6446609406726 L1232.3223304703363,3032.3223304703365 L1250,3050" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 K : Knightsridge -->
+      <path d="M1250,3050 L1267.6776695296637,3067.6776695296635 L1400,3200" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 L : Ladywell -->
+      <path d="M1400,3200 L1417.6776695296637,3217.6776695296635 L1585.3553390593277,3385.3553390593274 A50 50 0 0 0 1614.6446609406728,3400 L1625,3400 L1650,3400" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 MA :  -->
+      <path d="M1650,3400 L1675,3400 L1930,3400 A50 50 0 0 1 1980,3450 L1980,3500" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 MB :  -->
+      <path d="M1980,3500 L1980,3525 L1980,3750 A50 50 0 0 1 1930,3800 L1900,3800" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 N :  -->
+      <path d="M1900,3800 L1875,3800 L1870,3800 A50 50 0 0 0 1820,3850 L1820,3900" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 O :  -->
+      <path d="M1820,3900 L1820,3925 L1820,4270 A50 50 0 0 0 1870,4320 L2100,4320" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 P : Mid Calder -->
+      <path d="M2100,4320 L2400,4320" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 QA :  -->
+      <path d="M2400,4320 L2700,4320" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 QB :  -->
+      <path d="M2700,4320 L2725,4320 L2850,4320 A50 50 0 0 1 2900,4370 L2900,4400" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 RA : Kirknewton -->
+      <path d="M2900,4400 L2900,4425 L2900,4450 A50 50 0 0 0 2950,4500 L3200,4500" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 RB :  -->
+      <path d="M3200,4500 L3225,4500 L3450,4500 A50 50 0 0 0 3500,4450 L3500,4400" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 S : Riccarton (Heriot Watt University) -->
+      <path d="M3500,4400 L3500,4375 L3500,4370 A50 50 0 0 1 3550,4320 L3600,4320" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 T : Sighthill -->
+      <path d="M3600,4320 L3625,4320 L3664.644660940673,4320 A50 50 0 0 0 3700.0000000000005,4305.355339059327 L3782.3223304703365,4237.677669529664 L3800,4220" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 U : Saughton Mains -->
+      <path d="M3800,4220 L4000,4020" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 V : Chesser Hourse -->
+      <path d="M4000,4020 L4200,3820" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 W : Balgreen Rd -->
+      <path d="M4200,3820 L4400,3620" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 X : Westfield -->
+      <path d="M4400,3620 L4600,3420" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 Y : Fountainbridge -->
+      <path d="M4600,3420 L4800,3220" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X28 Z :  -->
+      <path d="M4800,3220 L4817.677669529664,3202.3223304703365 L5055.355339059328,2964.6446609406726 A50 50 0 0 1 5084.644660940673,2950 L5675,2950 L5700,2950" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- X28 G :  --><circle cx="800" cy="2910" r="10" fill="black" stroke="white" stroke-width="2" />
+      <!-- X28 H :  -->
+<!-- Junction: --> <circle cx="1000" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X28 J : Deans -->
+<!-- Junction: --> <circle cx="1250" cy="3050" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1280" y="2970" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Deans</text>
+      <!-- X28 K : Knightsridge -->
+<!-- Junction: --> <circle cx="1400" cy="3200" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1370" y="3230" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Knightsridge</text>
+      <!-- X28 L : Ladywell -->
+<!-- Junction: --> <circle cx="1650" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1700" y="3320" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ladywell</text>
+      <!-- X28 MA :  -->
+<!-- Junction: --> <circle cx="1980" cy="3500" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X28 MB :  -->
+<!-- Junction: --> <circle cx="1900" cy="3800" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X28 N :  -->
+<!-- Junction: --> <circle cx="1820" cy="3900" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X28 O :  -->
+<!-- Junction: --> <circle cx="2100" cy="4320" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X28 P : Mid Calder -->
+<!-- Junction: --> <circle cx="2400" cy="4320" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2400" y="4350" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Mid Calder</text>
+      <!-- X28 QA :  -->
+<!-- Junction: --> <circle cx="2700" cy="4320" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X28 QB :  -->
+      <!-- X28 RA : Kirknewton -->
+<!-- Junction: --> <circle cx="3200" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3200" y="4530" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Kirknewton</text>
+      <!-- X28 RB :  -->
+      <!-- X28 S : Riccarton (Heriot Watt University) -->
+<!-- Junction: --> <circle cx="3600" cy="4320" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3900" y="4350" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Riccarton (Heriot Watt University)</text>
+      <!-- X28 T : Sighthill -->
+<!-- Junction: --> <circle cx="3800" cy="4220" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3770" y="4140" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Sighthill</text>
+      <!-- X28 U : Saughton Mains -->
+<!-- Junction: --> <circle cx="4000" cy="4020" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4030" y="4050" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Saughton Mains</text>
+      <!-- X28 V : Chesser Hourse -->
+<!-- Junction: --> <circle cx="4200" cy="3820" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4170" y="3740" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Chesser Hourse</text>
+      <!-- X28 W : Balgreen Rd -->
+<!-- Junction: --> <circle cx="4400" cy="3620" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4430" y="3650" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Balgreen Rd</text>
+      <!-- X28 X : Westfield -->
+<!-- Junction: --> <circle cx="4600" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4570" y="3340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Westfield</text>
+      <!-- X28 Y : Fountainbridge -->
+<!-- Junction: --> <circle cx="4800" cy="3220" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4830" y="3250" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Fountainbridge</text>
+      <!-- X28 Z :  --><circle cx="5700" cy="2950" r="10" fill="black" stroke="white" stroke-width="2" />
+    <!-- Legend for X38 : Linlithgow - Regent Rd -->
+<rect x="10" y="500" fill="deepskyblue" height="200" width="4000" stroke="white" stroke-width="1"/>
+<g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed">
+<text x="60" y="510" font-weight="bold">X38</text>
+<text x="610" y="510">Linlithgow - Regent Rd</text>
+</g>
+
+      <!-- X38 A : Linlithgow Bridge -->
+      
+      <!-- X38 B : Linlithgow Cross -->
+      <path d="M1400,2470 L1600,2470" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 C : Bridgend -->
+      <path d="M1600,2470 L1850,2470" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 D : Winchburgh -->
+      <path d="M1850,2470 L1875,2470 L1984.6446609406726,2470 A50 50 0 0 1 2020,2484.6446609406726 L2082.3223304703365,2532.3223304703365 L2100,2550" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 E : Kirkliston -->
+      <path d="M2100,2550 L2300,2750" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 F : Newbridge -->
+      <path d="M2300,2750 L2317.6776695296635,2767.6776695296635 L2405.3553390593274,2855.3553390593274 A50 50 0 0 0 2434.6446609406726,2870 L2575,2870 L2600,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 G :  -->
+      <path d="M2600,2870 L3000,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 H : Gogarburn -->
+      <path d="M3000,2870 L3300,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 I :  -->
+      <path d="M3300,2870 L3450,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 J : Drum Brae South -->
+      <path d="M3450,2870 L3700,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 K : Kirk Loan -->
+      <path d="M3700,2870 L3900,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 L : Edinburgh Zoo -->
+      <path d="M3900,2870 L4100,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 M : Murrayfield -->
+      <path d="M4100,2870 L4300,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 O : Haymarket -->
+      <path d="M4300,2870 L4500,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- X38 Q : Regent Road -->
+      <path d="M4500,2870 L5700,2870" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- X38 A : Linlithgow Bridge --><circle cx="1400" cy="2470" r="10" fill="black" stroke="white" stroke-width="2" />
+      <!-- X38 B : Linlithgow Cross -->
+<!-- Junction: --> <circle cx="1600" cy="2470" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1600" y="2500" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Linlithgow Cross</text>
+      <!-- X38 C : Bridgend -->
+<!-- Junction: --> <circle cx="1850" cy="2470" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="1850" y="2390" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Bridgend</text>
+      <!-- X38 D : Winchburgh -->
+<!-- Junction: --> <circle cx="2100" cy="2550" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2130" y="2470" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Winchburgh</text>
+      <!-- X38 E : Kirkliston -->
+<!-- Junction: --> <circle cx="2300" cy="2750" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2330" y="2670" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Kirkliston</text>
+      <!-- X38 F : Newbridge -->
+<!-- Junction: --> <circle cx="2600" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="2600" y="2790" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Newbridge</text>
+      <!-- X38 G :  -->
+<!-- Junction: --> <circle cx="3000" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X38 H : Gogarburn -->
+<!-- Junction: --> <circle cx="3300" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3300" y="2790" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Gogarburn</text>
+      <!-- X38 I :  -->
+<!-- Junction: --> <circle cx="3450" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+      <!-- X38 J : Drum Brae South -->
+<!-- Junction: --> <circle cx="3700" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3700" y="2790" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Drum Brae South</text>
+      <!-- X38 K : Kirk Loan -->
+<!-- Junction: --> <circle cx="3900" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="3900" y="2960" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Kirk Loan</text>
+      <!-- X38 L : Edinburgh Zoo -->
+<!-- Junction: --> <circle cx="4100" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4100" y="2790" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Edinburgh Zoo</text>
+      <!-- X38 M : Murrayfield -->
+<!-- Junction: --> <circle cx="4300" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4300" y="2960" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Murrayfield</text>
+      <!-- X38 O : Haymarket -->
+<!-- Junction: --> <circle cx="4500" cy="2870" r="10" fill="white" stroke="black" stroke-width="4" />
+<!-- Label: --> <text x="4500" y="2790" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Haymarket</text>
+      <!-- X38 Q : Regent Road --><circle cx="5700" cy="2870" r="10" fill="black" stroke="white" stroke-width="2" />
+<!-- Label: --> <text x="5730" y="2790" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Regent Road</text>
+
+</svg>
