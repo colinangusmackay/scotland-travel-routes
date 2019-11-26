@@ -3,7 +3,7 @@ const standard = require("./common/standardConsts");
 const getRoute = require("./common/getRoute");
 const log = require("./common/log");
 
-function getDebugGuide(displayDebugGuides){
+function getDebugGuide (displayDebugGuides) {
   return displayDebugGuides ? "\n<!-- Terminator: --> " : "";
 }
 

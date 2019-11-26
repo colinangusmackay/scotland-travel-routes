@@ -1,6 +1,7 @@
 module.exports = function (plop) {
   require("./setData")(plop);
   require("./offset")(plop);
+  require("./junctionComment")(plop);
   require("./mapHeight")(plop);
   require("./mapWidth")(plop);
   require("./renderCell")(plop);

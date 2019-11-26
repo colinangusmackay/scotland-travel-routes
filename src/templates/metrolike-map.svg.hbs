@@ -18,17 +18,14 @@
 
   {{renderInformation information}}
 
-  {{#each routes}}
-    {{renderLegendEntry this}}
+{{#each routes}}{{renderLegendEntry this}}
 
-    {{#each junctions}}
-      <!-- {{../name}} {{number}} : {{name}} -->
-      {{renderConnector this}}
-    {{/each}}
-
-    {{#each junctions}}
-      <!-- {{../name}} {{number}} : {{name}} -->{{renderTerminator this}}{{renderServices this}}{{renderInterchange this}}{{renderJunction this}}{{renderLabel this}}{{renderCell this}}
-    {{/each}}
+  {{#each junctions}}
+    {{renderConnector this}}
   {{/each}}
+  {{#each junctions}}
+    {{junctionComment this}}{{renderTerminator this}}{{renderServices this}}{{renderInterchange this}}{{renderJunction this}}{{renderLabel this}}{{renderCell this}}
+  {{/each}}
+{{/each}}
 
 </svg>

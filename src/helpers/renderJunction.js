@@ -5,7 +5,6 @@ const Handlebars = require("handlebars");
 const log = require("./common/log");
 
 function renderStandardJunction (junction, route) {
-  let rendered = "\n<!-- Junction: --> ";
   const path = [{ x: junction.x, y: junction.y }];
   switch (junction.labelOffset) {
     case "n": {
@@ -46,31 +45,30 @@ function renderStandardJunction (junction, route) {
     }
   }
   if (path.length > 1) {
-    rendered += generatePolyline(path, {
+    const rendered = generatePolyline(path, {
       stroke: route.colour,
       fill: "none",
       "stroke-width": standard.lineWidth,
       "stroke-linecap": "butt"
     });
+    return rendered;
   }
-  return rendered;
+  return "";
 }
 
 function renderStandardDottedJunction (junction, route) {
-  let rendered = "\n<!-- Junction: --> ";
-  rendered += `<circle cx="${junction.x}" cy="${junction.y}" r="${standard.lineWidth / 2}" fill="white" stroke="black" stroke-width="${standard.lineWidth / 5}" />`;
-  return rendered;
+  return `<circle cx="${junction.x}" cy="${junction.y}" r="${standard.lineWidth / 2}" fill="white" stroke="black" stroke-width="${standard.lineWidth / 5}" />`;
 }
 
 module.exports = function (plop) {
   plop.addHelper("renderJunction", function (junction, context) {
     const route = getRoute(context);
 
-    let rendered = "";
+    let rendered = context.data.root.displayDebugGuides ? "<!-- Junction -->" : "";
     if ((junction.type === "standard") && (junction.labelOffset)) {
-      rendered = renderStandardJunction(junction, route);
+      rendered += renderStandardJunction(junction, route);
     } else if ((junction.type === "dotted-junction")) {
-      rendered = renderStandardDottedJunction(junction, route);
+      rendered += renderStandardDottedJunction(junction, route);
     }
 
     return new Handlebars.SafeString(rendered);

@@ -16,8 +16,10 @@ module.exports = function (plop) {
     if (!context.data.first) {
       const previousJunction = getPreviousJunction(context);
       const route = getRoute(context);
-      const rendered = generateConnector(junction, previousJunction, route);
+      let rendered = context.data.root.displayDebugGuides ? `<!-- ${route.name} from: ${previousJunction.number}/${previousJunction.name} to: ${junction.number}/${junction.name} -->` : "";
+      rendered += generateConnector(junction, previousJunction, route);
       return new Handlebars.SafeString(rendered);
     }
   });
 };
+

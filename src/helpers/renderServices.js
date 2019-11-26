@@ -5,10 +5,9 @@ const generatePolygon = require("./common/generatePolygon");
 
 module.exports = function (plop) {
   plop.addHelper("renderServices", function (junction, context) {
-    let rendered = "";
+    let rendered = context.data.root.displayDebugGuides ? "<!-- Services -->" : "";
     if (junction.type === "services") {
       const route = getRoute(context);
-      rendered += "\n<!-- Services: --> ";
       const sides = junction.serviceSides.split(",");
       sides.forEach(side => {
         const path = [];

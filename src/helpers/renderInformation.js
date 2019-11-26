@@ -5,7 +5,7 @@ const lineSpacing = 1.25;
 module.exports = function (plop) {
   plop.addHelper("renderInformation", function (information, context) {
     if (!information.lines || information.lines.length === 0) { return ""; }
-    let rendered = "<!-- Information -->\n";
+    let rendered = context.data.root.displayDebugGuides ? "<!-- Information -->\n" : "";
     rendered += `<g font-family="Fira Sans Condensed" font-size="${standard.fontSize.information}px">`;
     rendered += "\n";
 
