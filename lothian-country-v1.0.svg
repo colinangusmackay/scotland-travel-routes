@@ -24,7 +24,7 @@
 <text x="20" y="1630">Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues</text>
 </g>
 
-<rect x="10" y="100" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="110" font-weight="bold">43</text><text x="610" y="110">Queensferry - Edinburgh</text></g>
+<rect x="10" y="1300" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1310" font-weight="bold">43</text><text x="610" y="1310">Queensferry - Edinburgh</text></g>
 
     
     <path d="M2800,2050 L2500,2050" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -62,13 +62,13 @@
     
     <circle cx="5100" cy="2700" r="10" fill="white" stroke="black" stroke-width="4" /><text x="5100" y="2620" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">George Street</text>
     <circle cx="5300" cy="2700" r="10" fill="black" stroke="white" stroke-width="2" /><text x="5280" y="2620" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">St. Andrew Sq</text>
-<rect x="10" y="100" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="110" font-weight="bold">43</text><text x="610" y="110">Queensferry - Edinburgh</text></g>
+<rect x="10" y="1300" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1310" font-weight="bold">43</text><text x="610" y="1310">Queensferry - Edinburgh</text></g>
 
     
     <path d="M4850,2850 L4875,2850 L5450,2850 A50 50 0 0 0 5500,2800 L5500,2750" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="4850" cy="2850" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="5500" cy="2750" r="10" fill="black" stroke="white" stroke-width="2" /><text x="5530" y="2725" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Leith Street</text>
-<rect x="10" y="300" fill="green" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="310" font-weight="bold">EX2</text><text x="610" y="310">Green Arrow Express</text></g>
+<rect x="10" y="100" fill="green" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="110" font-weight="bold">EX2</text><text x="610" y="110">Green Arrow Express</text></g>
 
     
     <path d="M1400,2450 L1600,2450" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -96,7 +96,7 @@
     
     <circle cx="5100" cy="2720" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="5300" cy="2720" r="10" fill="black" stroke="white" stroke-width="2" />
-<rect x="10" y="700" fill="tomato" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="710" font-weight="bold">X17</text><text x="610" y="710">Fauldhouse - Regent Rd</text></g>
+<rect x="10" y="300" fill="tomato" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="310" font-weight="bold">X17</text><text x="610" y="310">Fauldhouse - Regent Rd</text></g>
 
     
     <path d="M200,4100 L500,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -150,7 +150,7 @@
     <circle cx="4300" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="4500" cy="2910" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="5700" cy="2910" r="10" fill="black" stroke="white" stroke-width="2" />
-<rect x="10" y="900" fill="mediumblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="910" font-weight="bold">X18</text><text x="610" y="910">Whitburn - Regent Rd (via Bathgate)</text></g>
+<rect x="10" y="500" fill="mediumblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="510" font-weight="bold">X18</text><text x="610" y="510">Whitburn - Regent Rd (via Bathgate)</text></g>
 
     
     <path d="M400,3400 L425,3400 L550,3400 A50 50 0 0 0 600,3350 L600,3200" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -188,7 +188,7 @@
     <circle cx="4300" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="4500" cy="2890" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="5700" cy="2890" r="10" fill="black" stroke="white" stroke-width="2" />
-<rect x="10" y="1100" fill="violet" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1110" font-weight="bold">X27</text><text x="610" y="1110">Whitburn - Regent Rd (via Livingston)</text></g>
+<rect x="10" y="700" fill="violet" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="710" font-weight="bold">X27</text><text x="610" y="710">Whitburn - Regent Rd (via Livingston)</text></g>
 
     
     <path d="M400,3420 L800,3420" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -236,7 +236,7 @@
     <circle cx="4600" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="4800" cy="3200" r="10" fill="white" stroke="black" stroke-width="4" />
     <circle cx="5700" cy="2930" r="10" fill="black" stroke="white" stroke-width="2" />
-<rect x="10" y="1300" fill="steelblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1310" font-weight="bold">X28</text><text x="610" y="1310">Bathgate - Regent Rd</text></g>
+<rect x="10" y="900" fill="steelblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="910" font-weight="bold">X28</text><text x="610" y="910">Bathgate - Regent Rd</text></g>
 
     
     <path d="M800,2910 L1000,2910" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -282,7 +282,7 @@
     <circle cx="4600" cy="3420" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4570" y="3340" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Westfield</text>
     <circle cx="4800" cy="3220" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4830" y="3250" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Fountainbridge</text>
     <circle cx="5700" cy="2950" r="10" fill="black" stroke="white" stroke-width="2" />
-<rect x="10" y="500" fill="deepskyblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="510" font-weight="bold">X38</text><text x="610" y="510">Linlithgow - Regent Rd</text></g>
+<rect x="10" y="1100" fill="deepskyblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1110" font-weight="bold">X38</text><text x="610" y="1110">Linlithgow - Regent Rd</text></g>
 
     
     <path d="M1400,2470 L1600,2470" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>

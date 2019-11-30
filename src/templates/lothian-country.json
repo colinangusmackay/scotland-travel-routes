@@ -17,7 +17,7 @@
       "name": "43",
       "route": "Queensferry - Edinburgh",
       "dx": 10,
-      "dy": 100,
+      "dy": 1300,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -207,7 +207,7 @@
       "name": "43",
       "route": "Queensferry - Edinburgh",
       "dx": 10,
-      "dy": 100,
+      "dy": 1300,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -243,7 +243,7 @@
       "name": "EX2",
       "route": "Green Arrow Express",
       "dx": 10,
-      "dy": 300,
+      "dy": 100,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -384,7 +384,7 @@
       "name": "X17",
       "route": "Fauldhouse - Regent Rd",
       "dx": 10,
-      "dy": 700,
+      "dy": 300,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -648,7 +648,7 @@
       "name": "X18",
       "route": "Whitburn - Regent Rd (via Bathgate)",
       "dx": 10,
-      "dy": 900,
+      "dy": 500,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -834,7 +834,7 @@
       "name": "X27",
       "route": "Whitburn - Regent Rd (via Livingston)",
       "dx": 10,
-      "dy": 1100,
+      "dy": 700,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -1064,7 +1064,7 @@
       "name": "X28",
       "route": "Bathgate - Regent Rd",
       "dx": 10,
-      "dy": 1300,
+      "dy": 900,
       "buffer": {
         "west": 200,
         "east": 400,
@@ -1295,7 +1295,7 @@
       "name": "X38",
       "route": "Linlithgow - Regent Rd",
       "dx": 10,
-      "dy": 500,
+      "dy": 1100,
       "buffer": {
         "west": 200,
         "east": 400,
