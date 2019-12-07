@@ -1093,7 +1093,7 @@
           "number": "NB",
           "name": "",
           "labelOffset": "",
-          "type": "dotted-junction",
+          "type": "dummy",
           "angle": "ns",
           "connectionToPrevious": "rounded",
           "x": 1400,
