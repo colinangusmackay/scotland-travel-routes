@@ -305,11 +305,12 @@
           "number": "K",
           "name": "Ratho Station",
           "labelOffset": "s",
+          "labelOffsetY": 20,
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 3000,
-          "y": 2930
+          "y": 2950
         },
         "L": {
           "number": "L",
@@ -318,7 +319,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "x": 3300,
-          "y": 2930
+          "y": 2950
         },
         "M": {
           "number": "M",
@@ -327,7 +328,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "x": 3600,
-          "y": 2930
+          "y": 2950
         },
         "N": {
           "number": "N",
@@ -336,7 +337,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4250,
-          "y": 2930
+          "y": 2950
         },
         "O": {
           "number": "O",
@@ -345,7 +346,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4650,
-          "y": 2930
+          "y": 2950
         },
         "Oa": {
           "number": "Oa",
@@ -898,7 +899,7 @@
         },
         "L": {
           "number": "L",
-          "name": "Howden",
+          "comment": "Howden",
           "labelOffset": "w",
           "type": "dotted-junction",
           "angle": "ns",
@@ -908,7 +909,7 @@
         },
         "M": {
           "number": "M",
-          "name": "The Centre",
+          "comment": "The Centre",
           "labelOffset": "w",
           "type": "dotted-junction",
           "connectionToPrevious": "rounded",
@@ -1114,14 +1115,13 @@
         },
         "L": {
           "number": "L",
-          "name": "Ladywell",
+          "comment": "Ladywell",
           "labelOffset": "n",
-          "labelOffsetX": 50,
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 1650,
-          "y": 3400
+          "y": 3380
         },
         "MA": {
           "number": "MA",
@@ -1401,7 +1401,7 @@
           "number": "K",
           "name": "Kirk Loan",
           "labelOffset": "s",
-          "labelOffsetY": 60,
+          "labelOffsetY": 80,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4050,
@@ -1420,7 +1420,7 @@
           "number": "M",
           "name": "Murrayfield",
           "labelOffset": "s",
-          "labelOffsetY": 60,
+          "labelOffsetY": 80,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4450,
@@ -1444,6 +1444,169 @@
           "x": 5850,
           "y": 2870
         }
+      }
+    },
+    "275": {
+      "colour": "indigo",
+      "contrastColour": "white",
+      "name": "275",
+      "route": "The Centre - Edinburgh Park",
+      "dx": 10,
+      "dy": 1500,
+      "buffer": {
+        "west": 200,
+        "east": 400,
+        "north": 200,
+        "south": 200
+      },
+      "x": 1780,
+      "y": 3700,
+      "junctions": {
+        "C": {
+          "number": "C",
+          "name": "The Centre",
+          "labelOffset": "w",
+          "type": "dotted-terminator",
+          "connectionToPrevious": "rounded",
+          "angle": "ns",
+          "x": 1760,
+          "y": 3900
+        },
+        "DA": {
+          "number": "DA",
+          "name": "Howden",
+          "labelOffset": "w",
+          "type": "dotted-junction",
+          "angle": "ns",
+          "x": 1760,
+          "y": 3700
+        },
+        "DB": {
+          "number": "DB",
+          "comment": "",
+          "labelOffset": "w",
+          "type": "dummy",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1650,
+          "y": 3600
+        },
+        "E": {
+          "number": "E",
+          "name": "St. John's Hospital",
+          "labelOffset": "w",
+          "type": "dotted-junction",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 1550,
+          "y": 3550
+        },
+        "FA": {
+          "number": "FA",
+          "name": "Ladywell",
+          "labelOffset": "n",
+          "labelOffsetX": 50,
+          "type": "dotted-junction",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 1650,
+          "y": 3400
+        },
+        "FB": {
+          "number": "FB",
+          "name": "Houston Industrial Estate",
+          "labelOffset": "e",
+          "type": "dotted-junction",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 2100,
+          "y": 3300
+        },
+        "G": {
+          "number": "G",
+          "name": "Pumpherston",
+          "labelOffset": "e",
+          "type": "dotted-junction",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 2100,
+          "y": 3200
+        },
+        "H": {
+          "number": "H",
+          "name": "Uphall Station",
+          "labelOffset": "e",
+          "type": "dotted-junction",
+          "angle": "ns",
+          "x": 2100,
+          "y": 3100
+        },
+        "I": {
+          "number": "I",
+          "comment": "Uphall",
+          "labelOffset": "s",
+          "type": "dotted-junction",
+          "angle": "ew",
+          "connectionToPrevious": "rounded",
+          "x": 2200,
+          "y": 2930
+        },
+        "J": {
+          "number": "J",
+          "comment": "Broxburn",
+          "labelOffset": "s",
+          "type": "dotted-junction",
+          "angle": "ew",
+          "x": 2400,
+          "y": 2930
+        },
+        "K": {
+          "number": "K",
+          "comment": "Newbridge",
+          "labelOffset": "s",
+          "type": "dotted-junction",
+          "angle": "ew",
+          "x": 2600,
+          "y": 2930
+        },
+        "L": {
+          "number": "L",
+          "comment": "Ratho Status",
+          "labelOffset": "s",
+          "type": "dotted-junction",
+          "angle": "ew",
+          "x": 3000,
+          "y": 2930
+        },
+        "M": {
+          "number": "M",
+          "comment": "Gogarburn",
+          "labelOffset": "s",
+          "type": "dotted-junction",
+          "angle": "ew",
+          "x": 3300,
+          "y": 2930
+        },
+        "N": {
+          "number": "N",
+          "name": "Gyle Centre",
+          "labelOffset": "e",
+          "type": "dotted-junction",
+          "angle": "ns",
+          "connectionToPrevious": "rounded",
+          "x": 3400,
+          "y": 3100
+        },
+        "O": {
+          "number": "N",
+          "name": "Edinburgh Park",
+          "labelOffset": "w",
+          "type": "dotted-terminator",
+          "angle": "ns",
+          "x": 3400,
+          "y": 3250
+        }
+
       }
     }
   }
