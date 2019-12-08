@@ -37,8 +37,9 @@
         },
         "B": {
           "number": "B",
-          "name": "Ferrymuir Retail Park",
+          "name": "Ferrymuir\nRetail Park",
           "labelOffset": "n",
+          "labelOffsetY": -50,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 2650,
@@ -51,12 +52,12 @@
           "type": "dotted-junction",
           "angle": "ns",
           "connectionToPrevious": "rounded",
-          "x": 2350,
+          "x": 2400,
           "y": 2100
         },
         "D": {
           "number": "D",
-          "name": "Queensferry Police Station",
+          "name": "Queensferry\nPolice Station",
           "labelOffset": "s",
           "type": "dotted-junction",
           "angle": "ew",
@@ -113,7 +114,7 @@
         },
         "J": {
           "number": "J",
-          "name": "Clermiston Rd N",
+          "name": "Clermiston\nRoad North",
           "labelOffset": "s",
           "type": "dotted-junction",
           "angle": "ew",
@@ -248,8 +249,9 @@
         },
         "E": {
           "number": "E",
-          "name": "St. John's Hospital",
+          "name": "St. John's\nHospital",
           "labelOffset": "w",
+          "labelOffsetY": -20,
           "type": "dotted-junction",
           "angle": "ns",
           "connectionToPrevious": "rounded",
@@ -269,7 +271,7 @@
         },
         "FB": {
           "number": "FB",
-          "name": "Houston Industrial Estate",
+          "name": "Houston\nIndustrial Estate",
           "labelOffset": "e",
           "type": "dotted-junction",
           "angle": "ns",
@@ -415,12 +417,13 @@
       "junctions": {
         "F": {
           "number": "F",
-          "name": "Linlithgow Bridge",
+          "name": "Linlithgow\nBridge",
           "labelOffset": "n",
+          "labelOffsetY": -50,
           "type": "dotted-terminator",
           "angle": "ew",
           "terminatorLabelOffset": "w",
-          "x": 1400,
+          "x": 1300,
           "y": 2650
         },
         "G": {
@@ -467,7 +470,6 @@
           "number": "K",
           "name": "Ratho Station",
           "labelOffset": "s",
-          "labelOffsetY": 20,
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
@@ -704,6 +706,7 @@
           "number": "E",
           "name": "Broxburn",
           "labelOffset": "s",
+          "labelOffsetY": 20,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 2350,
@@ -1142,7 +1145,7 @@
           "labelOffset": "n",
           "type": "dotted-junction",
           "angle": "ew",
-          "x": 3250,
+          "x": 3400,
           "y": 4500
         },
         "S": {
@@ -1259,6 +1262,7 @@
           "number": "J",
           "name": "Deans",
           "labelOffset": "ne",
+          "labelOffsetY": 20,
           "type": "dotted-junction",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
@@ -1269,6 +1273,7 @@
           "number": "K",
           "name": "Knightsridge",
           "labelOffset": "sw",
+          "labelOffsetY": -20,
           "type": "dotted-junction",
           "angle": "nw-se",
           "connectionToPrevious": "rounded",
@@ -1360,7 +1365,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 3150,
+          "x": 3200,
           "y": 4700
         },
         "RB": {
@@ -1467,17 +1472,17 @@
       "junctions": {
         "A": {
           "number": "A",
-          "name": "Linlithgow Bridge",
+          "comment": "Linlithgow Bridge",
           "labelOffset": "",
           "type": "dotted-terminator",
           "angle": "ew",
           "terminatorLabelOffset": "w",
-          "x": 1400,
+          "x": 1300,
           "y": 2670
         },
         "B": {
           "number": "B",
-          "name": "Linlithgow Cross",
+          "name": "Linlithgow\nCross",
           "labelOffset": "s",
           "type": "dotted-junction",
           "angle": "ew",
