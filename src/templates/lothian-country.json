@@ -1391,8 +1391,8 @@
           "type": "dotted-junction",
           "angle": "sw-ne",
           "connectionToPrevious": "rounded",
-          "x": 3950,
-          "y": 4420
+          "x": 3964,
+          "y": 4414
         },
         "U": {
           "number": "U",
@@ -1400,8 +1400,8 @@
           "labelOffset": "se",
           "type": "dotted-junction",
           "angle": "sw-ne",
-          "x": 4150,
-          "y": 4220
+          "x": 4164,
+          "y": 4214
         },
         "V": {
           "number": "V",
@@ -1409,8 +1409,8 @@
           "labelOffset": "nw",
           "type": "dotted-junction",
           "angle": "sw-ne",
-          "x": 4350,
-          "y": 4020
+          "x": 4364,
+          "y": 4014
         },
         "W": {
           "number": "W",
@@ -1418,8 +1418,8 @@
           "labelOffset": "se",
           "type": "dotted-junction",
           "angle": "sw-ne",
-          "x": 4550,
-          "y": 3820
+          "x": 4564,
+          "y": 3814
         },
         "X": {
           "number": "X",
@@ -1427,8 +1427,8 @@
           "labelOffset": "nw",
           "type": "dotted-junction",
           "angle": "sw-ne",
-          "x": 4750,
-          "y": 3620
+          "x": 4764,
+          "y": 3614
         },
         "Y": {
           "number": "Y",
@@ -1436,8 +1436,8 @@
           "labelOffset": "se",
           "type": "dotted-junction",
           "angle": "sw-ne",
-          "x": 4950,
-          "y": 3420
+          "x": 4964,
+          "y": 3414
         },
         "Z": {
           "number": "Z",
