@@ -1,0 +1,350 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="6250" height="4900"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+        font-family: "Fira Sans Condensed";
+        src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;display=swap");
+    }
+  </style>
+  <defs>
+    <linearGradient id="BackgroundGradient" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="cornsilk"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#BackgroundGradient)"/>
+
+  <g font-family="Fira Sans Condensed" font-size="20px">
+<text x="20" y="1730">Lothian Country routes that terminate in Edinburgh. This is an unofficial route map.</text>
+<text x="20" y="1755">NOTE: This is not meant to represent an accurate route map of Lothian Country. Do not use this for travel planning</text>
+<text x="20" y="1780">Version 1.2</text>
+<text x="20" y="1805">© 2019 Colin Angus Mackay. https://github.com/colinangusmackay/scotland-travel-routes/blob/master/LICENSE</text>
+<text x="20" y="1830">Report issues to: https://github.com/colinangusmackay/scotland-travel-routes/issues</text>
+</g>
+
+<rect x="10" y="1300" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1310" font-weight="bold">43</text><text x="610" y="1310">Queensferry - Edinburgh</text></g>
+
+    
+    <path d="M2950,2250 L2650,2250" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2650,2250 L2625,2250 L2450,2250 A50 50 0 0 1 2400,2200 L2400,2100" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2400,2100 L2400,2075 L2400,2000 A50 50 0 0 1 2450,1950 L2750,1950" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2750,1950 L3050,1950" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3050,1950 L3075,1950 L3114.644660940673,1950 A50 50 0 0 1 3150.0000000000005,1964.6446609406726 L3232.3223304703365,2032.3223304703363 L3250,2050" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3250,2050 L3450,2250" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3450,2250 L3650,2450" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3650,2450 L3667.6776695296635,2467.6776695296635 L3735.3553390593274,2535.3553390593274 A50 50 0 0 0 3764.6446609406726,2550 L3825,2550 L3850,2550" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3850,2550 L4050,2550" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4050,2550 L4250,2550" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4250,2550 L4275,2550 L4314.644660940672,2550 A50 50 0 0 1 4349.999999999999,2564.6446609406726 L4432.322330470336,2632.3223304703365 L4450,2650" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4450,2650 L4467.677669529664,2667.6776695296635 L4535.355339059328,2735.3553390593274 A50 50 0 0 0 4564.644660940673,2750 L4725,2750 L4750,2750" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4750,2750 L4775,2750 L4800,2750 A50 50 0 0 1 4850,2800 L4850,2850" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4850,2850 L4850,2875 L4850,3000 A50 50 0 0 0 4900,3050 L5000,3050" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5000,3050 L5025,3050 L5100,3050 A50 50 0 0 0 5150,3000 L5150,2975" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5150,2975 L5150,2950 L5150,2950 A50 50 0 0 1 5200,2900 L5250,2900" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5250,2900 L5450,2900" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="2950" cy="2250" r="10" fill="black" stroke="white" stroke-width="2" /><text x="2950" y="2280" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Queensferry</text>
+    <circle cx="2650" cy="2250" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2650" y="2120" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ferrymuir</text><text x="2650" y="2175" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Retail Park</text>
+    <circle cx="2400" cy="2100" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2370" y="2075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Echline Corner</text>
+    <circle cx="2750" cy="1950" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2750" y="1980" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Queensferry</text><text x="2750" y="2035" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Police Station</text>
+    <circle cx="3050" cy="1950" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3050" y="1870" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dalmany</text>
+    <circle cx="3250" cy="2050" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3280" y="1970" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Barnbougle Gate Lodge</text>
+    <circle cx="3450" cy="2250" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3480" y="2170" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Burnshot</text>
+    <circle cx="3650" cy="2450" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3680" y="2370" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Crammond Bridge</text>
+    <circle cx="3850" cy="2550" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3850" y="2470" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Barnton</text>
+    <circle cx="4050" cy="2550" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4050" y="2580" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Clermiston</text><text x="4050" y="2635" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Road North</text>
+    <circle cx="4250" cy="2550" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4250" y="2470" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Blackhall</text>
+    <circle cx="4450" cy="2650" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4480" y="2570" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Craigleith</text>
+    <circle cx="4750" cy="2750" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4750" y="2670" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Stewart's Melville</text>
+    <circle cx="4850" cy="2850" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4820" y="2825" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Dean Bridge</text>
+    <circle cx="5000" cy="3050" r="10" fill="white" stroke="black" stroke-width="4" /><text x="5000" y="2970" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">West End</text>
+    
+    <circle cx="5250" cy="2900" r="10" fill="white" stroke="black" stroke-width="4" /><text x="5250" y="2820" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">George Street</text>
+    <circle cx="5450" cy="2900" r="10" fill="black" stroke="white" stroke-width="2" /><text x="5430" y="2820" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">St. Andrew Sq</text>
+<rect x="10" y="1500" fill="indigo" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1510" font-weight="bold">275</text><text x="610" y="1510">The Centre - Edinburgh Park</text></g>
+
+    
+    <path d="M1710,4100 L1710,3900" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1710,3900 L1710,3875 L1710,3850 A50 50 0 0 0 1660,3800 L1600,3800" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1600,3800 L1575,3800 L1550,3800 A50 50 0 0 1 1500,3750 L1500,3750" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1500,3750 L1500,3725 L1500,3650 A50 50 0 0 1 1550,3600 L1600,3600" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1600,3600 L1625,3600 L2000,3600 A50 50 0 0 0 2050,3550 L2050,3500" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2050,3500 L2050,3400" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2050,3400 L2050,3300" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2050,3300 L2050,3275 L2050,3180 A50 50 0 0 1 2100,3130 L2150,3130" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2150,3130 L2350,3130" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2350,3130 L2600,3130" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2600,3130 L2950,3130" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2950,3130 L3250,3130" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3250,3130 L3275,3130 L3300,3130 A50 50 0 0 1 3350,3180 L3350,3300" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3350,3300 L3350,3450" stroke="indigo" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1710" cy="4100" r="10" fill="black" stroke="white" stroke-width="2" /><text x="1680" y="4075" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">The Centre</text>
+    <circle cx="1710" cy="3900" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1680" y="3875" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Howden</text>
+    
+    <circle cx="1500" cy="3750" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1470" y="3705" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">St. John's</text><text x="1470" y="3760" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Hospital</text>
+    <circle cx="1600" cy="3600" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1650" y="3520" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ladywell</text>
+    <circle cx="2050" cy="3500" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2080" y="3475" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Houston</text><text x="2080" y="3530" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Industrial Estate</text>
+    <circle cx="2050" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2080" y="3375" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Pumpherston</text>
+    <circle cx="2050" cy="3300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2080" y="3275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Uphall Station</text>
+    <circle cx="2150" cy="3130" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2350" cy="3130" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2600" cy="3130" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2950" cy="3130" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3250" cy="3130" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3350" cy="3300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3380" y="3275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Gyle Centre</text>
+    <circle cx="3350" cy="3450" r="10" fill="black" stroke="white" stroke-width="2" /><text x="3320" y="3425" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Edinburgh Park</text>
+<rect x="10" y="1300" fill="crimson" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1310" font-weight="bold">43</text><text x="610" y="1310">Queensferry - Edinburgh</text></g>
+
+    
+    <path d="M5000,3050 L5025,3050 L5600,3050 A50 50 0 0 0 5650,3000 L5650,2950" stroke="crimson" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="5000" cy="3050" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="5650" cy="2950" r="10" fill="black" stroke="white" stroke-width="2" /><text x="5680" y="2925" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Leith Street</text>
+<rect x="10" y="100" fill="green" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="110" font-weight="bold">EX2</text><text x="610" y="110">Green Arrow Express</text></g>
+
+    
+    <path d="M1300,2650 L1600,2650" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1600,2650 L1625,2650 L1650,2650 A50 50 0 0 0 1700,2600 L1700,2500" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1700,2500 L1700,2475 L1700,2450 A50 50 0 0 1 1750,2400 L1950,2400" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1950,2400 L1975,2400 L2800,2400 A50 50 0 0 1 2850,2450 L2850,3000" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2850,3000 L2850,3025 L2850,3100 A50 50 0 0 0 2900,3150 L2950,3150" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2950,3150 L3250,3150" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3250,3150 L3550,3150" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3550,3150 L4250,3150" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4250,3150 L4650,3150" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4650,3150 L4675,3150 L5120,3150 A50 50 0 0 0 5170,3100 L5170,2995" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5170,2995 L5170,2970 L5170,2970 A50 50 0 0 1 5220,2920 L5250,2920" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5250,2920 L5450,2920" stroke="green" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1300" cy="2650" r="10" fill="black" stroke="white" stroke-width="2" /><text x="1300" y="2520" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Linlithgow</text><text x="1300" y="2575" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Bridge</text>
+    <circle cx="1600" cy="2650" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1700" cy="2500" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1670" y="2475" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Springfield</text>
+    
+    
+    <circle cx="2950" cy="3150" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2950" y="3180" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Ratho Station</text>
+    <circle cx="3250" cy="3150" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3550" cy="3150" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3550" y="3180" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Maybury</text>
+    <circle cx="4250" cy="3150" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4650" cy="3150" r="10" fill="white" stroke="black" stroke-width="4" />
+    
+    <circle cx="5250" cy="2920" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="5450" cy="2920" r="10" fill="black" stroke="white" stroke-width="2" />
+<rect x="10" y="300" fill="tomato" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="310" font-weight="bold">X17</text><text x="610" y="310">Fauldhouse - Regent Rd</text></g>
+
+    
+    <path d="M150,4300 L450,4300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M450,4300 L650,4300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M650,4300 L850,4300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M850,4300 L1050,4300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1050,4300 L1250,4300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1250,4300 L1550,4300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1550,4300 L1575,4300 L1700,4300 A50 50 0 0 0 1750,4250 L1750,4100" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1750,4100 L1750,3900" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1750,3900 L1750,3875 L1750,3850 A50 50 0 0 1 1800,3800 L1850,3800" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1850,3800 L1875,3800 L1900,3800 A50 50 0 0 0 1950,3750 L1950,3700" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1950,3700 L1950,3675 L1950,3450 A50 50 0 0 0 1900,3400 L1850,3400" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1850,3400 L1825,3400 L1800,3400 A50 50 0 0 1 1750,3350 L1750,3300" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1750,3300 L1750,3275 L1750,3160 A50 50 0 0 1 1800,3110 L1850,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1850,3110 L2150,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2150,3110 L2350,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2350,3110 L2600,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2600,3110 L2950,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2950,3110 L3250,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3250,3110 L3550,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3550,3110 L3800,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3800,3110 L4050,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4050,3110 L4250,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4250,3110 L4450,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4450,3110 L4650,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4650,3110 L5850,3110" stroke="tomato" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="150" cy="4300" r="10" fill="black" stroke="white" stroke-width="2" /><text x="150" y="4330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Fauldhouse</text>
+    <circle cx="450" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="450" y="4220" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Stoneyburn</text>
+    <circle cx="650" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="650" y="4330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Loganlea</text>
+    <circle cx="850" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="850" y="4220" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Addiewell</text>
+    <circle cx="1050" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1050" y="4330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">West Calder</text>
+    <circle cx="1250" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1250" y="4220" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Polbeth</text>
+    <circle cx="1550" cy="4300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1550" y="4330" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dedridge West</text>
+    <circle cx="1750" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1750" cy="3900" r="10" fill="white" stroke="black" stroke-width="4" />
+    
+    <circle cx="1950" cy="3700" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1980" y="3675" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Craigshill</text>
+    
+    <circle cx="1750" cy="3300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1720" y="3275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Deer Park</text>
+    <circle cx="1850" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2150" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2350" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2350" y="3160" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Broxburn</text>
+    <circle cx="2600" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2950" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3250" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3550" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3800" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4050" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4250" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4450" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4650" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="5850" cy="3110" r="10" fill="black" stroke="white" stroke-width="2" />
+<rect x="10" y="500" fill="mediumblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="510" font-weight="bold">X18</text><text x="610" y="510">Whitburn - Regent Rd (via Bathgate)</text></g>
+
+    
+    <path d="M350,3600 L375,3600 L500,3600 A50 50 0 0 0 550,3550 L550,3400" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M550,3400 L550,3300" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M550,3300 L550,3275 L550,3140 A50 50 0 0 1 600,3090 L750,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M750,3090 L950,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M950,3090 L1850,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1850,3090 L2150,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2150,3090 L2350,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2350,3090 L2600,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2600,3090 L2950,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2950,3090 L3250,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3250,3090 L3550,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3550,3090 L3800,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3800,3090 L4050,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4050,3090 L4250,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4250,3090 L4450,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4450,3090 L4650,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4650,3090 L5850,3090" stroke="mediumblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="350" cy="3600" r="10" fill="black" stroke="white" stroke-width="2" /><text x="350" y="3650" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Whitburn</text>
+    <circle cx="550" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" /><text x="520" y="3375" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Bathville</text>
+    <circle cx="550" cy="3300" r="10" fill="white" stroke="black" stroke-width="4" /><text x="580" y="3275" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Armadale</text>
+    <circle cx="750" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" /><text x="750" y="3010" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Bathgate</text>
+    <circle cx="950" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" /><text x="950" y="3140" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Boghall</text>
+    <circle cx="1850" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1850" y="3010" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dechmont</text>
+    <circle cx="2150" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2150" y="3010" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Uphall</text>
+    <circle cx="2350" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2600" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2950" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3250" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3550" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3800" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4050" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4250" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4450" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4650" cy="3090" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="5850" cy="3090" r="10" fill="black" stroke="white" stroke-width="2" />
+<rect x="10" y="700" fill="violet" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="710" font-weight="bold">X27</text><text x="610" y="710">Whitburn - Regent Rd (via Livingston)</text></g>
+
+    
+    <path d="M350,3620 L750,3620" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M750,3620 L950,3620" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M950,3620 L1150,3620" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1150,3620 L1350,3620" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1350,3620 L1600,3620" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1600,3620 L1625,3620 L1680,3620 A50 50 0 0 1 1730,3670 L1730,3900" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1730,3900 L1730,4100" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1730,4100 L1730,4125 L1730,4230 A50 50 0 0 1 1680,4280 L1550,4280" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1550,4280 L1525,4280 L1400,4280 A50 50 0 0 0 1350,4330 L1350,4400" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1350,4400 L1350,4425 L1350,4450 A50 50 0 0 0 1400,4500 L2050,4500" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2050,4500 L2350,4500" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2350,4500 L2650,4500" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2650,4500 L3050,4500" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3050,4500 L3400,4500" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3400,4500 L3700,4500" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3700,4500 L3725,4500 L3814.644660940673,4500 A50 50 0 0 0 3850.0000000000005,4485.355339059327 L3932.3223304703365,4417.677669529664 L3950,4400" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3950,4400 L4150,4200" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4150,4200 L4350,4000" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4350,4000 L4550,3800" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4550,3800 L4750,3600" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4750,3600 L4950,3400" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4950,3400 L4967.677669529664,3382.3223304703365 L5205.355339059328,3144.6446609406726 A50 50 0 0 1 5234.644660940673,3130 L5825,3130 L5850,3130" stroke="violet" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="350" cy="3620" r="10" fill="black" stroke="white" stroke-width="2" />
+    <circle cx="750" cy="3620" r="10" fill="white" stroke="black" stroke-width="4" /><text x="750" y="3650" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">East Whitburn</text>
+    <circle cx="950" cy="3620" r="10" fill="white" stroke="black" stroke-width="4" /><text x="950" y="3540" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Blackburn</text>
+    <circle cx="1150" cy="3620" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1150" y="3650" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Seafield</text>
+    <circle cx="1350" cy="3620" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1350" y="3540" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Eliburn</text>
+    <circle cx="1600" cy="3620" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1730" cy="3900" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1730" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1550" cy="4280" r="10" fill="white" stroke="black" stroke-width="4" />
+    
+    <circle cx="2050" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2050" y="4420" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Dedridge East</text>
+    <circle cx="2350" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2650" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2650" y="4420" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">East Calder</text>
+    <circle cx="3050" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3050" y="4530" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Calderwood</text>
+    <circle cx="3400" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3400" y="4420" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Wilkieston</text>
+    <circle cx="3700" cy="4500" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3950" cy="4400" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4150" cy="4200" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4350" cy="4000" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4550" cy="3800" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4750" cy="3600" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="4950" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="5850" cy="3130" r="10" fill="black" stroke="white" stroke-width="2" />
+<rect x="10" y="900" fill="steelblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="910" font-weight="bold">X28</text><text x="610" y="910">Bathgate - Regent Rd</text></g>
+
+    
+    <path d="M750,3110 L950,3110" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M950,3110 L975,3110 L1024.6446609406723,3110 A50 50 0 0 1 1059.9999999999998,3124.6446609406726 L1182.3223304703363,3232.3223304703365 L1200,3250" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1200,3250 L1217.6776695296637,3267.6776695296635 L1350,3400" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1350,3400 L1367.6776695296637,3417.6776695296635 L1515.3553390593277,3565.3553390593274 A50 50 0 0 0 1544.6446609406728,3580 L1575,3580 L1600,3580" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1600,3580 L1625,3580 L1880,3580 A50 50 0 0 1 1930,3630 L1930,3700" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1930,3700 L1930,3725 L1930,3950 A50 50 0 0 1 1880,4000 L1850,4000" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1850,4000 L1825,4000 L1820,4000 A50 50 0 0 0 1770,4050 L1770,4100" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1770,4100 L1770,4125 L1770,4470 A50 50 0 0 0 1820,4520 L2050,4520" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2050,4520 L2350,4520" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2350,4520 L2650,4520" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2650,4520 L2675,4520 L2800,4520 A50 50 0 0 1 2850,4570 L2850,4600" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2850,4600 L2850,4625 L2850,4650 A50 50 0 0 0 2900,4700 L3200,4700" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3200,4700 L3225,4700 L3550,4700 A50 50 0 0 0 3600,4650 L3600,4600" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3600,4600 L3600,4575 L3600,4570 A50 50 0 0 1 3650,4520 L3700,4520" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3700,4520 L3725,4520 L3822.644660940673,4520 A50 50 0 0 0 3858.0000000000005,4505.355339059327 L3946.3223304703365,4431.677669529664 L3964,4414" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3964,4414 L4164,4214" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4164,4214 L4364,4014" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4364,4014 L4564,3814" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4564,3814 L4764,3614" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4764,3614 L4964,3414" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4964,3414 L4981.677669529664,3396.3223304703365 L5213.355339059328,3164.6446609406726 A50 50 0 0 1 5242.644660940673,3150 L5825,3150 L5850,3150" stroke="steelblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="750" cy="3110" r="10" fill="black" stroke="white" stroke-width="2" />
+    <circle cx="950" cy="3110" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1200" cy="3250" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1230" y="3190" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Deans</text>
+    <circle cx="1350" cy="3400" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1320" y="3410" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Knightsridge</text>
+    <circle cx="1600" cy="3580" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="1930" cy="3700" r="10" fill="white" stroke="black" stroke-width="4" />
+    
+    <circle cx="1770" cy="4100" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2050" cy="4520" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="2350" cy="4520" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2350" y="4550" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Mid Calder</text>
+    <circle cx="2650" cy="4520" r="10" fill="white" stroke="black" stroke-width="4" />
+    
+    <circle cx="3200" cy="4700" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3200" y="4730" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Kirknewton</text>
+    
+    <circle cx="3700" cy="4520" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4000" y="4550" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Riccarton (Heriot Watt University)</text>
+    <circle cx="3964" cy="4414" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3934" y="4334" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Sighthill</text>
+    <circle cx="4164" cy="4214" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4194" y="4244" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Saughton Mains</text>
+    <circle cx="4364" cy="4014" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4334" y="3934" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Chesser Hourse</text>
+    <circle cx="4564" cy="3814" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4594" y="3844" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Balgreen Rd</text>
+    <circle cx="4764" cy="3614" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4734" y="3534" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="end" font-size="50px">Westfield</text>
+    <circle cx="4964" cy="3414" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4994" y="3444" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Fountainbridge</text>
+    <circle cx="5850" cy="3150" r="10" fill="black" stroke="white" stroke-width="2" />
+<rect x="10" y="1100" fill="deepskyblue" height="200" width="4000" stroke="white" stroke-width="1"/><g text-anchor="start" font-size="180px" dominant-baseline="hanging" fill="white" font-family="Fira Sans Condensed"><text x="60" y="1110" font-weight="bold">X38</text><text x="610" y="1110">Linlithgow - Regent Rd</text></g>
+
+    
+    <path d="M1300,2670 L1600,2670" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1600,2670 L1850,2670" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1850,2670 L1875,2670 L1984.6446609406726,2670 A50 50 0 0 1 2020,2684.6446609406726 L2082.3223304703365,2732.3223304703365 L2100,2750" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2100,2750 L2300,2950" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2300,2950 L2317.6776695296635,2967.6776695296635 L2405.3553390593274,3055.3553390593274 A50 50 0 0 0 2434.6446609406726,3070 L2575,3070 L2600,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2600,3070 L2950,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2950,3070 L3250,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3250,3070 L3550,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3550,3070 L3800,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3800,3070 L4050,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4050,3070 L4250,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4250,3070 L4450,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4450,3070 L4650,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4650,3070 L5850,3070" stroke="deepskyblue" fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1300" cy="2670" r="10" fill="black" stroke="white" stroke-width="2" />
+    <circle cx="1600" cy="2670" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1600" y="2700" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Linlithgow</text><text x="1600" y="2755" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Cross</text>
+    <circle cx="1850" cy="2670" r="10" fill="white" stroke="black" stroke-width="4" /><text x="1850" y="2590" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Bridgend</text>
+    <circle cx="2100" cy="2750" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2130" y="2670" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Winchburgh</text>
+    <circle cx="2300" cy="2950" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2330" y="2870" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Kirkliston</text>
+    <circle cx="2600" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="2600" y="2990" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Newbridge</text>
+    <circle cx="2950" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3250" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3250" y="2990" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Gogarburn</text>
+    <circle cx="3550" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" />
+    <circle cx="3800" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="3800" y="2935" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Drum Brae</text><text x="3800" y="2990" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">South</text>
+    <circle cx="4050" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4050" y="2990" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Kirk Loan</text>
+    <circle cx="4250" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4250" y="3180" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Edinburgh Zoo</text>
+    <circle cx="4450" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4450" y="2990" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Murrayfield</text>
+    <circle cx="4650" cy="3070" r="10" fill="white" stroke="black" stroke-width="4" /><text x="4650" y="3180" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="middle" font-size="50px">Haymarket</text>
+    <circle cx="5850" cy="3070" r="10" fill="black" stroke="white" stroke-width="2" /><text x="5880" y="2990" font-family="Fira Sans Condensed" dominant-baseline="hanging" text-anchor="start" font-size="50px">Regent Road</text>
+
+</svg>
