@@ -1299,7 +1299,7 @@
           "number": "MB",
           "comment": "",
           "labelOffset": "",
-          "type": "dotted-junction",
+          "type": "dummy",
           "angle": "ew",
           "connectionToPrevious": "rounded",
           "x": 1900,
