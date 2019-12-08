@@ -16,5 +16,6 @@ module.exports = {
   interchangeRadius: cellSize / 2,
   interchangeLineWidth: cellSize / 8,
   sin45: Math.sin(Math.PI / 4),
-  cos45: Math.cos(Math.PI / 4)
+  cos45: Math.cos(Math.PI / 4),
+  lineSpacing: 1.1
 };
