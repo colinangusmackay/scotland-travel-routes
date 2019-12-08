@@ -1552,8 +1552,9 @@
         },
         "J": {
           "number": "J",
-          "name": "Drum Brae South",
+          "name": "Drum Brae\nSouth",
           "labelOffset": "n",
+          "labelOffsetY": -55,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 3850,
@@ -1562,8 +1563,7 @@
         "K": {
           "number": "K",
           "name": "Kirk Loan",
-          "labelOffset": "s",
-          "labelOffsetY": 80,
+          "labelOffset": "n",
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4050,
@@ -1572,7 +1572,8 @@
         "L": {
           "number": "L",
           "name": "Edinburgh Zoo",
-          "labelOffset": "n",
+          "labelOffset": "s",
+          "labelOffsetY": 80,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4250,
@@ -1581,8 +1582,7 @@
         "M": {
           "number": "M",
           "name": "Murrayfield",
-          "labelOffset": "s",
-          "labelOffsetY": 80,
+          "labelOffset": "n",
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4450,
@@ -1591,7 +1591,8 @@
         "O": {
           "number": "O",
           "name": "Haymarket",
-          "labelOffset": "n",
+          "labelOffset": "s",
+          "labelOffsetY": 80,
           "type": "dotted-junction",
           "angle": "ew",
           "x": 4650,
