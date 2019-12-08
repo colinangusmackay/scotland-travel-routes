@@ -321,7 +321,7 @@
           "labelOffset": "s",
           "type": "dotted-junction",
           "angle": "ew",
-          "x": 2550,
+          "x": 2600,
           "y": 3130
         },
         "L": {
@@ -716,7 +716,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 2550,
+          "x": 2600,
           "y": 3110
         },
         "G": {
@@ -902,7 +902,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 2550,
+          "x": 2600,
           "y": 3090
         },
         "G": {
@@ -1519,7 +1519,7 @@
           "type": "dotted-junction",
           "angle": "ew",
           "connectionToPrevious": "rounded",
-          "x": 2550,
+          "x": 2600,
           "y": 3070
         },
         "G": {
