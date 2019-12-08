@@ -1178,7 +1178,7 @@
         },
         "V": {
           "number": "V",
-          "comment": "Chesser Hourse",
+          "comment": "Chesser House",
           "labelOffset": "nw",
           "type": "dotted-junction",
           "angle": "sw-ne",
@@ -1410,7 +1410,7 @@
         },
         "V": {
           "number": "V",
-          "name": "Chesser Hourse",
+          "name": "Chesser House",
           "labelOffset": "nw",
           "type": "dotted-junction",
           "angle": "sw-ne",
